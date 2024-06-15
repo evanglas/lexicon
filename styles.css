@@ -1,0 +1,11 @@
+#double-click-box {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  z-index: 10000;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}

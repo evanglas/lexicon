@@ -10,11 +10,18 @@
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["content.js"]
+      "js": ["content.js"],
+      "css": ["styles.css"]
     }
   ],
   "action": {
-    "default_popup": "dashboard.html",
+    "default_popup": "popup.html",
     "default_icon": "logo_16.png"
-  }
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["secrets.json"],
+      "matches": ["<all_urls>"]
+    }
+  ]
 }
