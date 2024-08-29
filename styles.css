@@ -1,11 +1,203 @@
 #double-click-box {
   position: absolute;
-  background: rgba(0, 0, 0, 0.75);
+  background: rgba(0, 200, 0, 0.75);
   color: white;
   padding: 10px;
   border-radius: 5px;
   font-family: Arial, sans-serif;
   z-index: 10000;
-  transform: translate(-50%, -50%);
   pointer-events: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+  max-width: 500px;
+}
+
+.combined-box {
+  position: absolute;
+  max-height: 400px;
+  max-width: 150px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+  z-index: 10000;
+  transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+  max-width: 500px;
+}
+
+.fade-out {
+  opacity: 0;
+  transform: scale(0.9);
+  transform: rotate(720deg);
+}
+
+.numbered-sense-box {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10px;
+}
+
+.sense-number-box {
+  font-weight: bold;
+  padding-right: 5px;
+  border-right: 2px solid black;
+  margin-right: 8px;
+}
+
+.sense-letter-boxes {
+  display: flex;
+  flex-direction: column;
+}
+
+.sense-letter-def-box {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 5px;
+}
+
+.sense-letter-box {
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+}
+
+.definition-text-box {
+  margin: 0;
+  padding-left: 10px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.small-caps {
+  font-variant: small-caps;
+}
+
+.subscript {
+  vertical-align: sub;
+  font-size: smaller;
+}
+
+.superscript {
+  vertical-align: super;
+  font-size: smaller;
+}
+
+.left-quote, .right-quote {
+  font-family: serif;
+}
+
+.bold-colon {
+  font-weight: bold;
+  padding-right: 3px;
+}
+
+.paragraph-break {
+  display: block;
+  margin-bottom: 1em;
+}
+
+/* Word-Marking Tokens */
+.gloss {
+  font-style: normal;
+  color: grey;
+}
+
+.parahw {
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+.phrase {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.qword {
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.wi {
+  font-style: italic;
+}
+
+/* Cross-Reference Grouping Tokens */
+.dx {
+  display: inline-block;
+  margin-left: 0.5em;
+  font-style: normal;
+}
+
+.dx_def {
+  font-style: normal;
+  color: grey;
+}
+
+.dx_ety {
+  display: inline-block;
+  margin-left: 0.5em;
+  font-style: normal;
+}
+
+.ma {
+  display: inline-block;
+  margin-left: 0.5em;
+  font-style: normal;
+}
+
+/* Cross-Referencing Tokens */
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+.a_link {
+  font-weight: normal;
+  font-style: normal;
+}
+
+.d_link {
+  font-weight: normal;
+  font-style: normal;
+}
+
+.i_link {
+  font-style: italic;
+}
+
+.et_link {
+  font-weight: normal;
+  font-style: normal;
+}
+
+.mat {
+  font-weight: normal;
+  font-style: normal;
+}
+
+.sx {
+  font-variant: small-caps;
+}
+
+.dxt {
+  font-variant: small-caps;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.sx:hover,
+.dxt:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
