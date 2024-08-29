@@ -129,6 +129,13 @@ function createUrl(baseUrl, target, text) {
 //   return `${baseUrl}${sanitizedTarget || text}`;
 // }
 
+function processLatex(input) {
+  const regex = /{latex}([\s\S]*?){\/latex}/g;
+  return input.replace(regex, function (match, p1) {
+    return `<span class="math">${p1}</span>`;
+  });
+}
+
 function processCrossReferences(input) {
   const baseUrl = "https://www.merriam-webster.com/dictionary/";
 
@@ -214,8 +221,9 @@ function applyTextParsers(input) {
   let text1 = processTokens(input);
   let text2 = processWordMarkingTokens(text1);
   let text3 = processCrossReferences(text2);
+  let text4 = processLatex(text3);
   // console.log(text1, text2, text3);
-  return text3;
+  return text4;
 }
 
 // Parsing sense structure
@@ -247,6 +255,85 @@ function parseSenses(def) {
   return container;
 }
 
+function get_sense_id(sense) {
+  let sense_number;
+  let sense_letter;
+  if (sense.sn) {
+    sn_list = sense.sn.split(" ");
+    if (sn_list.length == 1 && !isNaN(sn_list[0])) {
+      sense_number = sn_list[0];
+    } else if (sn_list.length == 1) {
+      sense_letter = sn_list[0];
+    } else {
+      sense_number = sn_list[0];
+      sense_letter = sn_list[1];
+    }
+  }
+  return { sense_number, sense_letter };
+}
+
+function parseNumberedSense(senses) {
+  const numberedSenseBox = document.createElement("div");
+  numberedSenseBox.classList.add("numbered-sense-box");
+
+  const senseNumberBox = document.createElement("div");
+  senseNumberBox.classList.add("sense-number-box");
+  const senseNumber = senses[0][0];
+  senseNumberBox.textContent = senseNumber;
+  numberedSenseBox.appendChild(senseNumberBox);
+
+  const senseLetterBoxes = document.createElement("div");
+  senseLetterBoxes.classList.add("sense-letter-boxes");
+
+  senses.forEach((sense) => {
+    const senseLetterDefBox = document.createElement("div");
+    senseLetterDefBox.classList.add("sense-letter-def-box");
+    if (sense[1]) {
+      const senseLetterBox = document.createElement("div");
+      senseLetterBox.classList.add("sense-letter-box");
+      senseLetterBox.textContent = sense[1];
+      senseLetterDefBox.appendChild(senseLetterBox);
+    }
+
+    const senseDefBox = document.createElement("div");
+    senseDefBox.classList.add("sense-def-box");
+
+    if (sense[2]) {
+      sense[2].dt.forEach((definition) => {
+        let [type, text] = definition;
+        if (type === "text") {
+          const dtElement = document.createElement("p");
+          dtElement.classList.add("definition-text-box");
+          text = applyTextParsers(text);
+          dtElement.innerHTML = text;
+          senseDefBox.appendChild(dtElement);
+          senseLetterDefBox.appendChild(senseDefBox);
+        }
+      });
+    }
+    senseLetterBoxes.appendChild(senseLetterDefBox);
+    // if (sense.sdsense) {
+    //   const sdElement = document.createElement("em");
+    //   sdElement.classList.add("sense-divider");
+    //   sdElement.textContent = `Sense Divider: ${sense.sdsense.sd}`;
+    //   numberedSenseBoxContainer.appendChild(sdElement);
+
+    //   sense.sdsense.dt.forEach((definition) => {
+    //     let [type, text] = definition;
+    //     if (type === "text") {
+    //       const sdsenseElement = document.createElement("p");
+    //       sdsenseElement.classList.add("divided-definition-text");
+    //       text = applyTextParsers(text);
+    //       sdsenseElement.innerHTML = "Divided Definition Text: " + text;
+    //       senseContainer.appendChild(sdsenseElement);
+    //     }
+    //   });
+    // }
+  });
+  numberedSenseBox.appendChild(senseLetterBoxes);
+  return numberedSenseBox;
+}
+
 function parseSenseSequence(sseq) {
   const sseqContainer = document.createElement("div");
   sseqContainer.classList.add("sense-sequence");
@@ -255,33 +342,42 @@ function parseSenseSequence(sseq) {
     return sseqContainer;
   }
 
+  let last_sn = 1;
+  let senses = [];
+
   sseq.forEach((group) => {
     group.forEach((element) => {
       if (Array.isArray(element)) {
         const [type, data] = element;
-
         if (type === "sense") {
-          const senseElement = parseSense(data);
-          sseqContainer.appendChild(senseElement);
-        } else if (type === "bs") {
-          const bsElement = document.createElement("p");
-          bsElement.classList.add("binding-substitute");
-          bsElement.textContent = "Binding Substitute:";
-          sseqContainer.appendChild(bsElement);
-          sseqContainer.appendChild(parseSense(data.sense));
-        } else if (type === "pseq") {
-          const pseqElement = document.createElement("p");
-          pseqElement.classList.add("parenthesized-sequence");
-          pseqElement.textContent = "Parenthesized Sense Sequence:";
-          sseqContainer.appendChild(pseqElement);
-          sseqContainer.appendChild(parseSenseSequence(data));
-        } else if (type === "sen") {
-          const senElement = document.createElement("p");
-          senElement.classList.add("truncated-sense");
-          senElement.textContent = "Truncated Sense:";
-          sseqContainer.appendChild(senElement);
-          sseqContainer.appendChild(parseSense(data));
-        }
+          const { sense_number, sense_letter } = get_sense_id(data);
+          if (sense_number && sense_number != last_sn) {
+            let numbered_sb = parseNumberedSense(senses);
+            sseqContainer.appendChild(numbered_sb);
+            senses = [];
+          }
+          senses.push([sense_number, sense_letter, data]);
+          // const senseElement = parseSense(data);
+          // sseqContainer.appendChild(senseElement);
+        } // else if (type === "bs") {
+        //   const bsElement = document.createElement("p");
+        //   bsElement.classList.add("binding-substitute");
+        //   bsElement.textContent = "Binding Substitute:";
+        //   sseqContainer.appendChild(bsElement);
+        //   sseqContainer.appendChild(parseSense(data.sense));
+        // } else if (type === "pseq") {
+        //   const pseqElement = document.createElement("p");
+        //   pseqElement.classList.add("parenthesized-sequence");
+        //   pseqElement.textContent = "Parenthesized Sense Sequence:";
+        //   sseqContainer.appendChild(pseqElement);
+        //   sseqContainer.appendChild(parseSenseSequence(data));
+        // } else if (type === "sen") {
+        //   const senElement = document.createElement("p");
+        //   senElement.classList.add("truncated-sense");
+        //   senElement.textContent = "Truncated Sense:";
+        //   sseqContainer.appendChild(senElement);
+        //   sseqContainer.appendChild(parseSense(data));
+        // }
       }
     });
   });
@@ -541,6 +637,19 @@ function adjustSelection(selection, selectedText, word) {
   selection.addRange(range);
 }
 
+// Function to render LaTeX
+function renderLaTeX() {
+  document.querySelectorAll(".math").forEach(function (element) {
+    try {
+      katex.render(element.textContent, element, {
+        throwOnError: false,
+      });
+    } catch (err) {
+      console.error("KaTeX render error:", err);
+    }
+  });
+}
+
 async function handleDoubleClick(event) {
   const selection = window.getSelection();
   const selectedText = selection.toString().trim();
@@ -578,16 +687,7 @@ async function handleDoubleClick(event) {
   boxes.forEach((box) => {
     combinedBox.appendChild(box);
   });
-  // combinedBox.style.maxHeight = "150px";
-  // combinedBox.style.maxWidth = "400px";
-  // combinedBox.style.overflowY = "auto";
-  // combinedBox.style.border = "1px solid #ccc";
-  // combinedBox.style.padding = "5px";
-  // combinedBox.style.borderRadius = "5px";
-  // combinedBox.style.boxShadow = "0 2px 10px rgba(0, 0, 0, 0.1)";
-  // combinedBox.style.backgroundColor = "#f9f9f9";
-  // combinedBox.style.position = "absolute";
-  // combinedBox.style.zIndex = "1000";
+
   combinedBox.classList.add("combined-box");
   placeDefinitionBox(selection, event, combinedBox);
 
@@ -600,6 +700,31 @@ async function handleDoubleClick(event) {
       }, 300);
     }
   });
+  combinedBox.querySelectorAll(".math").forEach((element) => {
+    katex.render(element.textContent, element, {
+      throwOnError: false,
+    });
+  });
 }
 
 document.addEventListener("dblclick", handleDoubleClick);
+
+// Function to render LaTeX
+function renderLaTeX() {
+  document.querySelectorAll(".math").forEach(function (element) {
+    try {
+      katex.render(element.textContent, element, {
+        throwOnError: false,
+      });
+    } catch (err) {
+      console.error("KaTeX render error:", err);
+    }
+  });
+}
+
+// // Call the render function
+// renderLaTeX();
+
+// // Optionally, observe DOM changes to re-render LaTeX dynamically
+// const observer = new MutationObserver(renderLaTeX);
+// observer.observe(document.body, { childList: true, subtree: true });

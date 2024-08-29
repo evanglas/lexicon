@@ -34,6 +34,41 @@
   transform: rotate(720deg);
 }
 
+.numbered-sense-box {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10px;
+}
+
+.sense-number-box {
+  font-weight: bold;
+  padding-right: 5px;
+  border-right: 2px solid black;
+  margin-right: 8px;
+}
+
+.sense-letter-boxes {
+  display: flex;
+  flex-direction: column;
+}
+
+.sense-letter-def-box {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 5px;
+}
+
+.sense-letter-box {
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+}
+
+.definition-text-box {
+  margin: 0;
+  padding-left: 10px;
+}
+
 .bold {
   font-weight: bold;
 }
@@ -62,6 +97,7 @@
 
 .bold-colon {
   font-weight: bold;
+  padding-right: 3px;
 }
 
 .paragraph-break {
