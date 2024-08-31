@@ -274,7 +274,7 @@ function parseLetteredSenseDefinitions(senses) {
   senses.forEach((sense) => {
     const [sense_number, sense_letter, sense_parentheses, data] = sense;
     Object.keys(data).forEach((key) => {
-      if (key !== "et" && key !== "dt") {
+      if (key !== "et" && key !== "dt" && key !== "sls") {
         return;
       }
       let [type, text] = data[key][0];
@@ -338,13 +338,6 @@ function parseNumberedSense(senses) {
   // Create numbered sense wrapper div
   const numberedSenseBox = document.createElement("div");
   numberedSenseBox.classList.add("numbered-sense-box");
-
-  // Create sense number label
-  const senseNumberLabel = document.createElement("div");
-  senseNumberLabel.classList.add("sense-number-box");
-  const senseNumber = senses[0]?.[0];
-  senseNumberLabel.textContent = senseNumber;
-  numberedSenseBox.appendChild(senseNumberLabel);
 
   // Create sense letter wrapper div
   const senseLetterBoxes = document.createElement("div");
@@ -421,6 +414,160 @@ function getPseqData(data) {
   return pseq_data;
 }
 
+function getPreDefText(content) {
+  let preDefText = "";
+  if (content.sls) {
+  }
+  if (content.sgram) {
+  }
+  return preDefText;
+}
+
+function getDefText(content) {
+  const defElement = content.dt || content.et;
+  let defText = "";
+
+  defElement.forEach((element) => {
+    let [type, text] = element;
+    if (type === "text") {
+      defText += applyTextParsers(text);
+    }
+  });
+
+  if (content.et) {
+    return `[${defText}]`;
+  }
+
+  return defText;
+}
+
+function parseSenseSdSense(content) {
+  const sdSenseBox = document.createElement("div");
+  sdSenseBox.classList.add("sd-sense-box");
+
+  return sdSenseBox;
+}
+
+function getFullDefText(content) {
+  const preDefText = getPreDefText(content);
+  const defText = getDefText(content);
+  const fullText = preDefText + defText;
+  return fullText;
+}
+
+function parseSenseEtDt(content) {
+  const senseEtDtBox = document.createElement("div");
+  senseEtDtBox.classList.add("sense-et-dt-box");
+
+  const senseDefBox = document.createElement("div");
+  senseDefBox.classList.add("sense-def-box");
+  senseDefBox.innerHTML = applyTextParsers(getFullDefText(content));
+  senseEtDtBox.appendChild(senseDefBox);
+
+  return senseEtDtBox;
+}
+
+function parseSenseContent(content) {
+  const senseContentBox = document.createElement("div");
+  senseContentBox.classList.add("sense-content-box");
+
+  if (content.et || content.dt) {
+    senseContentBox.appendChild(parseSenseEtDt(content));
+  }
+
+  if (content.sdsense) {
+    senseContentBox.appendChild(parseSenseSdSense(content));
+  }
+
+  return senseContentBox;
+}
+
+function parseBSContent(content) {
+  return parseSenseContent(content.sense);
+}
+
+function parseElementContent(sense) {
+  const [type, content] = sense;
+
+  if (type === "bs") {
+    return parseBSContent(content);
+  } else if (type == "sense") {
+    return parseSenseContent(content);
+  }
+}
+
+function parsePseq(pseqData) {
+  const pseqBox = document.createElement("div");
+  pseqBox.classList.add("l2-sense-box");
+
+  pseqData.forEach((l3_group, l3_index) => {
+    const senseBoxL3 = document.createElement("div");
+    senseBoxL3.classList.add("l3-sense-box");
+
+    const { sense_number, sense_letter, sense_parentheses } =
+      get_sense_id(l3_group);
+    if (sense_parentheses) {
+      const senseParenthesesLabel = document.createElement("div");
+      senseParenthesesLabel.classList.add("sense-parentheses-label");
+      senseParenthesesLabel.textContent = `(${sense_parentheses})`;
+      senseBoxL3.appendChild(senseParenthesesLabel);
+    }
+
+    const senseContentBox = parseElementContent(l3_group);
+    pseqBox.appendChild(senseContentBox);
+  });
+
+  return senseBoxL3;
+}
+
+function parseSenseL2(l2_group, l2_index, hasLetterLabel) {
+  console.log(hasLetterLabel, l2_index, l2_group);
+  const senseLetter = "abcdefghijklmnopqrstuvwxyz"[l2_index];
+  const senseLetterLabel = document.createElement("div");
+  senseLetterLabel.classList.add("sense-letter-label");
+  senseLetterLabel.textContent = hasLetterLabel ? senseLetter : "";
+
+  const l2SenseBox = document.createElement("div");
+  l2SenseBox.classList.add("l2-sense-box");
+  l2SenseBox.appendChild(senseLetterLabel);
+
+  const [type, data] = l2_group;
+  if (type === "pseq") {
+    const pseqBox = parsePseq(data);
+    l2SenseBox.appendChild(pseqBox);
+  } else {
+    const senseContentBox = parseElementContent(l2_group);
+    l2SenseBox.appendChild(senseContentBox);
+  }
+
+  return l2SenseBox;
+}
+
+function parseSenseL1(l1_group, l1_index) {
+  const senseNumber = l1_index + 1;
+  const l1SenseBox = document.createElement("div");
+  l1SenseBox.classList.add("l1-sense-box");
+
+  // Create sense number label
+  const senseNumberLabel = document.createElement("div");
+  senseNumberLabel.classList.add("sense-number-label");
+  senseNumberLabel.textContent = senseNumber;
+  l1SenseBox.appendChild(senseNumberLabel);
+
+  // Create l2 sense group wrapper div
+  const l2SenseGroup = document.createElement("div");
+  l2SenseGroup.classList.add("l2-sense-wrapper");
+
+  // Parse l2 sense groups
+  l1_group.forEach((l2_group, l2_index) => {
+    const senseBoxL2 = parseSenseL2(l2_group, l2_index, l1_group.length != 1);
+    l2SenseGroup.appendChild(senseBoxL2);
+  });
+
+  l1SenseBox.appendChild(l2SenseGroup);
+  return l1SenseBox;
+}
+
 function parseSenseSequence(sseq) {
   const sseqContainer = document.createElement("div");
   sseqContainer.classList.add("sense-sequence");
@@ -429,58 +576,12 @@ function parseSenseSequence(sseq) {
     return sseqContainer;
   }
 
-  sseq.forEach((sense_number_group, sseq_index) => {
-    let senses = [];
-    sense_number_group.forEach((element, number_group_index) => {
-      senses.push(...parseSenseElement(element));
-      // TODO: parse sen
-    });
-    sseqContainer.appendChild(parseNumberedSense(senses));
+  sseq.forEach((l1_group, l1_index) => {
+    const senseBoxL1 = parseSenseL1(l1_group, l1_index);
+    sseqContainer.appendChild(senseBoxL1);
   });
 
   return sseqContainer;
-}
-
-function parseSense(sense) {
-  const senseContainer = document.createElement("div");
-  senseContainer.classList.add("sense");
-
-  if (!sense) {
-    return senseContainer;
-  }
-
-  if (sense.dt) {
-    sense.dt.forEach((definition) => {
-      let [type, text] = definition;
-      if (type === "text") {
-        const dtElement = document.createElement("p");
-        dtElement.classList.add("definition-text");
-        text = applyTextParsers(text);
-        dtElement.innerHTML = text;
-        senseContainer.appendChild(dtElement);
-      }
-    });
-  }
-
-  if (sense.sdsense) {
-    const sdElement = document.createElement("em");
-    sdElement.classList.add("sense-divider");
-    sdElement.textContent = `Sense Divider: ${sense.sdsense.sd}`;
-    senseContainer.appendChild(sdElement);
-
-    sense.sdsense.dt.forEach((definition) => {
-      let [type, text] = definition;
-      if (type === "text") {
-        const sdsenseElement = document.createElement("p");
-        sdsenseElement.classList.add("divided-definition-text");
-        text = applyTextParsers(text);
-        sdsenseElement.innerHTML = "Divided Definition Text: " + text;
-        senseContainer.appendChild(sdsenseElement);
-      }
-    });
-  }
-
-  return senseContainer;
 }
 
 function getDefinitionBoxX(selectionX, boxWidth, windowWidth) {

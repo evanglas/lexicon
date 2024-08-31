@@ -38,13 +38,23 @@
   margin: 5px 0px;
 }
 
-.numbered-sense-box {
+.l1-sense-box {
   display: flex;
   flex-direction: row;
   padding-bottom: 10px;
 }
 
-.sense-number-box {
+.l2-sense-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.l2-sense-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.sense-number-label {
   font-weight: bold;
   padding-right: 5px;
   border-right: 2px solid black;
@@ -70,7 +80,7 @@
 
 .sense-def-box {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .sense-parentheses-box {
