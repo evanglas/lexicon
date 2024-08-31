@@ -56,7 +56,6 @@ function updateDictionary(word, json) {
       }
     );
   });
-  console.log("Added " + word + " to dictionary");
 }
 
 function getLocalWordList(callback) {
@@ -111,9 +110,6 @@ function processWordMarkingTokens(input) {
 }
 
 function createUrl(baseUrl, target, text) {
-  console.log("base", baseUrl);
-  console.log("target", target);
-  console.log("text", text);
   if (!target) {
     return baseUrl + encodeURIComponent(text);
   }
@@ -124,7 +120,6 @@ function createUrl(baseUrl, target, text) {
 }
 
 // function createUrl(baseUrl, target, text) {
-//   console.log(baseUrl, target, text);
 //   const sanitizedTarget = target.replace(/\s/g, "%20");
 //   return `${baseUrl}${sanitizedTarget || text}`;
 // }
@@ -222,14 +217,10 @@ function applyTextParsers(input) {
   let text2 = processWordMarkingTokens(text1);
   let text3 = processCrossReferences(text2);
   let text4 = processLatex(text3);
-  // console.log(text1, text2, text3);
   return text4;
 }
 
-// Parsing sense structure
-
 function parseSenses(def) {
-  // console.log(def);
   if (!def || !Array.isArray(def)) {
     console.error("Invalid definition structure.");
     return;
@@ -258,10 +249,13 @@ function parseSenses(def) {
 function get_sense_id(sense) {
   let sense_number;
   let sense_letter;
+  let sense_parenthesis;
   if (sense.sn) {
     sn_list = sense.sn.split(" ");
     if (sn_list.length == 1 && !isNaN(sn_list[0])) {
       sense_number = sn_list[0];
+    } else if (sn_list.length == 1 && /^\(\d+\)$/.test(sn_list[0])) {
+      sense_parenthesis = sn_list[0].slice(1, -1);
     } else if (sn_list.length == 1) {
       sense_letter = sn_list[0];
     } else {
@@ -269,37 +263,31 @@ function get_sense_id(sense) {
       sense_letter = sn_list[1];
     }
   }
-  return { sense_number, sense_letter };
+  return { sense_number, sense_letter, sense_parenthesis };
 }
 
-function parseNumberedSense(senses) {
-  const numberedSenseBox = document.createElement("div");
-  numberedSenseBox.classList.add("numbered-sense-box");
+function parseLetteredSense(senses) {
+  // Create sense letter wrapper div
+  console.log(senses);
+  const senseLetterDefBox = document.createElement("div");
+  senseLetterDefBox.classList.add("sense-letter-def-box");
 
-  const senseNumberBox = document.createElement("div");
-  senseNumberBox.classList.add("sense-number-box");
-  const senseNumber = senses[0][0];
-  senseNumberBox.textContent = senseNumber;
-  numberedSenseBox.appendChild(senseNumberBox);
+  // Create sense letter label
+  const senseLetterLabel = document.createElement("div");
+  senseLetterLabel.classList.add("sense-letter-label");
+  const senseLetter = senses[0][1];
+  senseLetterLabel.textContent = senseLetter;
+  senseLetterDefBox.appendChild(senseLetterLabel);
 
-  const senseLetterBoxes = document.createElement("div");
-  senseLetterBoxes.classList.add("sense-letter-boxes");
+  // Create sense definition wrapper div
+  const senseDefBox = document.createElement("div");
+  senseDefBox.classList.add("sense-def-box");
 
+  // Add the sense definitions to sense definition wrapper div
   senses.forEach((sense) => {
-    const senseLetterDefBox = document.createElement("div");
-    senseLetterDefBox.classList.add("sense-letter-def-box");
-    if (sense[1]) {
-      const senseLetterBox = document.createElement("div");
-      senseLetterBox.classList.add("sense-letter-box");
-      senseLetterBox.textContent = sense[1];
-      senseLetterDefBox.appendChild(senseLetterBox);
-    }
-
-    const senseDefBox = document.createElement("div");
-    senseDefBox.classList.add("sense-def-box");
-
-    if (sense[2]) {
-      sense[2].dt.forEach((definition) => {
+    const [sense_number, sense_letter, sense_parenthesis, data] = sense;
+    if (data.dt) {
+      data.dt.forEach((definition) => {
         let [type, text] = definition;
         if (type === "text") {
           const dtElement = document.createElement("p");
@@ -308,33 +296,126 @@ function parseNumberedSense(senses) {
           dtElement.innerHTML = text;
           senseDefBox.appendChild(dtElement);
           senseLetterDefBox.appendChild(senseDefBox);
+        } else if (type == "uns") {
+          let [type, text] = definition[0][0];
+          if (text) {
+            const usage_container = document.createElement("div");
+            usage_container.classList.add("usage-container");
+            text = applyTextParsers(text);
+            usage_container.innerHTML = "→ " + text;
+            senseDefBox.appendChild(usage_container);
+          }
         }
       });
     }
-    senseLetterBoxes.appendChild(senseLetterDefBox);
-    // if (sense.sdsense) {
-    //   const sdElement = document.createElement("em");
-    //   sdElement.classList.add("sense-divider");
-    //   sdElement.textContent = `Sense Divider: ${sense.sdsense.sd}`;
-    //   numberedSenseBoxContainer.appendChild(sdElement);
-
-    //   sense.sdsense.dt.forEach((definition) => {
-    //     let [type, text] = definition;
-    //     if (type === "text") {
-    //       const sdsenseElement = document.createElement("p");
-    //       sdsenseElement.classList.add("divided-definition-text");
-    //       text = applyTextParsers(text);
-    //       sdsenseElement.innerHTML = "Divided Definition Text: " + text;
-    //       senseContainer.appendChild(sdsenseElement);
-    //     }
-    //   });
-    // }
   });
+
+  senseLetterDefBox.appendChild(senseDefBox);
+  return senseLetterDefBox;
+}
+
+function parseNumberedSense(senses) {
+  console.log(senses[0][0]);
+  // Create numbered sense wrapper div
+  const numberedSenseBox = document.createElement("div");
+  numberedSenseBox.classList.add("numbered-sense-box");
+
+  // Create sense number label
+  const senseNumberLabel = document.createElement("div");
+  senseNumberLabel.classList.add("sense-number-box");
+  const senseNumber = senses[0][0];
+  senseNumberLabel.textContent = senseNumber;
+  numberedSenseBox.appendChild(senseNumberLabel);
+
+  // Create sense letter wrapper div
+  const senseLetterBoxes = document.createElement("div");
+  senseLetterBoxes.classList.add("sense-letter-boxes");
+
+  // Add the sense letter boxes to sense letter wrapper div
+  let last_letter = "a";
+  let letter_group = [];
+  if (senses.length == 1) {
+    console.log("parsing sense letter: ", senses);
+    senseLetterBoxes.appendChild(parseLetteredSense(senses));
+  } else {
+    console.log("parsing sense letters: ", senses);
+    senses.forEach((sense, index) => {
+      const [sense_number, sense_letter, sense_parenthesis, data] = sense;
+      console.log(sense_number, sense_letter, sense_parenthesis, data);
+      if (sense_letter && sense_letter !== last_letter) {
+        let lettered_sb = parseLetteredSense(letter_group);
+        senseLetterBoxes.appendChild(lettered_sb);
+        letter_group = [];
+      }
+      letter_group.push(sense);
+      last_letter = sense_letter;
+    });
+  }
+
   numberedSenseBox.appendChild(senseLetterBoxes);
   return numberedSenseBox;
 }
 
+// if (senses.length != 1) {
+//   const senseLetterBox = document.createElement("div");
+//   senseLetterBox.classList.add("sense-letter-box");
+//   if (index == 0) {
+//     senseLetterBox.textContent = "a";
+//   } else {
+//     if (sense[1]) {
+//       senseLetterBox.textContent = sense[1];
+//     }
+//   }
+//   senseLetterDefBox.appendChild(senseLetterBox);
+// }
+// const senseDefBox = document.createElement("div");
+// senseDefBox.classList.add("sense-def-box");
+
+// if (sense[3]) {
+//   sense[3].dt.forEach((definition) => {
+//     let [type, content] = definition;
+//     if (type == "uns") {
+//       console.log("uns");
+//       let [type, text] = content?.[0]?.[0];
+//       if (text) {
+//         const usage_container = document.createElement("div");
+//         usage_container.classList.add("usage-container");
+//         text = applyTextParsers(text);
+//         usage_container.innerHTML = "→ " + text;
+//         senseDefBox.appendChild(usage_container);
+//         senseLetterDefBox.appendChild(senseDefBox);
+//       }
+//     } else if (type === "text") {
+//       const dtElement = document.createElement("p");
+//       dtElement.classList.add("definition-text-box");
+//       text = applyTextParsers(content);
+//       dtElement.innerHTML = text;
+//       senseDefBox.appendChild(dtElement);
+//       senseLetterDefBox.appendChild(senseDefBox);
+//     }
+//   });
+// }
+// senseLetterBoxes.appendChild(senseLetterDefBox);
+// if (sense.sdsense) {
+//   const sdElement = document.createElement("em");
+//   sdElement.classList.add("sense-divider");
+//   sdElement.textContent = `Sense Divider: ${sense.sdsense.sd}`;
+//   numberedSenseBoxContainer.appendChild(sdElement);
+
+//   sense.sdsense.dt.forEach((definition) => {
+//     let [type, text] = definition;
+//     if (type === "text") {
+//       const sdsenseElement = document.createElement("p");
+//       sdsenseElement.classList.add("divided-definition-text");
+//       text = applyTextParsers(text);
+//       sdsenseElement.innerHTML = "Divided Definition Text: " + text;
+//       senseContainer.appendChild(sdsenseElement);
+//     }
+//   });
+// }
+
 function parseSenseSequence(sseq) {
+  console.log("parsing sense sequence", sseq);
   const sseqContainer = document.createElement("div");
   sseqContainer.classList.add("sense-sequence");
 
@@ -347,40 +428,58 @@ function parseSenseSequence(sseq) {
 
   sseq.forEach((group) => {
     group.forEach((element) => {
+      console.log(element);
       if (Array.isArray(element)) {
-        const [type, data] = element;
+        let [type, data] = element;
         if (type === "sense") {
-          const { sense_number, sense_letter } = get_sense_id(data);
+          const { sense_number, sense_letter, sense_parenthesis } =
+            get_sense_id(data);
           if (sense_number && sense_number != last_sn) {
             let numbered_sb = parseNumberedSense(senses);
             sseqContainer.appendChild(numbered_sb);
             senses = [];
+            last_sn = 1;
           }
-          senses.push([sense_number, sense_letter, data]);
-          // const senseElement = parseSense(data);
-          // sseqContainer.appendChild(senseElement);
-        } // else if (type === "bs") {
-        //   const bsElement = document.createElement("p");
-        //   bsElement.classList.add("binding-substitute");
-        //   bsElement.textContent = "Binding Substitute:";
-        //   sseqContainer.appendChild(bsElement);
-        //   sseqContainer.appendChild(parseSense(data.sense));
-        // } else if (type === "pseq") {
-        //   const pseqElement = document.createElement("p");
-        //   pseqElement.classList.add("parenthesized-sequence");
-        //   pseqElement.textContent = "Parenthesized Sense Sequence:";
-        //   sseqContainer.appendChild(pseqElement);
-        //   sseqContainer.appendChild(parseSenseSequence(data));
-        // } else if (type === "sen") {
-        //   const senElement = document.createElement("p");
-        //   senElement.classList.add("truncated-sense");
-        //   senElement.textContent = "Truncated Sense:";
-        //   sseqContainer.appendChild(senElement);
-        //   sseqContainer.appendChild(parseSense(data));
-        // }
+          last_sn = sense_number;
+          senses.push([sense_number, sense_letter, sense_parenthesis, data]);
+        } else if (type === "bs" && data.sense) {
+          console.log("parsing a bs");
+          data = data.sense;
+          const { sense_number, sense_letter, sense_parenthesis } =
+            get_sense_id(data);
+          if (sense_number && sense_number != last_sn) {
+            let numbered_sb = parseNumberedSense(senses);
+            sseqContainer.appendChild(numbered_sb);
+            senses = [];
+            last_sn = 1;
+          }
+          last_sn = sense_number;
+          senses.push([sense_number, sense_letter, sense_parenthesis, data]);
+        } else if (type === "pseq") {
+          console.log("parsing a pseq");
+          parseSenseSequence([data]).childNodes.forEach((child) => {
+            sseqContainer.appendChild(child);
+          });
+          // const pseqElement = document.createElement("p");
+          // pseqElement.classList.add("parenthesized-sequence");
+          // pseqElement.textContent = "Parenthesized Sense Sequence:";
+          // sseqContainer.appendChild(pseqElement);
+          // sseqContainer.appendChild(parseSenseSequence(data));
+        } else if (type === "sen") {
+          const senElement = document.createElement("p");
+          senElement.classList.add("truncated-sense");
+          senElement.textContent = "Truncated Sense:";
+          sseqContainer.appendChild(senElement);
+          sseqContainer.appendChild(parseSense(data));
+        }
       }
     });
   });
+
+  if (senses.length > 0) {
+    let numbered_sb = parseNumberedSense(senses);
+    sseqContainer.appendChild(numbered_sb);
+  }
 
   return sseqContainer;
 }
@@ -393,12 +492,12 @@ function parseSense(sense) {
     return senseContainer;
   }
 
-  if (sense.sn) {
-    const snElement = document.createElement("strong");
-    snElement.classList.add("sense-number");
-    snElement.textContent = `Sense Number: ${sense.sn}`;
-    senseContainer.appendChild(snElement);
-  }
+  // if (sense.sn) {
+  //   const snElement = document.createElement("strong");
+  //   snElement.classList.add("sense-number");
+  //   snElement.textContent = `Sense Number: ${sense.sn}`;
+  //   senseContainer.appendChild(snElement);
+  // }
 
   if (sense.dt) {
     sense.dt.forEach((definition) => {
@@ -406,7 +505,6 @@ function parseSense(sense) {
       if (type === "text") {
         const dtElement = document.createElement("p");
         dtElement.classList.add("definition-text");
-        // console.log(text);
         text = applyTextParsers(text);
         dtElement.innerHTML = text;
         // dtElement.textContent = `Definition Text: ${text}`;
@@ -438,7 +536,6 @@ function parseSense(sense) {
 
 function getDefinitionBoxX(selectionX, boxWidth, windowWidth) {
   const scrollX = window.scrollX;
-  // console.log(selectionX, boxWidth, windowWidth);
   if (selectionX + boxWidth > scrollX + windowWidth) {
     return scrollX + windowWidth - boxWidth;
   } else {
@@ -449,13 +546,10 @@ function getDefinitionBoxX(selectionX, boxWidth, windowWidth) {
 function getDefinitionBoxY(selectionY, boxHeight, windowHeight) {
   const scrollY = window.scrollY;
   if (selectionY + boxHeight / 2 - WORD_BOX_Y_MARGIN > scrollY + windowHeight) {
-    console.log(1);
     return selectionY + boxHeight - WORD_BOX_Y_MARGIN - windowHeight;
   } else if (selectionY - boxHeight - WORD_BOX_Y_MARGIN < scrollY) {
-    console.log(2);
     return scrollY;
   } else {
-    console.log(3);
     return selectionY - WORD_BOX_Y_MARGIN - boxHeight;
   }
 }
@@ -478,130 +572,10 @@ function placeDefinitionBox(selection, event, box) {
 
     const x = getDefinitionBoxX(selectionCoords.x, boxWidth, windowWidth);
     const y = getDefinitionBoxY(selectionCoords.y, boxHeight, windowHeight);
-
-    console.log(selectionCoords.y, boxHeight, windowHeight);
     box.style.left = `${x}px`;
     box.style.top = `${y}px`;
   });
 }
-
-// function displayDefinition(selection, event, word, dictResponse) {
-//   let existingBox = document.getElementById("double-click-box");
-//   if (existingBox) {
-//     existingBox.remove();
-//   }
-
-//   let box = document.createElement("div");
-
-//   box.style.maxHeight = "150px";
-//   box.style.maxWidth = "400px";
-//   box.style.overflowY = "auto";
-//   box.style.border = "1px solid #ccc";
-//   box.style.padding = "5px";
-//   box.style.borderRadius = "5px";
-//   box.style.boxShadow = "0 2px 10px rgba(0, 0, 0, 0.1)";
-//   box.style.backgroundColor = "#f9f9f9";
-//   box.style.position = "absolute";
-
-//   dictResponse.forEach((dictEntry, index) => {
-//     const { entryWord, entryWordNum } = getWordId(dictEntry);
-
-//     if (entryWord !== word) {
-//       return;
-//     }
-
-//     const entryWordDefs = dictEntry.def[0].sseq;
-
-//     let subSenses = [];
-//     let curSenseNumber = null;
-//     entryWordDefs.forEach((sense) => {
-//       const { senseNumber, senseLetter } = getSenseId(sense);
-//       curSenseNumber = senseNumber ? senseNumber : curSenseNumber;
-//       if (senseLetter != null) {
-//         subSenses.push([sense, curSenseNumber, senseLetter]);
-//       } else {
-//         subSenses.push([sense, curSenseNumber, null]);
-//       }
-//     });
-
-//     let entryBox = document.createElement("div");
-//     entryBox.style.display = "flex";
-//     entryBox.style.alignItems = "center";
-//     entryBox.style.marginBottom = "10px";
-//     entryBox.style.padding = "10px";
-//     entryBox.style.borderBottom = "1px solid #ddd";
-
-//     const numberLabel = document.createElement("span");
-//     numberLabel.textContent = `${index + 1}. `;
-//     numberLabel.style.fontWeight = "bold";
-//     numberLabel.style.marginRight = "5px";
-
-//     const shortDef = dictEntry?.shortdef?.[0]
-//       ? dictEntry.shortdef[0]
-//       : "Definition not available";
-//     const partOfSpeech = dictEntry?.fl ? dictEntry.fl : "Unknown";
-//     const audioUrl = dictEntry?.hwi?.prs?.[0]?.sound
-//       ? getAudioURL(dictEntry.hwi.prs[0].sound)
-//       : null;
-
-//     const contentBox = document.createElement("div");
-//     contentBox.style.display = "flex";
-//     contentBox.style.alignItems = "center";
-
-//     // Create and style the elements to be added to entryBox
-//     const defElement = document.createElement("p");
-//     defElement.textContent = shortDef;
-//     defElement.style.display = "inline";
-//     defElement.style.margin = "5px 0";
-//     defElement.style.fontSize = "14px";
-
-//     const posElement = document.createElement("span");
-//     posElement.textContent = `(${partOfSpeech})`;
-//     posElement.style.fontStyle = "italic";
-//     posElement.style.marginLeft = "10px";
-//     posElement.style.color = "#555";
-
-//     const audioIcon = document.createElement("span");
-//     audioIcon.innerHTML = "🔊"; // simple audio icon
-//     audioIcon.style.cursor = "pointer";
-//     audioIcon.style.marginLeft = "10px";
-//     audioIcon.title = "Play audio";
-//     audioIcon.addEventListener("click", () => {
-//       if (audioUrl) {
-//         let audio = new Audio(audioUrl);
-//         audio.play();
-//       } else {
-//         alert("No audio available");
-//       }
-//     });
-
-//     const addButton = document.createElement("button");
-//     addButton.textContent = "Add to Dictionary";
-//     addButton.style.marginLeft = "10px";
-//     addButton.style.padding = "5px 10px";
-//     addButton.style.border = "none";
-//     addButton.style.borderRadius = "3px";
-//     addButton.style.backgroundColor = "#007bff";
-//     addButton.style.color = "#fff";
-//     addButton.style.cursor = "pointer";
-//     addButton.addEventListener("click", () => {
-//       addToDictionary(dictEntry); // assuming addToDictionary is a function you’ve defined
-//     });
-
-//     // Append elements to the entryBox
-//     entryBox.appendChild(numberLabel);
-//     contentBox.appendChild(defElement);
-//     contentBox.appendChild(posElement);
-//     contentBox.appendChild(audioIcon);
-//     contentBox.appendChild(addButton);
-//     entryBox.appendChild(contentBox);
-
-//     // Append entryBox to the main box
-//     box.appendChild(entryBox);
-//   });
-
-//   // Now append the box to the body or another element
-//   // document.body.appendChild(box);
 
 function getWordId(dictEntry) {
   const wordId = dictEntry.meta.id.split(":");
@@ -611,16 +585,17 @@ function getWordId(dictEntry) {
 }
 
 function displayDefinition(selection, event, word, dictResponse) {
-  console.log("Displaying Definition");
+  console.log("displaying definition");
   let containers = [];
+
   dictResponse.forEach((dictEntry) => {
     const { entryWord, entryWordNum } = getWordId(dictEntry);
-
-    // if (entryWord !== word) {
-    //   return;
-    // }
-
-    containers.push(parseSenses(dictEntry.def));
+    if (dictEntry.meta.section != "alpha" || entryWord != word) {
+      return;
+    }
+    if (dictEntry.def) {
+      containers.push(parseSenses(dictEntry.def));
+    }
   });
   return containers;
 }
@@ -665,14 +640,14 @@ async function handleDoubleClick(event) {
   adjustSelection(selection, selectedText, word);
 
   const keysJson = await fetch(chrome.runtime.getURL("secrets.json"));
-  const dictResponseJson = await fetch(
-    chrome.runtime.getURL("dictionary_responses/series.json")
-  );
   const keys = await keysJson.json();
-  const dictResponse = await dictResponseJson.json();
-
   DICTIONARY_KEY = keys["DICTIONARY_KEY"];
   THESAURUS_KEY = keys["THESAURUS_KEY"];
+
+  const dictResponseJson = await fetch(
+    chrome.runtime.getURL("dictionary_responses/tab.json")
+  );
+  const dictResponse = await dictResponseJson.json();
 
   // const dictResponse = await getDefinition(word);
 
@@ -682,10 +657,23 @@ async function handleDoubleClick(event) {
 
   // updateWordList(word);
   // updateDictionary(word, dictResponse);
-  const boxes = displayDefinition(selection, event, word, dictResponse);
+  const group_info_list = displayDefinition(
+    selection,
+    event,
+    word,
+    dictResponse
+  );
   const combinedBox = document.createElement("div");
-  boxes.forEach((box) => {
-    combinedBox.appendChild(box);
+  group_info_list.forEach((group_info, index) => {
+    const group_box = document.createElement("div");
+    const group_header = document.createElement("div");
+    group_header.classList.add("group-header");
+    group_header.innerText = `${word} (${index + 1} of ${
+      group_info_list.length
+    })`;
+    group_box.appendChild(group_header);
+    group_box.appendChild(group_info);
+    combinedBox.appendChild(group_box);
   });
 
   combinedBox.classList.add("combined-box");
