@@ -34,6 +34,10 @@
   transform: rotate(720deg);
 }
 
+.verb-divider {
+  margin: 5px 0px;
+}
+
 .numbered-sense-box {
   display: flex;
   flex-direction: row;
@@ -58,15 +62,29 @@
   padding-bottom: 5px;
 }
 
-.sense-letter-box {
+.sense-letter-label {
   display: flex;
   flex-direction: row;
   font-weight: bold;
 }
 
+.sense-def-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.sense-parentheses-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.sense-parentheses-label {
+  font-weight: bold;
+}
+
 .definition-text-box {
   margin: 0;
-  padding-left: 10px;
+  padding-left: 0px;
 }
 
 .usage-container {
