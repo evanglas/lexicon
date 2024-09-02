@@ -1,17 +1,23 @@
 document.addEventListener("DOMContentLoaded", function () {
-  console.log("hi");
+  const apiKeyInput = document.getElementById("api-key");
+  const saveApiKeyButton = document.getElementById("save-api-key");
+  const openWordListButton = document.getElementById("open-word-list");
 
-  chrome.storage.local.get("wordList", function (result) {
-    const words = JSON.parse(result.wordList) || [];
-    const wordListElement = document.getElementById("word-list");
+  // Load saved API key
+  chrome.storage.local.get("apiKey", function (result) {
+    apiKeyInput.value = result.apiKey || "";
+  });
 
-
-    wordListElement.innerHTML = "";
-
-    words.forEach((word) => {
-      const listItem = document.createElement("li");
-      listItem.textContent = word;
-      wordListElement.appendChild(listItem);
+  // Save API key
+  saveApiKeyButton.addEventListener("click", function () {
+    const apiKey = apiKeyInput.value;
+    chrome.storage.local.set({ apiKey: apiKey }, function () {
+      alert("API Key saved!");
     });
+  });
+
+  // Open word list in a new tab
+  openWordListButton.addEventListener("click", function () {
+    chrome.tabs.create({ url: chrome.runtime.getURL("word_list.html") });
   });
 });

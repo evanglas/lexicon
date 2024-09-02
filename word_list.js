@@ -1,18 +1,4 @@
-let DICTIONARY_KEY;
-let THESAURUS_KEY;
-
-DICTIONARY_ENDPOINT =
-  "https://www.dictionaryapi.com/api/v3/references/collegiate/json/";
-THESAURUS_ENDPOINT =
-  "https://www.dictionaryapi.com/api/v3/references/thesaurus/json/";
 AUDIO_URL = "https://media.merriam-webster.com/audio/prons/en/us/mp3/";
-
-WORD_BOX_Y_MARGIN = 15;
-
-// export function rmBracketes(str) {
-//   return str.replace(/\[.*?\]/g, "");
-// }
-
 function getAudioURL(sound) {
   if (!sound) {
     return null;
@@ -33,59 +19,6 @@ function getAudioURL(sound) {
   }
   return `${AUDIO_URL}${subdirectory}/${sound.audio}.mp3`;
 }
-
-async function getDefinition(word) {
-  const dictResponse = await fetch(
-    `${DICTIONARY_ENDPOINT}${word}?key=${DICTIONARY_KEY}`
-  );
-  return await dictResponse.json();
-}
-
-function getLocalDictionary(callback) {
-  chrome.storage.local.get("dictionary", function (result) {
-    let dictionary = result.dictionary ? JSON.parse(result.dictionary) : {};
-    callback(dictionary);
-  });
-}
-function updateDictionary(word, json) {
-  getLocalDictionary(function (dictionary) {
-    dictionary[word] = json;
-    chrome.storage.local.set(
-      { dictionary: JSON.stringify(dictionary) },
-      function () {
-        if (chrome.runtime.lastError) {
-          console.error("Error setting value of dictionary");
-        }
-      }
-    );
-  });
-}
-
-function getLocalWordList(callback) {
-  chrome.storage.local.get("wordList", function (result) {
-    let wordList = result.wordList ? JSON.parse(result.wordList) : [];
-    callback(wordList);
-  });
-}
-
-function updateWordList(word) {
-  getLocalWordList(function (wordList) {
-    if (!wordList.includes(word)) {
-      wordList.push(word);
-    }
-    chrome.storage.local.set(
-      { wordList: JSON.stringify(wordList) },
-      function () {
-        if (chrome.runtime.lastError) {
-          console.error("Error setting value of wordList");
-        }
-      }
-    );
-  });
-}
-
-// Parsing text
-
 function trimNonAlphabetical(str) {
   return str.replace(/^[^a-zA-Z]+|[^a-zA-Z]+$/g, "");
 }
@@ -564,26 +497,6 @@ function parseSenses(def) {
   return container;
 }
 
-function getDefinitionBoxX(selectionX, boxWidth, windowWidth) {
-  const scrollX = window.scrollX;
-  if (selectionX + boxWidth > scrollX + windowWidth) {
-    return scrollX + windowWidth - boxWidth;
-  } else {
-    return selectionX;
-  }
-}
-
-function getDefinitionBoxY(selectionY, boxHeight, windowHeight) {
-  const scrollY = window.scrollY;
-  if (selectionY + boxHeight / 2 - WORD_BOX_Y_MARGIN > scrollY + windowHeight) {
-    return selectionY + boxHeight - WORD_BOX_Y_MARGIN - windowHeight;
-  } else if (selectionY - boxHeight - WORD_BOX_Y_MARGIN < scrollY) {
-    return scrollY;
-  } else {
-    return selectionY - WORD_BOX_Y_MARGIN - boxHeight;
-  }
-}
-
 function placeDefinitionBox(selection, event, box) {
   document.body.appendChild(box);
 
@@ -656,7 +569,7 @@ function getEntryHeader(dictEntry) {
   return entryHeader;
 }
 
-function displayDefinitions(selection, event, word, dictResponse) {
+function displayDefinitions(dictResponse) {
   const definitionBox = document.createElement("div");
   definitionBox.classList.add("definition-box");
 
@@ -677,132 +590,112 @@ function displayDefinitions(selection, event, word, dictResponse) {
   return definitionBox;
 }
 
-function adjustSelection(selection, selectedText, word) {
-  let range = selection.getRangeAt(0);
-  let startOffset = range.startOffset + selectedText.indexOf(word);
-  let endOffset = startOffset + word.length;
+document.addEventListener("DOMContentLoaded", function () {
+  const wordListElement = document.getElementById("word-list");
+  const searchWordInput = document.getElementById("search-word");
 
-  range.setStart(range.startContainer, startOffset);
-  range.setEnd(range.startContainer, endOffset);
+  function renderWordList(words) {
+    wordListElement.innerHTML = "";
 
-  selection.removeAllRanges();
-  selection.addRange(range);
-}
+    words.forEach((word) => {
+      const listItem = document.createElement("li");
+      const wordItem = document.createElement("span");
+      const deleteButton = document.createElement("button");
+      const dropdown = document.createElement("div");
 
-// Function to render LaTeX
-function renderLaTeX() {
-  document.querySelectorAll(".math").forEach(function (element) {
-    try {
-      katex.render(element.textContent, element, {
-        throwOnError: false,
+      wordItem.textContent = word;
+      wordItem.className = "word-item";
+      deleteButton.textContent = "Delete";
+      dropdown.className = "dropdown";
+
+      listItem.appendChild(wordItem);
+      listItem.appendChild(deleteButton);
+      listItem.appendChild(dropdown);
+      wordListElement.appendChild(listItem);
+
+      wordItem.addEventListener("click", function () {
+        // dropdown.textContent = word.definition || "No definition available.";
+        dropdown.style.display =
+          dropdown.style.display === "block" ? "none" : "block";
+        let dictResponse = getLocalDictionary()
+          .then((dictionary) => {
+            return dictionary[wordItem.textContent];
+          })
+          .catch((error) => {
+            console.error(error);
+          });
+
+        dictResponse.then((response) => {
+          console.log(response);
+          console.log(typeof response);
+          dropdown.innerHTML = displayDefinitions(response).innerHTML;
+        });
       });
-    } catch (err) {
-      console.error("KaTeX render error:", err);
-    }
+
+      deleteButton.addEventListener("click", function () {
+        const index = words.indexOf(word);
+        if (index > -1) {
+          words.splice(index, 1);
+          chrome.storage.local.set({ wordList: JSON.stringify(words) });
+          listItem.remove();
+        }
+      });
+    });
+  }
+
+  // Load word list from storage
+  chrome.storage.local.get("wordList", function (result) {
+    const words = JSON.parse(result.wordList) || [];
+    renderWordList(words);
+
+    // Filter words as user types
+    searchWordInput.addEventListener("input", function () {
+      console.log("input detected");
+      const query = searchWordInput.value.toLowerCase();
+      const filteredWords = words.filter((word) =>
+        word.toLowerCase().includes(query)
+      );
+      renderWordList(filteredWords);
+    });
   });
-}
+});
 
-function getWordNotFoundBox(dictResponse) {
-  const definitionBox = document.createElement("div");
-  definitionBox.classList.add("definition-box");
+// function getLocalDictionary(callback) {
+//   chrome.storage.local.get("dictionary", function (result) {
+//     let dictionary = result.dictionary ? JSON.parse(result.dictionary) : {};
+//     callback(dictionary);
+//   });
+// }
 
-  const wordNotFound = document.createElement("div");
-  wordNotFound.classList.add("word-not-found");
-  wordNotFound.innerText = "Word not found. Did you mean:";
-
-  const didYouMeanWords = document.createElement("div");
-  didYouMeanWords.classList.add("did-you-mean-words");
-  dictResponse.forEach((word, index) => {
-    console.log(word);
-    const wordElement = document.createElement("div");
-    wordElement.classList.add("did-you-mean-word");
-    wordElement.innerText = word;
-    didYouMeanWords.appendChild(wordElement);
-  });
-
-  definitionBox.appendChild(wordNotFound);
-  definitionBox.appendChild(didYouMeanWords);
-
-  return definitionBox;
-}
-
-async function handleDoubleClick(event) {
-  const selection = window.getSelection();
-  const selectedText = selection.toString().trim();
-  if (!selectedText) {
-    return;
-  }
-
-  const word = trimNonAlphabetical(selectedText);
-  if (!word) {
-    return;
-  }
-
-  adjustSelection(selection, selectedText, word);
-
-  const keysJson = await fetch(chrome.runtime.getURL("secrets.json"));
-  const keys = await keysJson.json();
-  DICTIONARY_KEY = keys["DICTIONARY_KEY"];
-  THESAURUS_KEY = keys["THESAURUS_KEY"];
-
-  // const dictResponseJson = await fetch(
-  //   chrome.runtime.getURL("dictionary_responses/tab.json")
-  // );
-  // const dictResponse = await dictResponseJson.json();
-
-  const dictResponse = await getDefinition(word);
-
-  if (dictResponse.length === 0) {
-    return;
-  }
-
-  let definitionBox;
-
-  if (typeof dictResponse[0] === "string") {
-    definitionBox = getWordNotFoundBox(dictResponse);
-  } else {
-    definitionBox = displayDefinitions(selection, event, word, dictResponse);
-  }
-
-  updateWordList(word);
-  updateDictionary(word, dictResponse);
-
-  placeDefinitionBox(selection, event, definitionBox);
-
-  document.addEventListener("click", (event) => {
-    const target = event.target;
-    if (!definitionBox.contains(target)) {
-      definitionBox.classList.add("fade-out");
-      setTimeout(() => {
-        definitionBox.remove();
-      }, 300);
-    }
-  });
-  definitionBox.querySelectorAll(".math").forEach((element) => {
-    katex.render(element.textContent, element, {
-      throwOnError: false,
+function getLocalDictionary() {
+  return new Promise((resolve, reject) => {
+    chrome.storage.local.get("dictionary", function (result) {
+      let dictionary = result.dictionary ? JSON.parse(result.dictionary) : {};
+      resolve(dictionary);
     });
   });
 }
 
-document.addEventListener("dblclick", handleDoubleClick);
-
-// Function to render LaTeX
-function renderLaTeX() {
-  document.querySelectorAll(".math").forEach(function (element) {
-    try {
-      katex.render(element.textContent, element, {
-        throwOnError: false,
-      });
-    } catch (err) {
-      console.error("KaTeX render error:", err);
-    }
+function updateDictionary(word, json) {
+  getLocalDictionary(function (dictionary) {
+    dictionary[word] = json;
+    chrome.storage.local.set(
+      { dictionary: JSON.stringify(dictionary) },
+      function () {
+        if (chrome.runtime.lastError) {
+          console.error("Error setting value of dictionary");
+        }
+      }
+    );
   });
 }
 
-// // Call the render function
-// renderLaTeX();
+// let globalDictionary;
 
-// // Optionally, observe DOM changes to re-render LaTeX dynamically
-// const observer = new MutationObserver(renderLaTeX);
-// observer.observe(document.body, { childList: true, subtree: true });
+// getLocalDictionary()
+//   .then((dictionary) => {
+//     return dictionary[key];
+//   })
+//   .catch((error) => {
+//     console.error(error);
+//   });

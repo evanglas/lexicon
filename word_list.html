@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Word List</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      ul {
+        padding-left: 20px;
+        list-style: none;
+      }
+      li {
+        margin-bottom: 10px;
+      }
+      button {
+        margin-left: 10px;
+      }
+      .dropdown {
+        display: none;
+        margin-top: 5px;
+        padding: 5px;
+        border: 1px solid #ccc;
+        background-color: #f9f9f9;
+        max-width: 500px;
+      }
+      .word-item {
+      }
+      input[type="text"] {
+        width: calc(100% - 100px);
+      }
+      #search-word {
+        width: 300px;
+        margin-bottom: 10px;
+      }
+    </style>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Word List</h1>
+    <input type="text" id="search-word" placeholder="Search word..." />
+    <ul id="word-list"></ul>
+    <script src="word_list.js"></script>
+  </body>
+</html>
