@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "lexicon",
-  "description": "Tool to help build one's vocabulary while browsing",
+  "name": "Merriam-Webster Double Click Definitions",
+  "description": "Tool to get word definition by double-clicking",
   "version": "1.0",
   "permissions": ["storage", "activeTab", "scripting"],
   "content_scripts": [
@@ -13,11 +13,16 @@
   ],
   "action": {
     "default_popup": "popup.html",
-    "default_icon": "logo_16.png"
+    "default_icon": {
+      "16": "logos/logo_16.png",
+      "32": "logos/logo_32.png",
+      "64": "logos/logo_64.png",
+      "128": "logos/logo_128.png"
+    }
   },
   "web_accessible_resources": [
     {
-      "resources": ["secrets.json", "series.json", "dictionary_responses/*"],
+      "resources": ["styles.css", "secrets.json", "series.json", "dictionary_responses/*"],
       "matches": ["<all_urls>"]
     }
   ]
