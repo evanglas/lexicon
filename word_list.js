@@ -55,11 +55,6 @@ function createUrl(baseUrl, target, text) {
   return baseUrl + finalUrlPart + (hashPart ? `#h${hashPart}` : "");
 }
 
-// function createUrl(baseUrl, target, text) {
-//   const sanitizedTarget = target.replace(/\s/g, "%20");
-//   return `${baseUrl}${sanitizedTarget || text}`;
-// }
-
 function processLatex(input) {
   const regex = /{latex}([\s\S]*?){\/latex}/g;
   return input.replace(regex, function (match, p1) {
@@ -269,7 +264,6 @@ function parseVisText(visData) {
       if (visKey == "t") {
         visText += `<div class="vis-text">${visValue}</div>`;
       } else if (visKey == "aq") {
-        console.log("foundAq", visValue);
         visText += parseAq(visValue);
       }
     }
@@ -397,7 +391,6 @@ function parsePseq(pseqData) {
 }
 
 function parseSenseL2(l2_group, l2_index, hasLetterLabel, pushBelow) {
-  console.log(hasLetterLabel, l2_index, pushBelow, l2_group);
   const [type, data] = l2_group;
   let usesLetter = true;
   if (type == "sen") {
@@ -555,17 +548,17 @@ function getEntryHeader(dictEntry) {
     entryHeader.appendChild(entryHeaderMwPrs);
   }
 
-  if (audioUrl) {
-    const entryHeaderAudioButton = document.createElement("span");
-    entryHeaderAudioButton.classList.add("entry-header-audio-button");
-    entryHeaderAudioButton.classList.add("entry-header-component");
-    entryHeaderAudioButton.innerText = "🔊";
-    entryHeaderAudioButton.onclick = () => {
-      const audio = new Audio(audioUrl);
-      audio.play();
-    };
-    entryHeader.appendChild(entryHeaderAudioButton);
-  }
+  // if (audioUrl) {
+  //   const entryHeaderAudioButton = document.createElement("span");
+  //   entryHeaderAudioButton.classList.add("entry-header-audio-button");
+  //   entryHeaderAudioButton.classList.add("entry-header-component");
+  //   entryHeaderAudioButton.innerText = "🔊";
+  //   entryHeaderAudioButton.onclick = () => {
+  //     const audio = new Audio(audioUrl);
+  //     audio.play();
+  //   };
+  //   entryHeader.appendChild(entryHeaderAudioButton);
+  // }
   return entryHeader;
 }
 
@@ -593,109 +586,95 @@ function displayDefinitions(dictResponse) {
 document.addEventListener("DOMContentLoaded", function () {
   const wordListElement = document.getElementById("word-list");
   const searchWordInput = document.getElementById("search-word");
-
-  function renderWordList(words) {
+  const sortOptions = document.getElementById("sort-options");
+  function renderWordList(storage) {
     wordListElement.innerHTML = "";
 
-    words.forEach((word) => {
+    let words = Object.keys(storage);
+
+    const sortBy = sortOptions.value;
+    words.sort((a, b) => {
+      if (sortBy === "timestamp") {
+        const lastClickA = storage[a].timestamps.slice(-1);
+        const lastClickB = storage[b].timestamps.slice(-1);
+        return lastClickB - lastClickA;
+      } else if (sortBy === "alphabetical") {
+        return a.localeCompare(b);
+      } else if (sortBy === "clicks") {
+        return storage[b].clickCount - storage[a].clickCount;
+      }
+    });
+
+    for (let word of words) {
       const listItem = document.createElement("li");
+      const wordItemContainer = document.createElement("div");
       const wordItem = document.createElement("span");
+      const arrow = document.createElement("span");
       const deleteButton = document.createElement("button");
       const dropdown = document.createElement("div");
+      const clickCount = document.createElement("span");
+
+      const timestamps = storage[word].timestamps;
+      const mostRecentTimestamp = new Date(
+        timestamps[timestamps.length - 1]
+      ).toLocaleString();
+      clickCount.textContent = `Clicks: ${storage[word].clickCount} (Last clicked: ${mostRecentTimestamp})`;
 
       wordItem.textContent = word;
       wordItem.className = "word-item";
+      arrow.className = "arrow";
+      clickCount.className = "click-count";
       deleteButton.textContent = "Delete";
       dropdown.className = "dropdown";
 
-      listItem.appendChild(wordItem);
-      listItem.appendChild(deleteButton);
+      wordItemContainer.className = "word-item-container";
+      wordItemContainer.appendChild(arrow);
+      wordItemContainer.appendChild(wordItem);
+      wordItemContainer.appendChild(clickCount);
+      wordItemContainer.appendChild(deleteButton);
+
+      listItem.appendChild(wordItemContainer);
       listItem.appendChild(dropdown);
       wordListElement.appendChild(listItem);
 
-      wordItem.addEventListener("click", function () {
-        // dropdown.textContent = word.definition || "No definition available.";
-        dropdown.style.display =
-          dropdown.style.display === "block" ? "none" : "block";
-        let dictResponse = getLocalDictionary()
-          .then((dictionary) => {
-            return dictionary[wordItem.textContent];
-          })
-          .catch((error) => {
-            console.error(error);
-          });
-
-        dictResponse.then((response) => {
-          console.log(response);
-          console.log(typeof response);
-          dropdown.innerHTML = displayDefinitions(response).innerHTML;
-        });
+      wordItemContainer.addEventListener("click", function () {
+        const isOpen = dropdown.classList.toggle("show");
+        dropdown.style.display = isOpen ? "block" : "none";
+        arrow.style.transform = isOpen ? "rotate(135deg)" : "rotate(-45deg)";
+        dropdown.innerHTML = displayDefinitions(storage[word].json).innerHTML;
       });
 
       deleteButton.addEventListener("click", function () {
-        const index = words.indexOf(word);
-        if (index > -1) {
-          words.splice(index, 1);
-          chrome.storage.local.set({ wordList: JSON.stringify(words) });
-          listItem.remove();
-        }
+        delete storage[word];
+        chrome.storage.local.set(
+          { lexicon_storage: JSON.stringify(storage) },
+          function () {
+            if (chrome.runtime.lastError) {
+              console.error("Error setting value of lexicon_storage");
+            }
+          }
+        );
+        listItem.remove();
       });
-    });
+    }
   }
 
-  // Load word list from storage
-  chrome.storage.local.get("wordList", function (result) {
-    const words = JSON.parse(result.wordList) || [];
-    renderWordList(words);
+  chrome.storage.local.get("lexicon_storage", function (result) {
+    const storage = JSON.parse(result.lexicon_storage);
+    renderWordList(storage);
 
-    // Filter words as user types
     searchWordInput.addEventListener("input", function () {
-      console.log("input detected");
       const query = searchWordInput.value.toLowerCase();
-      const filteredWords = words.filter((word) =>
-        word.toLowerCase().includes(query)
-      );
+      const filteredWords = Object.keys(storage)
+        .filter((word) => word.toLowerCase().startsWith(query))
+        .reduce((obj, key) => {
+          obj[key] = storage[key];
+          return obj;
+        }, {});
       renderWordList(filteredWords);
+    });
+    sortOptions.addEventListener("change", function () {
+      renderWordList(storage);
     });
   });
 });
-
-// function getLocalDictionary(callback) {
-//   chrome.storage.local.get("dictionary", function (result) {
-//     let dictionary = result.dictionary ? JSON.parse(result.dictionary) : {};
-//     callback(dictionary);
-//   });
-// }
-
-function getLocalDictionary() {
-  return new Promise((resolve, reject) => {
-    chrome.storage.local.get("dictionary", function (result) {
-      let dictionary = result.dictionary ? JSON.parse(result.dictionary) : {};
-      resolve(dictionary);
-    });
-  });
-}
-
-function updateDictionary(word, json) {
-  getLocalDictionary(function (dictionary) {
-    dictionary[word] = json;
-    chrome.storage.local.set(
-      { dictionary: JSON.stringify(dictionary) },
-      function () {
-        if (chrome.runtime.lastError) {
-          console.error("Error setting value of dictionary");
-        }
-      }
-    );
-  });
-}
-
-// let globalDictionary;
-
-// getLocalDictionary()
-//   .then((dictionary) => {
-//     return dictionary[key];
-//   })
-//   .catch((error) => {
-//     console.error(error);
-//   });

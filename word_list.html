@@ -7,40 +7,159 @@
       body {
         font-family: Arial, sans-serif;
       }
+
       ul {
-        padding-left: 20px;
         list-style: none;
+        width: 600px;
+        padding: 0;
       }
+
       li {
         margin-bottom: 10px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
       }
-      button {
-        margin-left: 10px;
-      }
-      .dropdown {
-        display: none;
-        margin-top: 5px;
-        padding: 5px;
-        border: 1px solid #ccc;
-        background-color: #f9f9f9;
-        max-width: 500px;
-      }
+
       .word-item {
+        font-weight: bold;
+        margin-right: 10px;
+        margin-left: 15px;
+        cursor: pointer;
+        font-size: 20px;
       }
+
+      .click-count {
+        margin-right: 10px;
+        color: #777;
+        font-size: 16px;
+      }
+
+      .word-item-container {
+        display: flex;
+        align-items: baseline;
+        padding: 5px 0px;
+      }
+
+      .arrow {
+        width: 10px;
+        height: 10px;
+        border-left: 2px solid #333;
+        border-bottom: 2px solid #333;
+        transform: rotate(-45deg);
+        transition: transform 0.3s;
+        cursor: pointer;
+      }
+
+      .dropdown.show + .arrow {
+        transform: rotate(135deg);
+      }
+
       input[type="text"] {
         width: calc(100% - 100px);
       }
+
       #search-word {
         width: 300px;
         margin-bottom: 10px;
       }
+
+      #content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+      }
+
+      #search-word {
+        width: 300px;
+        padding: 8px 12px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        transition: border-color 0.3s, box-shadow 0.3s;
+      }
+
+      #search-word:focus {
+        border-color: #007bff;
+        box-shadow: 0 2px 8px rgba(0, 123, 255, 0.25);
+        outline: none;
+      }
+
+      button {
+        padding: 8px 12px;
+        background-color: #007bff;
+        border: none;
+        border-radius: 4px;
+        color: white;
+        font-size: 14px;
+        cursor: pointer;
+        box-shadow: 0 2px 5px rgba(0, 123, 255, 0.25);
+        transition: background-color 0.3s, box-shadow 0.3s;
+      }
+
+      button:hover {
+        background-color: #0056b3;
+        box-shadow: 0 3px 8px rgba(0, 123, 255, 0.35);
+      }
+
+      button:focus {
+        outline: none;
+      }
+
+      #sort-options {
+        padding: 8px 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 14px;
+        background-color: #fff;
+        color: #333;
+        cursor: pointer;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        transition: border-color 0.3s, box-shadow 0.3s;
+      }
+
+      #sort-options:focus {
+        border-color: #007bff;
+        box-shadow: 0 2px 5px rgba(0, 123, 255, 0.25);
+        outline: none;
+      }
+
+      #sort-options:hover {
+        box-shadow: 0 3px 8px rgba(0, 123, 255, 0.35);
+      }
+
+      #sorting-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+
+      #sort-label {
+        font-size: 14px;
+        margin-right: 10px;
+      }
     </style>
     <link rel="stylesheet" href="styles.css" />
   </head>
+
   <body>
-    <h1>Word List</h1>
-    <input type="text" id="search-word" placeholder="Search word..." />
-    <ul id="word-list"></ul>
-    <script src="word_list.js"></script>
+    <div id="content">
+      <h1>Word List</h1>
+      <input type="text" id="search-word" placeholder="Search word..." />
+      <div id="sorting-container">
+        <label for="sort-options" id="sort-label">Sort by:</label>
+        <select id="sort-options">
+          <option value="timestamp">Latest Timestamp</option>
+          <option value="alphabetical">Alphabetically</option>
+          <option value="clicks">Number of Clicks</option>
+        </select>
+      </div>
+      <ul id="word-list"></ul>
+      <script src="word_list.js"></script>
+    </div>
   </body>
 </html>

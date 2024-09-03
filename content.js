@@ -1,6 +1,3 @@
-let DICTIONARY_KEY;
-let THESAURUS_KEY;
-
 DICTIONARY_ENDPOINT =
   "https://www.dictionaryapi.com/api/v3/references/collegiate/json/";
 THESAURUS_ENDPOINT =
@@ -8,10 +5,6 @@ THESAURUS_ENDPOINT =
 AUDIO_URL = "https://media.merriam-webster.com/audio/prons/en/us/mp3/";
 
 WORD_BOX_Y_MARGIN = 15;
-
-// export function rmBracketes(str) {
-//   return str.replace(/\[.*?\]/g, "");
-// }
 
 function getAudioURL(sound) {
   if (!sound) {
@@ -34,9 +27,9 @@ function getAudioURL(sound) {
   return `${AUDIO_URL}${subdirectory}/${sound.audio}.mp3`;
 }
 
-async function getDefinition(word) {
+async function getDefinition(word, dictionary_api_key) {
   const dictResponse = await fetch(
-    `${DICTIONARY_ENDPOINT}${word}?key=${DICTIONARY_KEY}`
+    `${DICTIONARY_ENDPOINT}${word}?key=${dictionary_api_key}`
   );
   return await dictResponse.json();
 }
@@ -84,6 +77,28 @@ function updateWordList(word) {
   });
 }
 
+function updateStorage(word, json, timestamp) {
+  chrome.storage.local.get("lexicon_storage", function (result) {
+    let storage = result.lexicon_storage
+      ? JSON.parse(result.lexicon_storage)
+      : {};
+    if (word in storage) {
+      storage[word]["clickCount"] += 1;
+      storage[word]["timestamps"].push(timestamp);
+    } else {
+      storage[word] = { json: json, timestamps: [timestamp], clickCount: 1 };
+    }
+    chrome.storage.local.set(
+      { lexicon_storage: JSON.stringify(storage) },
+      function () {
+        if (chrome.runtime.lastError) {
+          console.error("Error setting value of lexicon_storage");
+        }
+      }
+    );
+  });
+}
+
 // Parsing text
 
 function trimNonAlphabetical(str) {
@@ -121,11 +136,6 @@ function createUrl(baseUrl, target, text) {
   const finalUrlPart = urlPart || encodeURIComponent(text);
   return baseUrl + finalUrlPart + (hashPart ? `#h${hashPart}` : "");
 }
-
-// function createUrl(baseUrl, target, text) {
-//   const sanitizedTarget = target.replace(/\s/g, "%20");
-//   return `${baseUrl}${sanitizedTarget || text}`;
-// }
 
 function processLatex(input) {
   const regex = /{latex}([\s\S]*?){\/latex}/g;
@@ -336,7 +346,6 @@ function parseVisText(visData) {
       if (visKey == "t") {
         visText += `<div class="vis-text">${visValue}</div>`;
       } else if (visKey == "aq") {
-        console.log("foundAq", visValue);
         visText += parseAq(visValue);
       }
     }
@@ -464,7 +473,6 @@ function parsePseq(pseqData) {
 }
 
 function parseSenseL2(l2_group, l2_index, hasLetterLabel, pushBelow) {
-  console.log(hasLetterLabel, l2_index, pushBelow, l2_group);
   const [type, data] = l2_group;
   let usesLetter = true;
   if (type == "sen") {
@@ -689,19 +697,6 @@ function adjustSelection(selection, selectedText, word) {
   selection.addRange(range);
 }
 
-// Function to render LaTeX
-function renderLaTeX() {
-  document.querySelectorAll(".math").forEach(function (element) {
-    try {
-      katex.render(element.textContent, element, {
-        throwOnError: false,
-      });
-    } catch (err) {
-      console.error("KaTeX render error:", err);
-    }
-  });
-}
-
 function getWordNotFoundBox(dictResponse) {
   const definitionBox = document.createElement("div");
   definitionBox.classList.add("definition-box");
@@ -713,7 +708,6 @@ function getWordNotFoundBox(dictResponse) {
   const didYouMeanWords = document.createElement("div");
   didYouMeanWords.classList.add("did-you-mean-words");
   dictResponse.forEach((word, index) => {
-    console.log(word);
     const wordElement = document.createElement("div");
     wordElement.classList.add("did-you-mean-word");
     wordElement.innerText = word;
@@ -742,15 +736,20 @@ async function handleDoubleClick(event) {
 
   const keysJson = await fetch(chrome.runtime.getURL("secrets.json"));
   const keys = await keysJson.json();
-  DICTIONARY_KEY = keys["DICTIONARY_KEY"];
+  dictionary_api_key = keys["DICTIONARY_KEY"];
   THESAURUS_KEY = keys["THESAURUS_KEY"];
 
+  const result = await new Promise((resolve) => {
+    chrome.storage.local.get("lexicon_api_key", function (result) {
+      resolve(result);
+    });
+  });
   // const dictResponseJson = await fetch(
   //   chrome.runtime.getURL("dictionary_responses/tab.json")
   // );
   // const dictResponse = await dictResponseJson.json();
 
-  const dictResponse = await getDefinition(word);
+  const dictResponse = await getDefinition(word, result.lexicon_api_key);
 
   if (dictResponse.length === 0) {
     return;
@@ -764,8 +763,7 @@ async function handleDoubleClick(event) {
     definitionBox = displayDefinitions(selection, event, word, dictResponse);
   }
 
-  updateWordList(word);
-  updateDictionary(word, dictResponse);
+  updateStorage(word, dictResponse, new Date().getTime());
 
   placeDefinitionBox(selection, event, definitionBox);
 
@@ -786,23 +784,3 @@ async function handleDoubleClick(event) {
 }
 
 document.addEventListener("dblclick", handleDoubleClick);
-
-// Function to render LaTeX
-function renderLaTeX() {
-  document.querySelectorAll(".math").forEach(function (element) {
-    try {
-      katex.render(element.textContent, element, {
-        throwOnError: false,
-      });
-    } catch (err) {
-      console.error("KaTeX render error:", err);
-    }
-  });
-}
-
-// // Call the render function
-// renderLaTeX();
-
-// // Optionally, observe DOM changes to re-render LaTeX dynamically
-// const observer = new MutationObserver(renderLaTeX);
-// observer.observe(document.body, { childList: true, subtree: true });

@@ -3,20 +3,30 @@ document.addEventListener("DOMContentLoaded", function () {
   const saveApiKeyButton = document.getElementById("save-api-key");
   const openWordListButton = document.getElementById("open-word-list");
 
-  // Load saved API key
-  chrome.storage.local.get("apiKey", function (result) {
-    apiKeyInput.value = result.apiKey || "";
+  chrome.storage.local.get("lexicon_api_key", function (result) {
+    apiKeyInput.value = result.lexicon_api_key || "";
+    apiKeyInput.disabled = true;
+    apiKeyInput.style.backgroundColor = "#f0f0f0";
+    saveApiKeyButton.textContent = "Edit";
   });
 
-  // Save API key
   saveApiKeyButton.addEventListener("click", function () {
-    const apiKey = apiKeyInput.value;
-    chrome.storage.local.set({ apiKey: apiKey }, function () {
-      alert("API Key saved!");
-    });
+    if (apiKeyInput.disabled) {
+      apiKeyInput.disabled = false;
+      apiKeyInput.style.backgroundColor = "";
+      saveApiKeyButton.textContent = "Save";
+    } else {
+      const apiKey = apiKeyInput.value.trim();
+      if (apiKey) {
+        chrome.storage.local.set({ lexicon_api_key: apiKey }, function () {
+          apiKeyInput.disabled = true;
+          apiKeyInput.style.backgroundColor = "#f0f0f0";
+          saveApiKeyButton.textContent = "Edit";
+        });
+      }
+    }
   });
 
-  // Open word list in a new tab
   openWordListButton.addEventListener("click", function () {
     chrome.tabs.create({ url: chrome.runtime.getURL("word_list.html") });
   });
