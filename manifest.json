@@ -4,9 +4,6 @@
   "description": "Tool to help build one's vocabulary while browsing",
   "version": "1.0",
   "permissions": ["storage", "activeTab", "scripting"],
-  "background": {
-    "service_worker": "background.js"
-  },
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
