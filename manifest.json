@@ -2,8 +2,8 @@
   "manifest_version": 3,
   "name": "Merriam-Webster Double Click Definitions",
   "description": "Tool to get word definition by double-clicking",
-  "version": "1.0",
-  "permissions": ["storage", "activeTab", "scripting"],
+  "version": "1.1",
+  "permissions": ["storage"],
   "content_scripts": [
     {
       "matches": ["<all_urls>"],

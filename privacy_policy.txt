@@ -1,0 +1,1 @@
+Selected text on a webpage is sent to the Merriam-Webster's Collegiate® Dictionary with Audio API to get word definitions. Double click history, doubly-clicked words, and the user's API key (if entered) is stored locally for later use by the user.

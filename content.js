@@ -734,10 +734,11 @@ async function handleDoubleClick(event) {
 
   adjustSelection(selection, selectedText, word);
 
-  const keysJson = await fetch(chrome.runtime.getURL("secrets.json"));
-  const keys = await keysJson.json();
-  dictionary_api_key = keys["DICTIONARY_KEY"];
-  THESAURUS_KEY = keys["THESAURUS_KEY"];
+  // For local development
+  // const keysJson = await fetch(chrome.runtime.getURL("secrets.json"));
+  // const keys = await keysJson.json();
+  // dictionary_api_key = keys["DICTIONARY_KEY"];
+  // THESAURUS_KEY = keys["THESAURUS_KEY"];
 
   const result = await new Promise((resolve) => {
     chrome.storage.local.get("lexicon_api_key", function (result) {
