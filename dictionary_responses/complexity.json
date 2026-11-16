@@ -1,0 +1,89 @@
+[
+  {
+    "meta": {
+      "id": "complexity",
+      "uuid": "ee5d2965-2147-4f47-bf50-4454e0cfcfb0",
+      "sort": "035491400",
+      "src": "collegiate",
+      "section": "alpha",
+      "stems": ["complex", "complexities", "complexity"],
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "com*plex*i*ty",
+      "prs": [
+        {
+          "mw": "kəm-ˈplek-sə-tē",
+          "sound": {
+            "audio": "comple22",
+            "ref": "c",
+            "stat": "1"
+          }
+        },
+        {
+          "mw": "käm-"
+        }
+      ]
+    },
+    "fl": "noun",
+    "ins": [
+      {
+        "il": "plural",
+        "ifc": "-ties",
+        "if": "com*plex*i*ties"
+      }
+    ],
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "sn": "1",
+                "dt": [
+                  ["text", "{bc}something {a_link|complex} "],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "the {wi}complexities{/wi} of the murder trial"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "2",
+                "dt": [
+                  ["text", "{bc}the quality or state of being complex "],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "the {wi}complexity{/wi} of the contract"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "et": [
+      [
+        "text",
+        "{et_link|complex:2|complex:2} + {et_link|-ity|-ity}, perhaps after French {it}complexité{/it}"
+      ]
+    ],
+    "date": "1661{ds||1||}",
+    "shortdef": ["something complex", "the quality or state of being complex"]
+  }
+]

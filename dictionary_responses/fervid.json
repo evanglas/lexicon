@@ -1,0 +1,177 @@
+[
+    {
+        "meta": {
+            "id": "fervid",
+            "uuid": "41c971f0-2592-4a86-a2bb-95abb466d573",
+            "sort": "060917000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "fervid",
+                "fervidly",
+                "fervidness",
+                "fervidnesses"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "fer*vid",
+            "prs": [
+                {
+                    "mw": "\u02c8f\u0259r-v\u0259d",
+                    "sound": {
+                        "audio": "fervid01",
+                        "ref": "c",
+                        "stat": "1"
+                    }
+                }
+            ]
+        },
+        "fl": "adjective",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}very hot {bc}{sx|burning||}"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}marked by often extreme fervor {dx_def}see {dxt|fervor||1}{\/dx_def} "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "a {wi}fervid{\/wi} crusader"
+                                            },
+                                            {
+                                                "t": "{wi}fervid{\/wi} fans"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "uros": [
+            {
+                "ure": "fer*vid*ly",
+                "fl": "adverb"
+            },
+            {
+                "ure": "fer*vid*ness",
+                "fl": "noun"
+            }
+        ],
+        "syns": [
+            {
+                "pl": "synonyms",
+                "pt": [
+                    [
+                        "text",
+                        "{sc}impassioned{\/sc} {sc}passionate{\/sc} {sc}ardent{\/sc} {sc}fervent{\/sc} {sc}fervid{\/sc} {sc}perfervid{\/sc} mean showing intense feeling. {sc}impassioned{\/sc} implies warmth and intensity without violence and suggests fluent verbal expression. "
+                    ],
+                    [
+                        "vis",
+                        [
+                            {
+                                "t": "an {it}impassioned{\/it} plea for justice"
+                            }
+                        ]
+                    ],
+                    [
+                        "text",
+                        " {sc}passionate{\/sc} implies great vehemence and often violence and wasteful diffusion of emotion. "
+                    ],
+                    [
+                        "vis",
+                        [
+                            {
+                                "t": "a {it}passionate{\/it} denunciation"
+                            }
+                        ]
+                    ],
+                    [
+                        "text",
+                        " {sc}ardent{\/sc} implies an intense degree of zeal, devotion, or enthusiasm. "
+                    ],
+                    [
+                        "vis",
+                        [
+                            {
+                                "t": "an {it}ardent{\/it} supporter of human rights"
+                            }
+                        ]
+                    ],
+                    [
+                        "text",
+                        " {sc}fervent{\/sc} stresses sincerity and steadiness of emotional warmth or zeal. "
+                    ],
+                    [
+                        "vis",
+                        [
+                            {
+                                "t": "{it}fervent{\/it} good wishes"
+                            }
+                        ]
+                    ],
+                    [
+                        "text",
+                        " {sc}fervid{\/sc} suggests warmly and spontaneously and often feverishly expressed emotion. "
+                    ],
+                    [
+                        "vis",
+                        [
+                            {
+                                "t": "{it}fervid{\/it} love letters"
+                            }
+                        ]
+                    ],
+                    [
+                        "text",
+                        " {sc}perfervid{\/sc} implies the expression of exaggerated or overwrought feelings. "
+                    ],
+                    [
+                        "vis",
+                        [
+                            {
+                                "t": "{it}perfervid{\/it} expressions of patriotism"
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "et": [
+            [
+                "text",
+                "Latin {it}fervidus{\/it}, from {it}ferv\u0113re{\/it}"
+            ]
+        ],
+        "date": "1599{ds||1||}",
+        "shortdef": [
+            "very hot : burning",
+            "marked by often extreme fervor"
+        ]
+    }
+]

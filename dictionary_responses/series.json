@@ -1,0 +1,719 @@
+[
+    {
+        "meta": {
+            "id": "series",
+            "uuid": "4d8098ed-3d26-4591-b976-41360caf7769",
+            "sort": "192962000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "in series",
+                "series"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "se*ries",
+            "prs": [
+                {
+                    "mw": "ˈsir-(ˌ)ēz",
+                    "sound": {
+                        "audio": "series01",
+                        "ref": "c",
+                        "stat": "1"
+                    }
+                }
+            ]
+        },
+        "fl": "noun",
+        "ins": [
+            {
+                "il": "plural",
+                "if": "series"
+            }
+        ],
+        "lbs": [
+            "often attributive"
+        ],
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1 a",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a number of things or events of the same class coming one after another in spatial or temporal succession "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "a concert {wi}series{/wi}"
+                                            },
+                                            {
+                                                "t": "the hall opened into a {wi}series{/wi} of small rooms"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "b",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a set of regularly presented television programs each of which is complete in itself"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}the indicated sum of a usually infinite sequence of numbers"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "3 a",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}the coins or currency of a particular country and period"
+                                    ]
+                                ]
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "b",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a group of postage stamps in different denominations"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "4",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a succession of volumes or issues published with related subjects or authors, similar format and price, or continuous numbering"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "5",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a division of rock formations that is smaller than a system and comprises rocks deposited during an epoch"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "6",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a group of chemical compounds related in composition and structure"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "7",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}an arrangement of the parts of or elements in an electric circuit whereby the whole current passes through each part or element without branching {dx}compare {dxt|parallel||}{/dx}"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "8",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a set of vowels connected by ablaut (such as {it}i, a, u{/it} in {it}ring, rang, rung{/it})"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "9",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a number of games (as of baseball) played usually on consecutive days between two teams "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "in town for a 3-game {wi}series{/wi}"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "10",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a group of successive coordinate sentence elements joined together"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "11",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}{sx|soil series||}"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "12",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}three consecutive games in bowling"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "dros": [
+            {
+                "drp": "in series",
+                "def": [
+                    {
+                        "sseq": [
+                            [
+                                [
+                                    "sense",
+                                    {
+                                        "dt": [
+                                            [
+                                                "text",
+                                                "{bc}in a {a_link|serial} or series arrangement"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ],
+        "et": [
+            [
+                "text",
+                "Latin, from {it}serere{/it} to join, link together; akin to Greek {it}eirein{/it} to string together, {it}hormos{/it} chain, necklace, and perhaps to Latin {it}sort-, sors{/it} lot"
+            ]
+        ],
+        "date": "1611{ds||1|a|}",
+        "shortdef": [
+            "a number of things or events of the same class coming one after another in spatial or temporal succession",
+            "a set of regularly presented television programs each of which is complete in itself",
+            "the indicated sum of a usually infinite sequence of numbers"
+        ]
+    },
+    {
+        "meta": {
+            "id": "alternating series",
+            "uuid": "ed68e92d-07da-423b-b4ca-876bf0fc0581",
+            "sort": "012147000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "alternating series",
+                "alternating serieses"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "alternating series"
+        },
+        "fl": "noun",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a mathematical series in which consecutive terms are alternatively positive and negative"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "date": "1817",
+        "shortdef": [
+            "a mathematical series in which consecutive terms are alternatively positive and negative"
+        ]
+    },
+    {
+        "meta": {
+            "id": "Fourier series",
+            "uuid": "32e01f89-43f4-4855-a9aa-d316467f0d9d",
+            "sort": "062915000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "Fourier series"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "Fourier series"
+        },
+        "fl": "noun",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}an infinite series in which the terms are constants multiplied by sine or cosine functions of integer multiples of the variable and which is used in the analysis of periodic functions"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "et": [
+            [
+                "text",
+                "Baron J.B.J. {it}Fourier{/it}"
+            ]
+        ],
+        "date": "1877",
+        "shortdef": [
+            "an infinite series in which the terms are constants multiplied by sine or cosine functions of integer multiples of the variable and which is used in the analysis of periodic functions"
+        ]
+    },
+    {
+        "meta": {
+            "id": "geometric series",
+            "uuid": "0e9eefbe-5949-43b8-9dbb-966efe02f2ca",
+            "sort": "070873000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "geometric series",
+                "geometric serieses"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "geometric series"
+        },
+        "fl": "noun",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a series (such as 1 + {it}x{/it} + {it}x{/it}{sup}2{/sup} + {it}x{/it}{sup}3{/sup} + … ) whose terms form a geometric progression"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "date": "circa 1909",
+        "shortdef": [
+            "a series (such as 1 + x + x2 + x3 + … ) whose terms form a geometric progression"
+        ]
+    },
+    {
+        "meta": {
+            "id": "harmonic series",
+            "uuid": "8f6eb063-8f45-4ba6-9282-a9024484194d",
+            "sort": "080069000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "harmonic series",
+                "harmonic serieses"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "harmonic series"
+        },
+        "fl": "noun",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a series of the form {latex}1 + \\frac{1}{2} + \\frac{1}{3} + \\frac{1}{4} + \\frac{1}{5} + \\frac{1}{6} + \\dots{/latex}"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "date": "1866",
+        "shortdef": [
+            "a series of the form ..."
+        ]
+    },
+    {
+        "meta": {
+            "id": "Maclaurin series",
+            "uuid": "9a24a2f6-4874-428d-969c-90d93d325219",
+            "sort": "130077000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "Maclaurin series",
+                "Maclaurin's series"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "Mac*lau*rin series",
+            "prs": [
+                {
+                    "mw": "mə-ˈklȯr-ən(z)-",
+                    "sound": {
+                        "audio": "maclau01",
+                        "ref": "c",
+                        "stat": "1"
+                    }
+                }
+            ]
+        },
+        "fl": "noun",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a {d_link|Taylor series|Taylor series} that is expanded about the reference point zero and that takes the form {latex}f(x) = f(0) + \\frac{f'(0)}{1!}x + \\frac{f''(0)}{2!}x^{2} + \\dots + \\frac{f^{[n]}(0)}{n!}x^{n}{/latex} subject to the conditions holding for a Taylor series"
+                                    ],
+                                    [
+                                        "ca",
+                                        {
+                                            "intro": "called also",
+                                            "cats": [
+                                                {
+                                                    "cat": "Maclaurin's series"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "et": [
+            [
+                "text",
+                "Colin {it}Maclaurin{/it} †1746 Scottish mathematician"
+            ]
+        ],
+        "date": "1881",
+        "shortdef": [
+            "a Taylor series that is expanded about the reference point zero and that takes the form ... subject to the conditions holding for a Taylor series—called also Maclaurin's series"
+        ]
+    },
+    {
+        "meta": {
+            "id": "power series",
+            "uuid": "0854965e-5d72-48c7-be4b-a6278f439916",
+            "sort": "166528000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "power series"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "power series"
+        },
+        "fl": "noun",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}an infinite series whose terms are successive integral powers of a variable multiplied by constants"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "date": "1884",
+        "shortdef": [
+            "an infinite series whose terms are successive integral powers of a variable multiplied by constants"
+        ]
+    },
+    {
+        "meta": {
+            "id": "soil series",
+            "uuid": "50ad2c40-8b19-46a4-8480-3b059a3212a8",
+            "sort": "194567400",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "soil series",
+                "soil serieses"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "soil series"
+        },
+        "fl": "noun",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a group of soils with similar profiles developed from similar parent materials under comparable climatic and vegetational conditions"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "date": "1905",
+        "shortdef": [
+            "a group of soils with similar profiles developed from similar parent materials under comparable climatic and vegetational conditions"
+        ]
+    },
+    {
+        "meta": {
+            "id": "Taylor series",
+            "uuid": "fcdd1c67-ad9a-4424-a20f-757972b1696c",
+            "sort": "200061900",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "Taylor series",
+                "Taylor's series"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "Tay*lor series",
+            "prs": [
+                {
+                    "mw": "ˈtā-lər-",
+                    "sound": {
+                        "audio": "taylo02v",
+                        "ref": "c",
+                        "stat": "1"
+                    }
+                }
+            ]
+        },
+        "fl": "noun",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a {d_link|power series|power series} that gives the expansion of a function {it}f{/it} ({it}x{/it}) in the neighborhood of a point {it}a{/it} provided that in the neighborhood the function is continuous, all its derivatives exist, and the series converges to the function in which case it has the form {latex}f(x) = f(a) + \\frac{f'(a)}{1!}(x - a) + \\frac{f''(a)}{2!}(x - a)^{2} + \\dots + \\frac{f^{[n]}(a)}{n!}(x - a)^{n}{/latex} where f[{sup}{it}n{/it}{/sup}] ({it}a{/it}) is the derivative of nth order of {it}f{/it}({it}x{/it}) evaluated at {it}a{/it} "
+                                    ],
+                                    [
+                                        "ca",
+                                        {
+                                            "intro": "called also",
+                                            "cats": [
+                                                {
+                                                    "cat": "Taylor's series"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "et": [
+            [
+                "text",
+                "Brook {it}Taylor{/it} †1731 English mathematician"
+            ]
+        ],
+        "date": "1842",
+        "shortdef": [
+            "a power series that gives the expansion of a function f (x) in the neighborhood of a point a provided that in the neighborhood the function is continuous, all its derivatives exist, and the series converges to the function in which case it has the form ... where f[n] (a) is the derivative of nth order of f(x) evaluated at a —called also Taylor's series"
+        ]
+    },
+    {
+        "meta": {
+            "id": "time series",
+            "uuid": "c21e03c0-78bc-40f5-80bb-113abcea0259",
+            "sort": "200228000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "time series",
+                "time serieses"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "time series"
+        },
+        "fl": "noun",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a set of data collected sequentially usually at fixed intervals of time"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "date": "1919",
+        "shortdef": [
+            "a set of data collected sequentially usually at fixed intervals of time"
+        ]
+    }
+]

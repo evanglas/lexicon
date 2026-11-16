@@ -1,0 +1,2460 @@
+[
+  {
+    "meta": {
+      "id": "boom",
+      "uuid": "4a09d2ca-36ba-4dd4-ab3f-299ef2672834",
+      "src": "coll_thes",
+      "section": "alpha",
+      "target": {
+        "tuuid": "f5e7f474-1672-47a4-8196-7673a327bd97",
+        "tsrc": "collegiate"
+      },
+      "stems": ["boom", "booms"],
+      "syns": [
+        [
+          "bang",
+          "blast",
+          "clap",
+          "crack",
+          "crash",
+          "pop",
+          "report",
+          "slam",
+          "smash",
+          "snap",
+          "thunderclap",
+          "thwack",
+          "whack",
+          "whomp",
+          "whump"
+        ]
+      ],
+      "ants": [],
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "boom"
+    },
+    "fl": "noun",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  ["text", "a loud explosive sound "],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "the nerve-jangling {it}boom{/it} of a car backfiring"
+                      }
+                    ]
+                  ]
+                ],
+                "syn_list": [
+                  [
+                    {
+                      "wd": "bang"
+                    },
+                    {
+                      "wd": "blast"
+                    },
+                    {
+                      "wd": "clap"
+                    },
+                    {
+                      "wd": "crack"
+                    },
+                    {
+                      "wd": "crash"
+                    },
+                    {
+                      "wd": "pop"
+                    },
+                    {
+                      "wd": "report"
+                    },
+                    {
+                      "wd": "slam"
+                    },
+                    {
+                      "wd": "smash"
+                    },
+                    {
+                      "wd": "snap"
+                    },
+                    {
+                      "wd": "thunderclap"
+                    },
+                    {
+                      "wd": "thwack"
+                    },
+                    {
+                      "wd": "whack"
+                    },
+                    {
+                      "wd": "whomp"
+                    },
+                    {
+                      "wd": "whump"
+                    }
+                  ]
+                ],
+                "rel_list": [
+                  [
+                    {
+                      "wd": "thunk"
+                    },
+                    {
+                      "wd": "wham"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "clang"
+                    },
+                    {
+                      "wd": "clangor"
+                    },
+                    {
+                      "wd": "clank"
+                    },
+                    {
+                      "wd": "clash"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "knock"
+                    },
+                    {
+                      "wd": "rap"
+                    },
+                    {
+                      "wd": "tap"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "blare"
+                    },
+                    {
+                      "wd": "clamor"
+                    },
+                    {
+                      "wd": "howl"
+                    },
+                    {
+                      "wd": "hubbub"
+                    },
+                    {
+                      "wd": "hue and cry"
+                    },
+                    {
+                      "wd": "hullabaloo"
+                    },
+                    {
+                      "wd": "outcry"
+                    },
+                    {
+                      "wd": "roar"
+                    },
+                    {
+                      "wd": "tumult"
+                    },
+                    {
+                      "wd": "uproar"
+                    }
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "shortdef": ["a loud explosive sound"]
+  },
+  {
+    "meta": {
+      "id": "boom",
+      "uuid": "6b7661f6-05fb-4fea-b8f5-3b9051557905",
+      "src": "coll_thes",
+      "section": "alpha",
+      "target": {
+        "tuuid": "b7f37c87-b8e7-459e-9c33-ffdc9610f77b",
+        "tsrc": "collegiate"
+      },
+      "stems": ["boom", "boomed", "booming", "booms"],
+      "syns": [
+        [
+          "accelerate",
+          "accumulate",
+          "appreciate",
+          "balloon",
+          "build up",
+          "burgeon",
+          "climb",
+          "enlarge",
+          "escalate",
+          "expand",
+          "gain",
+          "increase",
+          "mount",
+          "multiply",
+          "mushroom",
+          "proliferate",
+          "rise",
+          "roll up",
+          "snowball",
+          "spread",
+          "swell",
+          "wax"
+        ],
+        ["bellow", "growl", "roar", "thunder"]
+      ],
+      "ants": [
+        [
+          "contract",
+          "decrease",
+          "diminish",
+          "dwindle",
+          "lessen",
+          "recede",
+          "wane"
+        ]
+      ],
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "boom"
+    },
+    "fl": "verb",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "sn": "1",
+                "dt": [
+                  [
+                    "text",
+                    "to become greater in size, extent, volume, amount, or number "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "with the strong economy, business is {it}booming{/it}"
+                      }
+                    ]
+                  ]
+                ],
+                "syn_list": [
+                  [
+                    {
+                      "wd": "accelerate"
+                    },
+                    {
+                      "wd": "accumulate"
+                    },
+                    {
+                      "wd": "appreciate"
+                    },
+                    {
+                      "wd": "balloon"
+                    },
+                    {
+                      "wd": "build up"
+                    },
+                    {
+                      "wd": "burgeon",
+                      "wvrs": [
+                        {
+                          "wvl": "also",
+                          "wva": "bourgeon"
+                        }
+                      ]
+                    },
+                    {
+                      "wd": "climb"
+                    },
+                    {
+                      "wd": "enlarge"
+                    },
+                    {
+                      "wd": "escalate"
+                    },
+                    {
+                      "wd": "expand"
+                    },
+                    {
+                      "wd": "gain"
+                    },
+                    {
+                      "wd": "increase"
+                    },
+                    {
+                      "wd": "mount"
+                    },
+                    {
+                      "wd": "multiply"
+                    },
+                    {
+                      "wd": "mushroom"
+                    },
+                    {
+                      "wd": "proliferate"
+                    },
+                    {
+                      "wd": "rise"
+                    },
+                    {
+                      "wd": "roll up"
+                    },
+                    {
+                      "wd": "snowball"
+                    },
+                    {
+                      "wd": "spread"
+                    },
+                    {
+                      "wd": "swell"
+                    },
+                    {
+                      "wd": "wax"
+                    }
+                  ]
+                ],
+                "rel_list": [
+                  [
+                    {
+                      "wd": "jump"
+                    },
+                    {
+                      "wd": "rocket"
+                    },
+                    {
+                      "wd": "skyrocket"
+                    },
+                    {
+                      "wd": "surge"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "heighten"
+                    },
+                    {
+                      "wd": "intensify"
+                    },
+                    {
+                      "wd": "redouble"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "blow up"
+                    },
+                    {
+                      "wd": "bulk"
+                    },
+                    {
+                      "wd": "distend"
+                    },
+                    {
+                      "wd": "inflate"
+                    },
+                    {
+                      "wd": "puff (up)"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "crescendo"
+                    },
+                    {
+                      "wd": "crest"
+                    },
+                    {
+                      "wd": "peak"
+                    }
+                  ]
+                ],
+                "ant_list": [
+                  [
+                    {
+                      "wd": "contract"
+                    },
+                    {
+                      "wd": "decrease"
+                    },
+                    {
+                      "wd": "diminish"
+                    },
+                    {
+                      "wd": "dwindle"
+                    },
+                    {
+                      "wd": "lessen"
+                    },
+                    {
+                      "wd": "recede"
+                    },
+                    {
+                      "wd": "wane"
+                    }
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "2",
+                "dt": [
+                  ["text", "to make a long loud deep noise or cry "],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "the cannons {it}boomed{/it} throughout the night"
+                      }
+                    ]
+                  ]
+                ],
+                "syn_list": [
+                  [
+                    {
+                      "wd": "bellow"
+                    },
+                    {
+                      "wd": "growl"
+                    },
+                    {
+                      "wd": "roar"
+                    },
+                    {
+                      "wd": "thunder"
+                    }
+                  ]
+                ],
+                "rel_list": [
+                  [
+                    {
+                      "wd": "grumble"
+                    },
+                    {
+                      "wd": "roll"
+                    },
+                    {
+                      "wd": "rumble"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "bang"
+                    },
+                    {
+                      "wd": "blare"
+                    },
+                    {
+                      "wd": "blast"
+                    },
+                    {
+                      "wd": "peal"
+                    },
+                    {
+                      "wd": "scream"
+                    },
+                    {
+                      "wd": "screech"
+                    },
+                    {
+                      "wd": "shriek"
+                    },
+                    {
+                      "wd": "squall"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "bawl"
+                    },
+                    {
+                      "wd": "call"
+                    },
+                    {
+                      "wd": "cry"
+                    },
+                    {
+                      "wd": "holler"
+                    },
+                    {
+                      "wd": "hoot"
+                    },
+                    {
+                      "wd": "shout"
+                    },
+                    {
+                      "wd": "whoop"
+                    },
+                    {
+                      "wd": "yell"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "bell"
+                    },
+                    {
+                      "wd": "caterwaul"
+                    },
+                    {
+                      "wd": "howl"
+                    },
+                    {
+                      "wd": "wail"
+                    },
+                    {
+                      "wd": "yowl"
+                    }
+                  ]
+                ],
+                "near_list": [
+                  [
+                    {
+                      "wd": "grunt"
+                    },
+                    {
+                      "wd": "mouth"
+                    },
+                    {
+                      "wd": "mumble"
+                    },
+                    {
+                      "wd": "murmur"
+                    },
+                    {
+                      "wd": "mutter"
+                    },
+                    {
+                      "wd": "whisper"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "mewl"
+                    },
+                    {
+                      "wd": "pule"
+                    },
+                    {
+                      "wd": "squeak"
+                    },
+                    {
+                      "wd": "whimper"
+                    }
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "shortdef": [
+      "to become greater in size, extent, volume, amount, or number",
+      "to make a long loud deep noise or cry"
+    ]
+  },
+  {
+    "meta": {
+      "id": "lower:1",
+      "uuid": "3b2e9a69-81fe-451c-b987-b9c126486f16",
+      "src": "coll_thes",
+      "section": "alpha",
+      "target": {
+        "tuuid": "a790348a-7b61-4ada-81d6-1a1f987cca25",
+        "tsrc": "collegiate"
+      },
+      "stems": ["lower", "lower the boom", "lowered", "lowering", "lowers"],
+      "syns": [
+        ["depress", "drop", "throw", "throw down"],
+        [
+          "crash",
+          "crater",
+          "decline",
+          "descend",
+          "dip",
+          "dive",
+          "drop",
+          "fall",
+          "nose-dive",
+          "plummet",
+          "plunge",
+          "sink",
+          "skid",
+          "tumble"
+        ],
+        [
+          "abate",
+          "de-escalate",
+          "decrease",
+          "dent",
+          "deplete",
+          "diminish",
+          "downscale",
+          "downsize",
+          "drop",
+          "dwindle",
+          "ease",
+          "knock down",
+          "lessen",
+          "reduce"
+        ],
+        [
+          "abate",
+          "de-escalate",
+          "decline",
+          "decrease",
+          "die (away or down or out)",
+          "diminish",
+          "drain (away)",
+          "drop (off)",
+          "dwindle",
+          "ease",
+          "ebb",
+          "fall",
+          "fall away",
+          "lessen",
+          "let up",
+          "moderate",
+          "pall",
+          "phase down",
+          "ratchet (down)",
+          "recede",
+          "relent",
+          "remit",
+          "shrink",
+          "subside",
+          "taper",
+          "taper off",
+          "wane"
+        ],
+        [
+          "abase",
+          "chasten",
+          "cheapen",
+          "debase",
+          "degrade",
+          "demean",
+          "discredit",
+          "disgrace",
+          "dishonor",
+          "foul",
+          "humble",
+          "humiliate",
+          "shame",
+          "sink",
+          "smirch",
+          "take down"
+        ],
+        [
+          "attenuate",
+          "break",
+          "cheapen",
+          "depreciate",
+          "depress",
+          "devaluate",
+          "devalue",
+          "downgrade",
+          "mark down",
+          "reduce",
+          "sink",
+          "write down",
+          "write off"
+        ]
+      ],
+      "ants": [
+        ["lift", "pick up", "raise"],
+        ["arise", "ascend", "lift", "mount", "rise", "soar", "spike", "up"],
+        [
+          "aggrandize",
+          "amplify",
+          "augment",
+          "boost",
+          "enlarge",
+          "escalate",
+          "expand",
+          "increase",
+          "raise"
+        ],
+        [
+          "accumulate",
+          "balloon",
+          "build",
+          "burgeon",
+          "enlarge",
+          "escalate",
+          "expand",
+          "grow",
+          "increase",
+          "intensify",
+          "mount",
+          "mushroom",
+          "pick up",
+          "rise",
+          "snowball",
+          "soar",
+          "swell",
+          "wax"
+        ],
+        ["aggrandize", "canonize", "deify", "elevate", "exalt"],
+        ["appreciate", "enhance", "mark up", "upgrade"]
+      ],
+      "offensive": false
+    },
+    "hom": 1,
+    "hwi": {
+      "hw": "lower"
+    },
+    "fl": "verb",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "sn": "1",
+                "dt": [
+                  [
+                    "text",
+                    "to cause to fall intentionally or unintentionally "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "workmen slowly {it}lowered{/it} the heavy statue into place"
+                      }
+                    ]
+                  ]
+                ],
+                "syn_list": [
+                  [
+                    {
+                      "wd": "depress"
+                    },
+                    {
+                      "wd": "drop"
+                    },
+                    {
+                      "wd": "throw"
+                    },
+                    {
+                      "wd": "throw down"
+                    }
+                  ]
+                ],
+                "rel_list": [
+                  [
+                    {
+                      "wd": "flatten"
+                    },
+                    {
+                      "wd": "floor"
+                    },
+                    {
+                      "wd": "level"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "knock down"
+                    },
+                    {
+                      "wd": "knock over"
+                    },
+                    {
+                      "wd": "strike down"
+                    },
+                    {
+                      "wd": "topple"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "plop"
+                    },
+                    {
+                      "wd": "plunk down"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "bobble"
+                    },
+                    {
+                      "wd": "bungle"
+                    },
+                    {
+                      "wd": "foozle"
+                    },
+                    {
+                      "wd": "fumble"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "immerse"
+                    },
+                    {
+                      "wd": "sink"
+                    },
+                    {
+                      "wd": "submerge"
+                    }
+                  ]
+                ],
+                "ant_list": [
+                  [
+                    {
+                      "wd": "lift"
+                    },
+                    {
+                      "wd": "pick up"
+                    },
+                    {
+                      "wd": "raise"
+                    }
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "2",
+                "dt": [
+                  ["text", "to go to a lower level especially abruptly "],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "prices of the new type of televisions {it}lowered{/it} considerably as competition and sales increased"
+                      }
+                    ]
+                  ]
+                ],
+                "syn_list": [
+                  [
+                    {
+                      "wd": "crash"
+                    },
+                    {
+                      "wd": "crater"
+                    },
+                    {
+                      "wd": "decline"
+                    },
+                    {
+                      "wd": "descend"
+                    },
+                    {
+                      "wd": "dip"
+                    },
+                    {
+                      "wd": "dive"
+                    },
+                    {
+                      "wd": "drop"
+                    },
+                    {
+                      "wd": "fall"
+                    },
+                    {
+                      "wd": "nose-dive"
+                    },
+                    {
+                      "wd": "plummet"
+                    },
+                    {
+                      "wd": "plunge"
+                    },
+                    {
+                      "wd": "sink"
+                    },
+                    {
+                      "wd": "skid"
+                    },
+                    {
+                      "wd": "tumble"
+                    }
+                  ]
+                ],
+                "rel_list": [
+                  [
+                    {
+                      "wd": "abate"
+                    },
+                    {
+                      "wd": "decrease"
+                    },
+                    {
+                      "wd": "de-escalate"
+                    },
+                    {
+                      "wd": "die (down)"
+                    },
+                    {
+                      "wd": "diminish"
+                    },
+                    {
+                      "wd": "droop"
+                    },
+                    {
+                      "wd": "dwindle"
+                    },
+                    {
+                      "wd": "ebb"
+                    },
+                    {
+                      "wd": "lessen"
+                    },
+                    {
+                      "wd": "let up"
+                    },
+                    {
+                      "wd": "moderate"
+                    },
+                    {
+                      "wd": "subside"
+                    },
+                    {
+                      "wd": "taper off"
+                    },
+                    {
+                      "wd": "wane"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "recede"
+                    },
+                    {
+                      "wd": "retreat"
+                    }
+                  ]
+                ],
+                "near_list": [
+                  [
+                    {
+                      "wd": "accumulate"
+                    },
+                    {
+                      "wd": "balloon"
+                    },
+                    {
+                      "wd": "build"
+                    },
+                    {
+                      "wd": "burgeon",
+                      "wvrs": [
+                        {
+                          "wvl": "also",
+                          "wva": "bourgeon"
+                        }
+                      ]
+                    },
+                    {
+                      "wd": "enlarge"
+                    },
+                    {
+                      "wd": "escalate"
+                    },
+                    {
+                      "wd": "expand"
+                    },
+                    {
+                      "wd": "grow"
+                    },
+                    {
+                      "wd": "increase"
+                    },
+                    {
+                      "wd": "intensify"
+                    },
+                    {
+                      "wd": "mushroom"
+                    },
+                    {
+                      "wd": "pick up"
+                    },
+                    {
+                      "wd": "snowball"
+                    },
+                    {
+                      "wd": "swell"
+                    },
+                    {
+                      "wd": "wax"
+                    }
+                  ]
+                ],
+                "ant_list": [
+                  [
+                    {
+                      "wd": "arise"
+                    },
+                    {
+                      "wd": "ascend"
+                    },
+                    {
+                      "wd": "lift"
+                    },
+                    {
+                      "wd": "mount"
+                    },
+                    {
+                      "wd": "rise"
+                    },
+                    {
+                      "wd": "soar"
+                    },
+                    {
+                      "wd": "spike"
+                    },
+                    {
+                      "wd": "up"
+                    }
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "3",
+                "dt": [
+                  ["text", "to make smaller in amount, volume, or extent "],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "decided to {it}lower{/it} his career ambitions to something more achievable"
+                      }
+                    ]
+                  ]
+                ],
+                "syn_list": [
+                  [
+                    {
+                      "wd": "abate"
+                    },
+                    {
+                      "wd": "de-escalate"
+                    },
+                    {
+                      "wd": "decrease"
+                    },
+                    {
+                      "wd": "dent"
+                    },
+                    {
+                      "wd": "deplete"
+                    },
+                    {
+                      "wd": "diminish"
+                    },
+                    {
+                      "wd": "downscale"
+                    },
+                    {
+                      "wd": "downsize"
+                    },
+                    {
+                      "wd": "drop"
+                    },
+                    {
+                      "wd": "dwindle"
+                    },
+                    {
+                      "wd": "ease"
+                    },
+                    {
+                      "wd": "knock down"
+                    },
+                    {
+                      "wd": "lessen"
+                    },
+                    {
+                      "wd": "reduce"
+                    }
+                  ]
+                ],
+                "rel_list": [
+                  [
+                    {
+                      "wd": "compress"
+                    },
+                    {
+                      "wd": "condense"
+                    },
+                    {
+                      "wd": "constrict"
+                    },
+                    {
+                      "wd": "contract"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "abbreviate"
+                    },
+                    {
+                      "wd": "abridge"
+                    },
+                    {
+                      "wd": "clip"
+                    },
+                    {
+                      "wd": "crop"
+                    },
+                    {
+                      "wd": "curtail"
+                    },
+                    {
+                      "wd": "cut"
+                    },
+                    {
+                      "wd": "cut back"
+                    },
+                    {
+                      "wd": "cut down"
+                    },
+                    {
+                      "wd": "dock"
+                    },
+                    {
+                      "wd": "nick"
+                    },
+                    {
+                      "wd": "pare"
+                    },
+                    {
+                      "wd": "prune"
+                    },
+                    {
+                      "wd": "retrench"
+                    },
+                    {
+                      "wd": "shorten"
+                    },
+                    {
+                      "wd": "slash"
+                    },
+                    {
+                      "wd": "trim"
+                    },
+                    {
+                      "wd": "truncate"
+                    },
+                    {
+                      "wd": "whittle"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "deflate"
+                    },
+                    {
+                      "wd": "shrink"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "minimize"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "moderate"
+                    },
+                    {
+                      "wd": "modify"
+                    },
+                    {
+                      "wd": "modulate"
+                    },
+                    {
+                      "wd": "qualify"
+                    }
+                  ]
+                ],
+                "near_list": [
+                  [
+                    {
+                      "wd": "blow up"
+                    },
+                    {
+                      "wd": "dilate"
+                    },
+                    {
+                      "wd": "distend"
+                    },
+                    {
+                      "wd": "inflate"
+                    },
+                    {
+                      "wd": "swell"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "elongate"
+                    },
+                    {
+                      "wd": "extend"
+                    },
+                    {
+                      "wd": "lengthen"
+                    },
+                    {
+                      "wd": "prolong"
+                    },
+                    {
+                      "wd": "protract"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "add (to)"
+                    },
+                    {
+                      "wd": "complement"
+                    },
+                    {
+                      "wd": "supplement"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "enhance"
+                    },
+                    {
+                      "wd": "heighten"
+                    },
+                    {
+                      "wd": "intensify"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "redouble"
+                    }
+                  ]
+                ],
+                "ant_list": [
+                  [
+                    {
+                      "wd": "aggrandize"
+                    },
+                    {
+                      "wd": "amplify"
+                    },
+                    {
+                      "wd": "augment"
+                    },
+                    {
+                      "wd": "boost"
+                    },
+                    {
+                      "wd": "enlarge"
+                    },
+                    {
+                      "wd": "escalate"
+                    },
+                    {
+                      "wd": "expand"
+                    },
+                    {
+                      "wd": "increase"
+                    },
+                    {
+                      "wd": "raise"
+                    }
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "4",
+                "dt": [
+                  [
+                    "text",
+                    "to grow less in scope or intensity especially gradually "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "the noise of the jet engine {it}lowered{/it} as the plane disappeared in the distance"
+                      }
+                    ]
+                  ]
+                ],
+                "syn_list": [
+                  [
+                    {
+                      "wd": "abate"
+                    },
+                    {
+                      "wd": "de-escalate"
+                    },
+                    {
+                      "wd": "decline"
+                    },
+                    {
+                      "wd": "decrease"
+                    },
+                    {
+                      "wd": "die (away or down or out)"
+                    },
+                    {
+                      "wd": "diminish"
+                    },
+                    {
+                      "wd": "drain (away)"
+                    },
+                    {
+                      "wd": "drop (off)"
+                    },
+                    {
+                      "wd": "dwindle"
+                    },
+                    {
+                      "wd": "ease"
+                    },
+                    {
+                      "wd": "ebb"
+                    },
+                    {
+                      "wd": "fall"
+                    },
+                    {
+                      "wd": "fall away"
+                    },
+                    {
+                      "wd": "lessen"
+                    },
+                    {
+                      "wd": "let up"
+                    },
+                    {
+                      "wd": "moderate"
+                    },
+                    {
+                      "wd": "pall"
+                    },
+                    {
+                      "wd": "phase down"
+                    },
+                    {
+                      "wd": "ratchet (down)",
+                      "wvbvrs": [
+                        {
+                          "wvbvl": "also",
+                          "wvbva": "rachet (down)"
+                        }
+                      ]
+                    },
+                    {
+                      "wd": "recede"
+                    },
+                    {
+                      "wd": "relent"
+                    },
+                    {
+                      "wd": "remit"
+                    },
+                    {
+                      "wd": "shrink"
+                    },
+                    {
+                      "wd": "subside"
+                    },
+                    {
+                      "wd": "taper"
+                    },
+                    {
+                      "wd": "taper off"
+                    },
+                    {
+                      "wd": "wane"
+                    }
+                  ]
+                ],
+                "rel_list": [
+                  [
+                    {
+                      "wd": "compress"
+                    },
+                    {
+                      "wd": "condense"
+                    },
+                    {
+                      "wd": "constrict"
+                    },
+                    {
+                      "wd": "contract"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "evaporate"
+                    },
+                    {
+                      "wd": "fade (away)"
+                    },
+                    {
+                      "wd": "fritter (away)"
+                    },
+                    {
+                      "wd": "give out"
+                    },
+                    {
+                      "wd": "melt (away)"
+                    },
+                    {
+                      "wd": "peter (out)"
+                    },
+                    {
+                      "wd": "tail (off)"
+                    },
+                    {
+                      "wd": "vanish"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "slacken"
+                    },
+                    {
+                      "wd": "slow (down)"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "alleviate"
+                    },
+                    {
+                      "wd": "relax"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "flag"
+                    },
+                    {
+                      "wd": "sink"
+                    },
+                    {
+                      "wd": "weaken"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "cave (in)"
+                    },
+                    {
+                      "wd": "collapse"
+                    },
+                    {
+                      "wd": "deflate"
+                    }
+                  ]
+                ],
+                "near_list": [
+                  [
+                    {
+                      "wd": "appear"
+                    },
+                    {
+                      "wd": "emerge"
+                    },
+                    {
+                      "wd": "show up"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "blow up"
+                    },
+                    {
+                      "wd": "distend"
+                    },
+                    {
+                      "wd": "elongate"
+                    },
+                    {
+                      "wd": "lengthen"
+                    }
+                  ]
+                ],
+                "ant_list": [
+                  [
+                    {
+                      "wd": "accumulate"
+                    },
+                    {
+                      "wd": "balloon"
+                    },
+                    {
+                      "wd": "build"
+                    },
+                    {
+                      "wd": "burgeon",
+                      "wvrs": [
+                        {
+                          "wvl": "also",
+                          "wva": "bourgeon"
+                        }
+                      ]
+                    },
+                    {
+                      "wd": "enlarge"
+                    },
+                    {
+                      "wd": "escalate"
+                    },
+                    {
+                      "wd": "expand"
+                    },
+                    {
+                      "wd": "grow"
+                    },
+                    {
+                      "wd": "increase"
+                    },
+                    {
+                      "wd": "intensify"
+                    },
+                    {
+                      "wd": "mount"
+                    },
+                    {
+                      "wd": "mushroom"
+                    },
+                    {
+                      "wd": "pick up"
+                    },
+                    {
+                      "wd": "rise"
+                    },
+                    {
+                      "wd": "snowball"
+                    },
+                    {
+                      "wd": "soar"
+                    },
+                    {
+                      "wd": "swell"
+                    },
+                    {
+                      "wd": "wax"
+                    }
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "5",
+                "dt": [
+                  [
+                    "text",
+                    "to reduce to a lower standing in one's own eyes or in others' eyes "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "how could you {it}lower{/it} yourself by passing off someone else's work as your own?"
+                      }
+                    ]
+                  ]
+                ],
+                "syn_list": [
+                  [
+                    {
+                      "wd": "abase"
+                    },
+                    {
+                      "wd": "chasten"
+                    },
+                    {
+                      "wd": "cheapen"
+                    },
+                    {
+                      "wd": "debase"
+                    },
+                    {
+                      "wd": "degrade"
+                    },
+                    {
+                      "wd": "demean"
+                    },
+                    {
+                      "wd": "discredit"
+                    },
+                    {
+                      "wd": "disgrace"
+                    },
+                    {
+                      "wd": "dishonor"
+                    },
+                    {
+                      "wd": "foul"
+                    },
+                    {
+                      "wd": "humble"
+                    },
+                    {
+                      "wd": "humiliate"
+                    },
+                    {
+                      "wd": "shame"
+                    },
+                    {
+                      "wd": "sink"
+                    },
+                    {
+                      "wd": "smirch"
+                    },
+                    {
+                      "wd": "take down"
+                    }
+                  ]
+                ],
+                "rel_list": [
+                  [
+                    {
+                      "wd": "abash"
+                    },
+                    {
+                      "wd": "confound"
+                    },
+                    {
+                      "wd": "confuse"
+                    },
+                    {
+                      "wd": "discomfit"
+                    },
+                    {
+                      "wd": "disconcert"
+                    },
+                    {
+                      "wd": "discountenance"
+                    },
+                    {
+                      "wd": "embarrass"
+                    },
+                    {
+                      "wd": "faze"
+                    },
+                    {
+                      "wd": "fluster"
+                    },
+                    {
+                      "wd": "mortify"
+                    },
+                    {
+                      "wd": "nonplus"
+                    },
+                    {
+                      "wd": "rattle"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "belittle"
+                    },
+                    {
+                      "wd": "castigate"
+                    },
+                    {
+                      "wd": "criticize"
+                    },
+                    {
+                      "wd": "cry down"
+                    },
+                    {
+                      "wd": "decry"
+                    },
+                    {
+                      "wd": "depreciate"
+                    },
+                    {
+                      "wd": "detract"
+                    },
+                    {
+                      "wd": "diminish"
+                    },
+                    {
+                      "wd": "discount"
+                    },
+                    {
+                      "wd": "disparage"
+                    },
+                    {
+                      "wd": "minimize"
+                    },
+                    {
+                      "wd": "put down"
+                    },
+                    {
+                      "wd": "ridicule"
+                    },
+                    {
+                      "wd": "write off"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "bad-mouth"
+                    },
+                    {
+                      "wd": "defame"
+                    },
+                    {
+                      "wd": "defile"
+                    },
+                    {
+                      "wd": "libel"
+                    },
+                    {
+                      "wd": "malign"
+                    },
+                    {
+                      "wd": "slander"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "affront"
+                    },
+                    {
+                      "wd": "insult"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "censure"
+                    },
+                    {
+                      "wd": "condemn"
+                    },
+                    {
+                      "wd": "damn"
+                    },
+                    {
+                      "wd": "denounce"
+                    },
+                    {
+                      "wd": "execrate"
+                    },
+                    {
+                      "wd": "reprehend"
+                    },
+                    {
+                      "wd": "reprobate"
+                    }
+                  ]
+                ],
+                "near_list": [
+                  [
+                    {
+                      "wd": "acclaim"
+                    },
+                    {
+                      "wd": "applaud"
+                    },
+                    {
+                      "wd": "boast"
+                    },
+                    {
+                      "wd": "celebrate"
+                    },
+                    {
+                      "wd": "cheer"
+                    },
+                    {
+                      "wd": "cite"
+                    },
+                    {
+                      "wd": "commend"
+                    },
+                    {
+                      "wd": "compliment"
+                    },
+                    {
+                      "wd": "congratulate"
+                    },
+                    {
+                      "wd": "decorate"
+                    },
+                    {
+                      "wd": "eulogize"
+                    },
+                    {
+                      "wd": "extol",
+                      "wvrs": [
+                        {
+                          "wvl": "also",
+                          "wva": "extoll"
+                        }
+                      ]
+                    },
+                    {
+                      "wd": "fete",
+                      "wvrs": [
+                        {
+                          "wvl": "or",
+                          "wva": "fête"
+                        }
+                      ]
+                    },
+                    {
+                      "wd": "hail"
+                    },
+                    {
+                      "wd": "honor"
+                    },
+                    {
+                      "wd": "laud"
+                    },
+                    {
+                      "wd": "praise"
+                    },
+                    {
+                      "wd": "salute"
+                    },
+                    {
+                      "wd": "tout"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "acknowledge"
+                    },
+                    {
+                      "wd": "recognize"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "highlight"
+                    },
+                    {
+                      "wd": "play up"
+                    },
+                    {
+                      "wd": "spotlight"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "dignify"
+                    },
+                    {
+                      "wd": "ennoble"
+                    },
+                    {
+                      "wd": "enshrine"
+                    },
+                    {
+                      "wd": "ensky"
+                    },
+                    {
+                      "wd": "enthrone"
+                    },
+                    {
+                      "wd": "glorify"
+                    },
+                    {
+                      "wd": "magnify"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "advance"
+                    },
+                    {
+                      "wd": "boost"
+                    },
+                    {
+                      "wd": "lift"
+                    },
+                    {
+                      "wd": "promote"
+                    },
+                    {
+                      "wd": "raise"
+                    },
+                    {
+                      "wd": "upgrade"
+                    },
+                    {
+                      "wd": "uplift"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "idealize"
+                    },
+                    {
+                      "wd": "romanticize"
+                    }
+                  ]
+                ],
+                "ant_list": [
+                  [
+                    {
+                      "wd": "aggrandize"
+                    },
+                    {
+                      "wd": "canonize"
+                    },
+                    {
+                      "wd": "deify"
+                    },
+                    {
+                      "wd": "elevate"
+                    },
+                    {
+                      "wd": "exalt"
+                    }
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "6",
+                "dt": [
+                  ["text", "to diminish the price or value of "],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "over time, inflation {it}lowers{/it} incomes and savings in terms of actual buying power"
+                      }
+                    ]
+                  ]
+                ],
+                "syn_list": [
+                  [
+                    {
+                      "wd": "attenuate"
+                    },
+                    {
+                      "wd": "break"
+                    },
+                    {
+                      "wd": "cheapen"
+                    },
+                    {
+                      "wd": "depreciate"
+                    },
+                    {
+                      "wd": "depress"
+                    },
+                    {
+                      "wd": "devaluate"
+                    },
+                    {
+                      "wd": "devalue"
+                    },
+                    {
+                      "wd": "downgrade"
+                    },
+                    {
+                      "wd": "mark down"
+                    },
+                    {
+                      "wd": "reduce"
+                    },
+                    {
+                      "wd": "sink"
+                    },
+                    {
+                      "wd": "write down"
+                    },
+                    {
+                      "wd": "write off"
+                    }
+                  ]
+                ],
+                "rel_list": [
+                  [
+                    {
+                      "wd": "debase"
+                    },
+                    {
+                      "wd": "demonetize"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "underestimate"
+                    },
+                    {
+                      "wd": "underprice"
+                    },
+                    {
+                      "wd": "underrate"
+                    },
+                    {
+                      "wd": "undervalue"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "abridge"
+                    },
+                    {
+                      "wd": "compress"
+                    },
+                    {
+                      "wd": "contract"
+                    },
+                    {
+                      "wd": "de-escalate"
+                    },
+                    {
+                      "wd": "deflate"
+                    },
+                    {
+                      "wd": "downsize"
+                    },
+                    {
+                      "wd": "dwindle"
+                    },
+                    {
+                      "wd": "lessen"
+                    },
+                    {
+                      "wd": "moderate"
+                    },
+                    {
+                      "wd": "shrink"
+                    }
+                  ]
+                ],
+                "near_list": [
+                  [
+                    {
+                      "wd": "bloat"
+                    },
+                    {
+                      "wd": "blow up"
+                    },
+                    {
+                      "wd": "inflate"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "overestimate"
+                    },
+                    {
+                      "wd": "overprice"
+                    },
+                    {
+                      "wd": "overrate"
+                    },
+                    {
+                      "wd": "overvalue"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "add"
+                    },
+                    {
+                      "wd": "aggrandize"
+                    },
+                    {
+                      "wd": "amplify"
+                    },
+                    {
+                      "wd": "augment"
+                    },
+                    {
+                      "wd": "balloon"
+                    },
+                    {
+                      "wd": "boost"
+                    },
+                    {
+                      "wd": "compound"
+                    },
+                    {
+                      "wd": "dilate"
+                    },
+                    {
+                      "wd": "enlarge"
+                    },
+                    {
+                      "wd": "escalate"
+                    },
+                    {
+                      "wd": "expand"
+                    },
+                    {
+                      "wd": "extend"
+                    },
+                    {
+                      "wd": "heighten"
+                    },
+                    {
+                      "wd": "increase"
+                    },
+                    {
+                      "wd": "maximize"
+                    },
+                    {
+                      "wd": "multiply"
+                    },
+                    {
+                      "wd": "raise"
+                    },
+                    {
+                      "wd": "swell"
+                    },
+                    {
+                      "wd": "up"
+                    }
+                  ]
+                ],
+                "ant_list": [
+                  [
+                    {
+                      "wd": "appreciate"
+                    },
+                    {
+                      "wd": "enhance"
+                    },
+                    {
+                      "wd": "mark up"
+                    },
+                    {
+                      "wd": "upgrade"
+                    }
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "shortdef": [
+      "to cause to fall intentionally or unintentionally",
+      "to go to a lower level especially abruptly",
+      "to make smaller in amount, volume, or extent"
+    ]
+  },
+  {
+    "meta": {
+      "id": "lower:2",
+      "uuid": "6d6c2dad-fb29-4b89-a19c-5706214f62d7",
+      "src": "coll_thes",
+      "section": "alpha",
+      "target": {
+        "tuuid": "984f3411-d947-4340-8d44-1e708d30cabb",
+        "tsrc": "collegiate"
+      },
+      "stems": [
+        "lower",
+        "lower the boom",
+        "lowered",
+        "lowering",
+        "lowers",
+        "lour"
+      ],
+      "syns": [
+        ["darken", "gloom", "glower"],
+        ["frown", "glare", "gloom", "glower", "scowl"]
+      ],
+      "ants": [
+        ["brighten", "cheer (up)", "lighten", "perk (up)"],
+        ["beam", "grin", "smile"]
+      ],
+      "offensive": false
+    },
+    "hom": 2,
+    "hwi": {
+      "hw": "lower"
+    },
+    "vrs": [
+      {
+        "vl": "also",
+        "va": "lour"
+      }
+    ],
+    "fl": "verb",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "sn": "1",
+                "dt": [
+                  ["text", "to take on a gloomy or forbidding look "],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "the sky {it}lowered{/it} overhead, threatening a fierce thunderstorm"
+                      }
+                    ]
+                  ]
+                ],
+                "syn_list": [
+                  [
+                    {
+                      "wd": "darken"
+                    },
+                    {
+                      "wd": "gloom"
+                    },
+                    {
+                      "wd": "glower"
+                    }
+                  ]
+                ],
+                "rel_list": [
+                  [
+                    {
+                      "wd": "frown"
+                    },
+                    {
+                      "wd": "scowl"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "glare"
+                    },
+                    {
+                      "wd": "stare"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "brood"
+                    },
+                    {
+                      "wd": "mope"
+                    },
+                    {
+                      "wd": "pet"
+                    },
+                    {
+                      "wd": "pout"
+                    },
+                    {
+                      "wd": "sulk"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "anger"
+                    },
+                    {
+                      "wd": "bristle"
+                    },
+                    {
+                      "wd": "fume"
+                    },
+                    {
+                      "wd": "rage"
+                    },
+                    {
+                      "wd": "steam"
+                    },
+                    {
+                      "wd": "storm"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "intimidate"
+                    },
+                    {
+                      "wd": "menace"
+                    },
+                    {
+                      "wd": "threaten"
+                    }
+                  ]
+                ],
+                "ant_list": [
+                  [
+                    {
+                      "wd": "brighten"
+                    },
+                    {
+                      "wd": "cheer (up)"
+                    },
+                    {
+                      "wd": "lighten"
+                    },
+                    {
+                      "wd": "perk (up)"
+                    }
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "2",
+                "dt": [
+                  ["text", "to look with anger or disapproval "],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "the motorist {it}lowered{/it} at the jerk who had cut in front of her"
+                      }
+                    ]
+                  ]
+                ],
+                "syn_list": [
+                  [
+                    {
+                      "wd": "frown"
+                    },
+                    {
+                      "wd": "glare"
+                    },
+                    {
+                      "wd": "gloom"
+                    },
+                    {
+                      "wd": "glower"
+                    },
+                    {
+                      "wd": "scowl"
+                    }
+                  ]
+                ],
+                "rel_list": [
+                  [
+                    {
+                      "wd": "gape"
+                    },
+                    {
+                      "wd": "gaze"
+                    },
+                    {
+                      "wd": "ogle"
+                    },
+                    {
+                      "wd": "stare"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "grimace"
+                    },
+                    {
+                      "wd": "pout"
+                    },
+                    {
+                      "wd": "sulk"
+                    }
+                  ],
+                  [
+                    {
+                      "wd": "growl"
+                    },
+                    {
+                      "wd": "snarl"
+                    },
+                    {
+                      "wd": "sneer"
+                    },
+                    {
+                      "wd": "snigger"
+                    }
+                  ]
+                ],
+                "phrase_list": [
+                  [
+                    {
+                      "wd": "look daggers",
+                      "wvrs": [
+                        {
+                          "wvl": "or",
+                          "wva": "stare daggers"
+                        }
+                      ]
+                    }
+                  ]
+                ],
+                "ant_list": [
+                  [
+                    {
+                      "wd": "beam"
+                    },
+                    {
+                      "wd": "grin"
+                    },
+                    {
+                      "wd": "smile"
+                    }
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "shortdef": [
+      "to take on a gloomy or forbidding look",
+      "to look with anger or disapproval"
+    ]
+  }
+]

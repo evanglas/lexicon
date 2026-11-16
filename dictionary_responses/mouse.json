@@ -1,0 +1,737 @@
+[
+    {
+        "meta": {
+            "id": "mouse:1",
+            "uuid": "d651596f-352d-401d-88f2-dbac1cac962f",
+            "sort": "134306000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "mice",
+                "mouse",
+                "mouses"
+            ],
+            "offensive": false
+        },
+        "hom": 1,
+        "hwi": {
+            "hw": "mouse",
+            "prs": [
+                {
+                    "mw": "\u02c8mau\u0307s",
+                    "sound": {
+                        "audio": "mouse001",
+                        "ref": "c",
+                        "stat": "1"
+                    }
+                }
+            ]
+        },
+        "fl": "noun",
+        "ins": [
+            {
+                "il": "plural",
+                "if": "mice",
+                "prs": [
+                    {
+                        "mw": "\u02c8m\u012bs",
+                        "sound": {
+                            "audio": "mouse002",
+                            "ref": "c",
+                            "stat": "1"
+                        }
+                    }
+                ]
+            }
+        ],
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}any of numerous small rodents (as of the genus {it}Mus{\/it}) with pointed snout, rather small ears, elongated body, and slender tail"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2",
+                                "ins": [
+                                    {
+                                        "il": "plural also",
+                                        "if": "mous*es"
+                                    }
+                                ],
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a small mobile manual device that controls movement of the cursor and selection of functions on a computer display"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "3",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a timid person"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "4",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a dark-colored swelling caused by a blow"
+                                    ]
+                                ],
+                                "sdsense": {
+                                    "sd": "specifically",
+                                    "dt": [
+                                        [
+                                            "text",
+                                            "{bc}{sx|black eye||}"
+                                        ]
+                                    ]
+                                }
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "et": [
+            [
+                "text",
+                "Middle English, from Old English {it}m\u016bs{\/it}; akin to Old High German {it}m\u016bs{\/it} mouse, Latin {it}mus{\/it}, Greek {it}mys{\/it} mouse, muscle"
+            ]
+        ],
+        "date": "before 12th century{ds||1||}",
+        "shortdef": [
+            "any of numerous small rodents (as of the genus Mus) with pointed snout, rather small ears, elongated body, and slender tail",
+            "a small mobile manual device that controls movement of the cursor and selection of functions on a computer display",
+            "a timid person"
+        ]
+    },
+    {
+        "meta": {
+            "id": "mouse:2",
+            "uuid": "21c141ce-b4c9-4b8f-94d0-e59a7b5073ca",
+            "sort": "134307000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "mouse",
+                "mouse over",
+                "moused",
+                "moused over",
+                "mouses",
+                "mouses over",
+                "mousing",
+                "mousing over"
+            ],
+            "offensive": false
+        },
+        "hom": 2,
+        "hwi": {
+            "hw": "mouse",
+            "prs": [
+                {
+                    "mw": "\u02c8mau\u0307z",
+                    "sound": {
+                        "audio": "mouse003",
+                        "ref": "c",
+                        "stat": "1"
+                    }
+                }
+            ]
+        },
+        "fl": "verb",
+        "ins": [
+            {
+                "if": "moused"
+            },
+            {
+                "if": "mous*ing"
+            }
+        ],
+        "def": [
+            {
+                "vd": "intransitive verb",
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to hunt for mice"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to search or move stealthily or slowly"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            },
+            {
+                "vd": "transitive verb",
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to search for carefully "
+                                    ],
+                                    [
+                                        "uns",
+                                        [
+                                            [
+                                                [
+                                                    "text",
+                                                    "usually used with {it}out{\/it}"
+                                                ]
+                                            ]
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sen",
+                            {
+                                "sn": "2",
+                                "sls": [
+                                    "obsolete"
+                                ]
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "a",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}{sx|bite||}, {sx|gnaw||}"
+                                    ]
+                                ]
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "b",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to toy with roughly"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "dros": [
+            {
+                "drp": "mouse over",
+                "def": [
+                    {
+                        "sls": [
+                            "computing"
+                        ],
+                        "sseq": [
+                            [
+                                [
+                                    "sense",
+                                    {
+                                        "dt": [
+                                            [
+                                                "text",
+                                                "{bc}to use a mouse to position a cursor over (a specific location or element on a computer screen) without clicking the mouse\u0027s button "
+                                            ],
+                                            [
+                                                "vis",
+                                                [
+                                                    {
+                                                        "t": "Rich media is pretty much anything that moves when you interact with it. It can be a Flash animation, or a streaming video clip, or an image rotator that changes when you {wi}mouse over{\/wi} it.",
+                                                        "aq": {
+                                                            "auth": "Ariel Bleicher"
+                                                        }
+                                                    }
+                                                ]
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ],
+        "date": "13th century{ds|i|1||}",
+        "shortdef": [
+            "to hunt for mice",
+            "to search or move stealthily or slowly",
+            "to search for carefully \u2014usually used with out"
+        ]
+    },
+    {
+        "meta": {
+            "id": "mice",
+            "uuid": "11ae6a53-1030-42d9-ba41-b8a36e8965a1",
+            "sort": "132345000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "mice",
+                "mouse"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "mice"
+        },
+        "cxs": [
+            {
+                "cxl": "plural of",
+                "cxtis": [
+                    {
+                        "cxt": "mouse"
+                    }
+                ]
+            }
+        ],
+        "shortdef": []
+    },
+    {
+        "meta": {
+            "id": "mouse-ear",
+            "uuid": "80f8391f-78e7-430d-90a0-06494c88a1da",
+            "sort": "134308000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "mouse-ear",
+                "mouse-ear chickweed",
+                "mouse-ear cress",
+                "mouse-ears"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "mouse-ear",
+            "prs": [
+                {
+                    "mw": "\u02c8mau\u0307s-\u02ccir",
+                    "sound": {
+                        "audio": "mousee01",
+                        "ref": "c",
+                        "stat": "1"
+                    }
+                }
+            ]
+        },
+        "fl": "noun",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a Eurasian hawkweed ({it}Hieracium pilosella{\/it}) introduced into North America that has soft hairy leaves and yellow flowers"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}any of several plants other than mouse-ear that have soft hairy leaves"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "date": "13th century{ds||1||}",
+        "shortdef": [
+            "a Eurasian hawkweed (Hieracium pilosella) introduced into North America that has soft hairy leaves and yellow flowers",
+            "any of several plants other than mouse-ear that have soft hairy leaves"
+        ]
+    },
+    {
+        "meta": {
+            "id": "mouse-ear chickweed",
+            "uuid": "0a4c6423-7237-4e98-ac31-e19be2741a3f",
+            "sort": "134309000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "mouse-ear chickweed",
+                "mouse-ear chickweeds"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "mouse-ear chickweed"
+        },
+        "fl": "noun",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}any of several hairy chickweeds (genus {it}Cerastium{\/it} and especially {it}C. fontanum{\/it})"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "date": "1731",
+        "shortdef": [
+            "any of several hairy chickweeds (genus Cerastium and especially C. fontanum)"
+        ]
+    },
+    {
+        "meta": {
+            "id": "mouse pad",
+            "uuid": "865ab988-e1d9-4379-9db1-326ec9aa4407",
+            "sort": "134310000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "mouse pad"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "mouse pad"
+        },
+        "fl": "noun",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a thin flat pad (as of rubber) on which a computer mouse is used"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "date": "1983",
+        "shortdef": [
+            "a thin flat pad (as of rubber) on which a computer mouse is used"
+        ]
+    },
+    {
+        "meta": {
+            "id": "mouse potato",
+            "uuid": "8e0703cf-efcb-4f33-ba29-b4b540b43305",
+            "sort": "134311000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "mouse potato"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "mouse potato"
+        },
+        "fl": "noun",
+        "def": [
+            {
+                "sls": [
+                    "slang"
+                ],
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a person who spends a great deal of time using a computer"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "et": [
+            [
+                "text",
+                "after {it}couch potato{\/it}"
+            ]
+        ],
+        "date": "1993",
+        "shortdef": [
+            "a person who spends a great deal of time using a computer"
+        ]
+    },
+    {
+        "meta": {
+            "id": "mouse mat",
+            "uuid": "2d792ce4-e97e-4532-8f23-bdd0a393ede4",
+            "sort": "3012415000",
+            "src": "ld",
+            "section": "idioms",
+            "stems": [
+                "mouse mat"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "mouse mat"
+        },
+        "fl": "noun",
+        "def": [
+            {
+                "sls": [
+                    "British"
+                ],
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a small pad that a computer\u0027s mouse rests on"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "a small pad that a computer\u0027s mouse rests on"
+        ]
+    },
+    {
+        "meta": {
+            "id": "cat and mouse",
+            "uuid": "341538cd-ff8a-4055-92a0-25b828b8f727",
+            "sort": "031342000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "cat and mice",
+                "cat and mouse",
+                "cat and mouses"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "cat and mouse"
+        },
+        "fl": "noun",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "bs",
+                            {
+                                "sense": {
+                                    "dt": [
+                                        [
+                                            "text",
+                                            "{bc}behavior like that of a cat with a mouse: such as"
+                                        ]
+                                    ]
+                                }
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "a",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}the act of toying with or tormenting something before destroying it"
+                                    ]
+                                ]
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "b",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a contrived action involving constant pursuit, near captures, and repeated escapes "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "played a game of {it}cat and mouse{\/it} with the police"
+                                            }
+                                        ]
+                                    ]
+                                ],
+                                "sdsense": {
+                                    "sd": "broadly",
+                                    "dt": [
+                                        [
+                                            "text",
+                                            "{bc}an evasive action"
+                                        ]
+                                    ]
+                                }
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "date": "1675",
+        "shortdef": [
+            "behavior like that of a cat with a mouse: such as",
+            "the act of toying with or tormenting something before destroying it",
+            "a contrived action involving constant pursuit, near captures, and repeated escapes; broadly : an evasive action"
+        ]
+    },
+    {
+        "meta": {
+            "id": "deer mouse",
+            "uuid": "c3a7a9da-7aaa-4cf1-a3d7-1c5e6c429631",
+            "sort": "040775000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "deer mice",
+                "deer mouse",
+                "deer mouses"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "deer mouse"
+        },
+        "fl": "noun",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}any of various mice (genus {it}Peromyscus{\/it}) of North and Central America"
+                                    ]
+                                ],
+                                "sdsense": {
+                                    "sd": "especially",
+                                    "dt": [
+                                        [
+                                            "text",
+                                            "{bc}one ({it}P. maniculatus{\/it}) widely distributed in forests and grasslands of North America"
+                                        ]
+                                    ]
+                                }
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "et": [
+            [
+                "text",
+                "from its agility"
+            ]
+        ],
+        "date": "1833",
+        "shortdef": [
+            "any of various mice (genus Peromyscus) of North and Central America; especially : one (P. maniculatus) widely distributed in forests and grasslands of North America"
+        ]
+    }
+]

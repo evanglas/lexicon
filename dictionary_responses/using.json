@@ -1,0 +1,445 @@
+[
+    {
+        "meta": {
+            "id": "use:1",
+            "uuid": "50efd73f-c4a6-418f-9689-4cc856dd40bb",
+            "sort": "212634000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "use",
+                "used",
+                "uses",
+                "using"
+            ],
+            "offensive": false
+        },
+        "hom": 1,
+        "hwi": {
+            "hw": "use",
+            "prs": [
+                {
+                    "mw": "\u02c8y\u00fcz",
+                    "sound": {
+                        "audio": "use00002",
+                        "ref": "c",
+                        "stat": "1"
+                    }
+                }
+            ]
+        },
+        "fl": "verb",
+        "ins": [
+            {
+                "if": "used",
+                "prs": [
+                    {
+                        "mw": "\u02c8y\u00fczd",
+                        "sound": {
+                            "audio": "used0001",
+                            "ref": "c",
+                            "stat": "1"
+                        }
+                    },
+                    {
+                        "l": "in the phrase \u0022used to\u0022 usually",
+                        "mw": "\u02c8y\u00fcs(t)"
+                    }
+                ]
+            },
+            {
+                "if": "us*ing",
+                "prs": [
+                    {
+                        "mw": "\u02c8y\u00fc-zi\u014b",
+                        "sound": {
+                            "audio": "using001",
+                            "ref": "c",
+                            "stat": "1"
+                        }
+                    }
+                ]
+            }
+        ],
+        "def": [
+            {
+                "vd": "transitive verb",
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to put into action or service {bc}avail oneself of {bc}{sx|employ||}"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to expend or consume by putting to use "
+                                    ],
+                                    [
+                                        "uns",
+                                        [
+                                            [
+                                                [
+                                                    "text",
+                                                    "often used with {it}up{\/it}"
+                                                ]
+                                            ]
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "3",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}{sx|stand||1d} "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "the house could {wi}use{\/wi} a coat of paint"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "4",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to consume or take (liquor, drugs, etc.) regularly"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "5",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to carry out a purpose or action by means of {bc}{sx|utilize||}"
+                                    ]
+                                ],
+                                "sdsense": {
+                                    "sd": "also",
+                                    "dt": [
+                                        [
+                                            "text",
+                                            "{bc}{sx|manipulate||2b} "
+                                        ],
+                                        [
+                                            "vis",
+                                            [
+                                                {
+                                                    "t": "{it}used{\/it} him selfishly"
+                                                }
+                                            ]
+                                        ]
+                                    ]
+                                }
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "6",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to behave toward {bc}act with regard to {bc}{sx|treat||} "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "{it}used{\/it} the prisoners cruelly"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "7",
+                                "sls": [
+                                    "archaic"
+                                ],
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}{sx|accustom||}, {sx|habituate||}"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            },
+            {
+                "vd": "intransitive verb",
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1",
+                                "dt": [
+                                    [
+                                        "uns",
+                                        [
+                                            [
+                                                [
+                                                    "text",
+                                                    "used in the past with {it}to{\/it} to indicate a former fact or state "
+                                                ],
+                                                [
+                                                    "vis",
+                                                    [
+                                                        {
+                                                            "t": "we {it}used{\/it} to go more often"
+                                                        },
+                                                        {
+                                                            "t": "didn\u0027t {wi}use{\/wi} to smoke"
+                                                        }
+                                                    ]
+                                                ]
+                                            ]
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to take illicit drugs regularly"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "syns": [
+            {
+                "pl": "synonyms",
+                "pt": [
+                    [
+                        "text",
+                        "{sc}use{\/sc} {sc}employ{\/sc} {sc}utilize{\/sc} mean to put into service especially to attain an end. {sc}use{\/sc} implies availing oneself of something as a means or instrument to an end. "
+                    ],
+                    [
+                        "vis",
+                        [
+                            {
+                                "t": "willing to {it}use{\/it} any means to achieve her ends"
+                            }
+                        ]
+                    ],
+                    [
+                        "text",
+                        " {sc}employ{\/sc} suggests the use of a person or thing that is available but idle, inactive, or disengaged. "
+                    ],
+                    [
+                        "vis",
+                        [
+                            {
+                                "t": "looking for better ways to {it}employ{\/it} their skills"
+                            }
+                        ]
+                    ],
+                    [
+                        "text",
+                        " {sc}utilize{\/sc} may suggest the discovery of a new, profitable, or practical use for something. "
+                    ],
+                    [
+                        "vis",
+                        [
+                            {
+                                "t": "an old wooden bucket {it}utilized{\/it} as a planter"
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "date": "14th century{ds|t|7||}",
+        "shortdef": [
+            "to put into action or service : avail oneself of : employ",
+            "to expend or consume by putting to use \u2014often used with up",
+            "stand"
+        ]
+    },
+    {
+        "meta": {
+            "id": "ill-use",
+            "uuid": "b188690e-1234-4b26-9efc-0ab3fab8fd27",
+            "sort": "090369000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "ill-use",
+                "ill-used",
+                "ill-uses",
+                "ill-using"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "ill-use",
+            "prs": [
+                {
+                    "mw": "\u02c8il-\u02c8y\u00fcz",
+                    "sound": {
+                        "audio": "illuse01",
+                        "ref": "c",
+                        "stat": "1"
+                    }
+                }
+            ]
+        },
+        "fl": "verb",
+        "ins": [
+            {
+                "if": "ill-used"
+            },
+            {
+                "if": "ill-us*ing"
+            },
+            {
+                "if": "ill-us*es"
+            }
+        ],
+        "def": [
+            {
+                "vd": "transitive verb",
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to use badly {bc}{sx|maltreat||}, {sx|abuse||}"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "date": "1841",
+        "shortdef": [
+            "to use badly : maltreat, abuse"
+        ]
+    },
+    {
+        "meta": {
+            "id": "use up",
+            "uuid": "f67b0f95-0fa7-4b02-ae87-cc964e500f12",
+            "sort": "212646000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "use up",
+                "used up",
+                "uses up",
+                "using up"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "use up"
+        },
+        "fl": "verb",
+        "ins": [
+            {
+                "if": "used up"
+            },
+            {
+                "if": "us*ing up"
+            },
+            {
+                "if": "us*es up"
+            }
+        ],
+        "def": [
+            {
+                "vd": "transitive verb",
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to exhaust of strength or useful properties "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "land that has been {it}used up{\/it}"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "date": "1712",
+        "shortdef": [
+            "to exhaust of strength or useful properties"
+        ]
+    }
+]

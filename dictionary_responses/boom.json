@@ -1,0 +1,863 @@
+[
+  {
+    "meta": {
+      "id": "boom:1",
+      "uuid": "b7f37c87-b8e7-459e-9c33-ffdc9610f77b",
+      "sort": "020346500",
+      "src": "collegiate",
+      "section": "alpha",
+      "stems": ["boom", "boomed", "booming", "booms"],
+      "offensive": false
+    },
+    "hom": 1,
+    "hwi": {
+      "hw": "boom",
+      "prs": [
+        {
+          "mw": "ˈbüm",
+          "sound": {
+            "audio": "boom0001",
+            "ref": "c",
+            "stat": "1"
+          }
+        }
+      ]
+    },
+    "fl": "verb",
+    "ins": [
+      {
+        "if": "boomed"
+      },
+      {
+        "if": "boom*ing"
+      },
+      {
+        "if": "booms"
+      }
+    ],
+    "def": [
+      {
+        "vd": "intransitive verb",
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "sn": "1",
+                "dt": [["text", "{bc}to make a deep hollow sound"]]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "2 a",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}to increase in importance, popularity, or esteem"
+                  ]
+                ]
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "b",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}to experience a sudden rapid growth and expansion usually with an increase in prices "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "business was {wi}booming{/wi}"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "c",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}to develop rapidly in population and importance "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "California {wi}boomed{/wi} when gold was discovered there"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "d",
+                "dt": [
+                  ["text", "{bc}to increase greatly in size or number "],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "the population {wi}boomed{/wi}"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      },
+      {
+        "vd": "transitive verb",
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "sn": "1",
+                "dt": [
+                  ["text", "{bc}to cause to resound "],
+                  [
+                    "uns",
+                    [
+                      [
+                        ["text", "often used with {it}out{/it} "],
+                        [
+                          "vis",
+                          [
+                            {
+                              "t": "his voice {wi}booms{/wi} out the lyrics"
+                            }
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "2",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}to cause a rapid growth or increase of {bc}{sx|boost||}"
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "3",
+                "dt": [
+                  ["text", "{bc}to hit or kick forcefully "],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "{wi}boom{/wi} a punt"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "et": [
+      ["text", "Middle English {it}bomben, bummen{/it}, of imitative origin"]
+    ],
+    "date": "15th century{ds|i|1||}",
+    "shortdef": [
+      "to make a deep hollow sound",
+      "to increase in importance, popularity, or esteem",
+      "to experience a sudden rapid growth and expansion usually with an increase in prices"
+    ]
+  },
+  {
+    "meta": {
+      "id": "boom:2",
+      "uuid": "f5e7f474-1672-47a4-8196-7673a327bd97",
+      "sort": "020346600",
+      "src": "collegiate",
+      "section": "alpha",
+      "stems": ["boom", "booms"],
+      "offensive": false
+    },
+    "hom": 2,
+    "hwi": {
+      "hw": "boom"
+    },
+    "fl": "noun",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "sn": "1",
+                "dt": [
+                  ["text", "{bc}a {a_link|booming} sound or cry "],
+                  [
+                    "uns",
+                    [
+                      [
+                        [
+                          "text",
+                          "often used interjectionally to indicate suddenness "
+                        ],
+                        [
+                          "vis",
+                          [
+                            {
+                              "t": "then {wi}boom{/wi}, he was fired"
+                            }
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "bs",
+              {
+                "sense": {
+                  "sn": "2",
+                  "dt": [["text", "{bc}a rapid expansion or increase: such as"]]
+                }
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "a",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}a general movement in support of a candidate for office"
+                  ]
+                ]
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "b",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}rapid settlement and development of a town or district"
+                  ]
+                ]
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "c",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}a rapid widespread expansion of economic activity"
+                  ]
+                ]
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "d",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}an upsurge in activity, interest, or popularity "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "a folk music {wi}boom{/wi}"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "date": "circa 1500{ds||1||}",
+    "shortdef": [
+      "a booming sound or cry —often used interjectionally to indicate suddenness",
+      "a rapid expansion or increase: such as",
+      "a general movement in support of a candidate for office"
+    ]
+  },
+  {
+    "meta": {
+      "id": "boom:3",
+      "uuid": "04464462-f441-464c-be4b-8146c4325403",
+      "sort": "020346700",
+      "src": "collegiate",
+      "section": "alpha",
+      "stems": ["boom", "booms"],
+      "offensive": false
+    },
+    "hom": 3,
+    "hwi": {
+      "hw": "boom"
+    },
+    "fl": "noun",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "sn": "1",
+                "dt": [
+                  ["text", "{bc}a long spar used to extend the foot of a sail"]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "2 a",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}a chain or line of connected floating timbers extended across a river, lake, or harbor (as to obstruct passage or catch floating objects)"
+                  ]
+                ]
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "b",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}a temporary floating barrier used to contain an oil spill"
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "3 a",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}a long beam projecting from the mast of a derrick to support or guide cargo"
+                  ]
+                ]
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "b",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}a long more or less horizontal supporting arm or brace (as for holding a microphone)"
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "4",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}a spar or outrigger connecting the tail surfaces and the main supporting structure of an aircraft"
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "et": [
+      [
+        "text",
+        "Dutch, tree, beam; akin to Old High German {it}boum{/it} tree {ma}{mat|beam|}{/ma}"
+      ]
+    ],
+    "date": "1627{ds||1||}",
+    "shortdef": [
+      "a long spar used to extend the foot of a sail",
+      "a chain or line of connected floating timbers extended across a river, lake, or harbor (as to obstruct passage or catch floating objects)",
+      "a temporary floating barrier used to contain an oil spill"
+    ]
+  },
+  {
+    "meta": {
+      "id": "boom box",
+      "uuid": "5819be35-f0f9-4a84-b278-feecf8cc3c39",
+      "sort": "020346800",
+      "src": "collegiate",
+      "section": "alpha",
+      "stems": ["boom box", "boom boxes"],
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "boom box"
+    },
+    "fl": "noun",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "{bc}a usually large portable stereophonic radio and tape or CD player"
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "date": "1981",
+    "shortdef": [
+      "a usually large portable stereophonic radio and tape or CD player"
+    ]
+  },
+  {
+    "meta": {
+      "id": "baby boom",
+      "uuid": "9a8e22ab-8fd5-4ddd-a8db-1f0c3ecdb630",
+      "sort": "020003300",
+      "src": "collegiate",
+      "section": "alpha",
+      "stems": ["baby boom", "baby booms"],
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "baby boom"
+    },
+    "fl": "noun",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "{bc}a marked rise in birth rate (as in the U.S. following the end of World War II)"
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "date": "1879",
+    "shortdef": [
+      "a marked rise in birth rate (as in the U.S. following the end of World War II)"
+    ]
+  },
+  {
+    "meta": {
+      "id": "sonic boom",
+      "uuid": "a1d53a59-cab6-4bfb-b9a1-427b39cb5f75",
+      "sort": "194591700",
+      "src": "collegiate",
+      "section": "alpha",
+      "stems": ["sonic bang", "sonic boom", "sonic booms"],
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "sonic boom"
+    },
+    "fl": "noun",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "{bc}a sound resembling an explosion produced when a shock wave formed at the nose of an aircraft traveling at supersonic speed reaches the ground "
+                  ],
+                  [
+                    "ca",
+                    {
+                      "intro": "called also",
+                      "cats": [
+                        {
+                          "cat": "sonic bang"
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "date": "1952",
+    "shortdef": [
+      "a sound resembling an explosion produced when a shock wave formed at the nose of an aircraft traveling at supersonic speed reaches the ground —called also sonic bang"
+    ]
+  },
+  {
+    "meta": {
+      "id": "lower:1",
+      "uuid": "984f3411-d947-4340-8d44-1e708d30cabb",
+      "sort": "120267800",
+      "src": "collegiate",
+      "section": "alpha",
+      "stems": [
+        "lour",
+        "loured",
+        "louring",
+        "lours",
+        "lower",
+        "lower the boom",
+        "lowered",
+        "lowering",
+        "lowers"
+      ],
+      "offensive": false
+    },
+    "hom": 1,
+    "hwi": {
+      "hw": "low*er",
+      "prs": [
+        {
+          "mw": "ˈlau̇(-ə)r",
+          "sound": {
+            "audio": "lower002",
+            "ref": "c",
+            "stat": "1"
+          }
+        },
+        {
+          "mw": "ˈlō-ər",
+          "sound": {
+            "audio": "lower001",
+            "ref": "c",
+            "stat": "1"
+          }
+        }
+      ]
+    },
+    "vrs": [
+      {
+        "vl": "or less commonly",
+        "va": "lour",
+        "prs": [
+          {
+            "mw": "ˈlau̇(-ə)r",
+            "sound": {
+              "audio": "lower002",
+              "ref": "c",
+              "stat": "1"
+            }
+          }
+        ]
+      }
+    ],
+    "fl": "verb",
+    "ins": [
+      {
+        "if": "low*ered"
+      },
+      {
+        "il": "also",
+        "if": "loured"
+      },
+      {
+        "if": "low*er*ing"
+      },
+      {
+        "il": "also",
+        "if": "lour*ing"
+      },
+      {
+        "if": "low*ers"
+      },
+      {
+        "il": "also",
+        "if": "lours"
+      }
+    ],
+    "def": [
+      {
+        "vd": "intransitive verb",
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "sn": "1",
+                "dt": [["text", "{bc}to look sullen {bc}{sx|frown||}"]]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "2",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}to be or become dark, gloomy, and threatening "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "an overcast sky {wi}lowered{/wi} over the village"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "et": [
+      [
+        "text",
+        "Middle English {it}louren{/it}; akin to Middle High German {it}lūren{/it} to lie in wait"
+      ]
+    ],
+    "date": "13th century{ds||1||}",
+    "shortdef": [
+      "to look sullen : frown",
+      "to be or become dark, gloomy, and threatening"
+    ]
+  },
+  {
+    "meta": {
+      "id": "lower:4",
+      "uuid": "a790348a-7b61-4ada-81d6-1a1f987cca25",
+      "sort": "120268100",
+      "src": "collegiate",
+      "section": "alpha",
+      "stems": [
+        "lower",
+        "lower the boom",
+        "lowered",
+        "lowered the broom",
+        "lowering",
+        "lowering the broom",
+        "lowers",
+        "lowers the broom"
+      ],
+      "offensive": false
+    },
+    "hom": 4,
+    "hwi": {
+      "hw": "low*er",
+      "prs": [
+        {
+          "mw": "ˈlō-ər",
+          "sound": {
+            "audio": "lower001",
+            "ref": "c",
+            "stat": "1"
+          }
+        }
+      ]
+    },
+    "fl": "verb",
+    "ins": [
+      {
+        "if": "low*ered"
+      },
+      {
+        "if": "low*er*ing"
+      },
+      {
+        "if": "low*ers"
+      }
+    ],
+    "def": [
+      {
+        "vd": "intransitive verb",
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [["text", "{bc}to move down {bc}{sx|drop||}"]],
+                "sdsense": {
+                  "sd": "also",
+                  "dt": [["text", "{bc}{sx|diminish||}"]]
+                }
+              }
+            ]
+          ]
+        ]
+      },
+      {
+        "vd": "transitive verb",
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "sn": "1 a",
+                "dt": [["text", "{bc}to let descend {bc}{sx|let down||}"]]
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "b",
+                "dt": [
+                  ["text", "{bc}to depress as to direction "],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "{wi}lower{/wi} your aim"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "c",
+                "dt": [["text", "{bc}to reduce the height of"]]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "2 a",
+                "dt": [["text", "{bc}to reduce in value, number, or amount"]]
+              }
+            ],
+            [
+              "pseq",
+              [
+                [
+                  "sense",
+                  {
+                    "sn": "b (1)",
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}to bring down in quality or character {bc}{sx|degrade||}"
+                      ]
+                    ]
+                  }
+                ],
+                [
+                  "sense",
+                  {
+                    "sn": "(2)",
+                    "dt": [["text", "{bc}{sx|abase||}, {sx|humble||}"]]
+                  }
+                ]
+              ]
+            ],
+            [
+              "sense",
+              {
+                "sn": "c",
+                "dt": [["text", "{bc}to reduce the objective of"]]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "dros": [
+      {
+        "drp": "lower the boom",
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "dt": [
+                      ["text", "{bc}to deal a crushing blow or punishment"]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "date": "1575{ds|i|||}",
+    "shortdef": [
+      "to move down : drop; also : diminish",
+      "to let descend : let down",
+      "to depress as to direction"
+    ]
+  }
+]

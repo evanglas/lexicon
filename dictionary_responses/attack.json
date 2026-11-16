@@ -1,0 +1,1190 @@
+[
+    {
+        "meta": {
+            "id": "attack:1",
+            "uuid": "20ffc4a3-1d17-40a2-a372-55a28ea1c2a7",
+            "sort": "014593000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "attack",
+                "attacked",
+                "attacker",
+                "attackers",
+                "attacking",
+                "attacks"
+            ],
+            "offensive": false
+        },
+        "hom": 1,
+        "hwi": {
+            "hw": "at*tack",
+            "prs": [
+                {
+                    "mw": "ə-ˈtak",
+                    "sound": {
+                        "audio": "attack01",
+                        "ref": "c",
+                        "stat": "1"
+                    }
+                }
+            ]
+        },
+        "fl": "verb",
+        "ins": [
+            {
+                "if": "at*tacked"
+            },
+            {
+                "if": "at*tack*ing"
+            },
+            {
+                "if": "at*tacks"
+            }
+        ],
+        "def": [
+            {
+                "vd": "transitive verb",
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to set upon or work against forcefully "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "{wi}attack{/wi} an enemy fortification"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to assail with unfriendly or bitter words "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "a politician verbally {wi}attacked{/wi} by critics"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "3",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to begin to affect or to act on injuriously "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "plants {wi}attacked{/wi} by aphids"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "4 a",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to set to work on "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "{wi}attack{/wi} a problem"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "b",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to begin to eat (food) eagerly "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "At the table he {wi}attacked{/wi} his meal with such singleminded ferocity as to be, as Boswell put it, disgusting to those whose sensations were delicate.",
+                                                "aq": {
+                                                    "auth": "Donald R. DeGlopper"
+                                                }
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "5",
+                                "sls": [
+                                    "chess"
+                                ],
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to threaten (a piece) with immediate capture"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            },
+            {
+                "vd": "intransitive verb",
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to make an attack "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "They were unprepared when the enemy {wi}attacked{/wi}."
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "uros": [
+            {
+                "ure": "at*tack*er",
+                "fl": "noun",
+                "ins": [
+                    {
+                        "il": "plural",
+                        "if": "at*tack*ers"
+                    }
+                ]
+            }
+        ],
+        "syns": [
+            {
+                "pl": "synonyms",
+                "pt": [
+                    [
+                        "text",
+                        "{sc}attack{/sc} {sc}assail{/sc} {sc}assault{/sc} {sc}bombard{/sc} {sc}storm{/sc} mean to make an onslaught upon. {sc}attack{/sc} implies taking the initiative in a struggle. "
+                    ],
+                    [
+                        "vis",
+                        [
+                            {
+                                "t": "plan to {it}attack{/it} the town at dawn"
+                            }
+                        ]
+                    ],
+                    [
+                        "text",
+                        " {sc}assail{/sc} implies attempting to break down resistance by repeated blows or shots. "
+                    ],
+                    [
+                        "vis",
+                        [
+                            {
+                                "t": "{it}assailed{/it} the enemy with artillery fire"
+                            }
+                        ]
+                    ],
+                    [
+                        "text",
+                        " {sc}assault{/sc} suggests a direct attempt to overpower by suddenness and violence of onslaught. "
+                    ],
+                    [
+                        "vis",
+                        [
+                            {
+                                "t": "commandos {it}assaulted{/it} the building from all sides"
+                            }
+                        ]
+                    ],
+                    [
+                        "text",
+                        " {sc}bombard{/sc} applies to attacking with bombs or shells. "
+                    ],
+                    [
+                        "vis",
+                        [
+                            {
+                                "t": "{it}bombarded{/it} the city nightly"
+                            }
+                        ]
+                    ],
+                    [
+                        "text",
+                        " {sc}storm{/sc} implies attempting to break into a defended position. "
+                    ],
+                    [
+                        "vis",
+                        [
+                            {
+                                "t": "preparing to {it}storm{/it} the fortress"
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "et": [
+            [
+                "text",
+                "Middle French {it}attaquer{/it}, from Old Italian {it}*estaccare{/it} to attach, from {it}stacca{/it} stake, of Germanic origin; akin to Old English {it}staca{/it}"
+            ]
+        ],
+        "date": "circa 1576{ds|t|1||}",
+        "shortdef": [
+            "to set upon or work against forcefully",
+            "to assail with unfriendly or bitter words",
+            "to begin to affect or to act on injuriously"
+        ]
+    },
+    {
+        "meta": {
+            "id": "attack:2",
+            "uuid": "28b2d7cd-9258-4c25-8034-21aa119e78fc",
+            "sort": "014594000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "attack",
+                "attacks",
+                "came under attacking",
+                "come under attack",
+                "coming under attack",
+                "go on the attack",
+                "goes on the attack",
+                "going on the attack",
+                "on the attack",
+                "under attack",
+                "went on the attack"
+            ],
+            "offensive": false
+        },
+        "hom": 2,
+        "hwi": {
+            "hw": "attack"
+        },
+        "fl": "noun",
+        "ins": [
+            {
+                "il": "plural",
+                "if": "at*tacks"
+            }
+        ],
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}the act of {a_link|attacking} with physical force or unfriendly words {bc}{sx|assault||} "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "the victim of a knife {wi}attack{/wi}"
+                                            },
+                                            {
+                                                "t": "a verbal {wi}attack{/wi}"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a belligerent or antagonistic action "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "launched an {wi}attack{/wi} against his political opponents"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "3 a",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a fit of sickness"
+                                    ]
+                                ],
+                                "sdsense": {
+                                    "sd": "especially",
+                                    "dt": [
+                                        [
+                                            "text",
+                                            "{bc}an active episode of a chronic or recurrent disease "
+                                        ],
+                                        [
+                                            "vis",
+                                            [
+                                                {
+                                                    "t": "an {wi}attack{/wi} of bronchitis"
+                                                }
+                                            ]
+                                        ]
+                                    ]
+                                }
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "b",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a period of being strongly affected by something (such as a desire or mood) "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "an {wi}attack{/wi} of the jitters"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "c",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}an aggressive attempt to take or extend a lead over others in a race (such as a bicycle race) "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "… he crushed his rivals in the first mountain stages by going on relatively long solo {wi}attacks{/wi}.",
+                                                "aq": {
+                                                    "auth": "Samuel Abt"
+                                                }
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "4 a",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}an offensive or scoring action "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "won the game with an 8-hit {wi}attack{/wi}"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "b",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}offensive players or the positions taken up by them"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "5",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}the setting to work on some undertaking "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "made a new {wi}attack{/wi} on the problem"
+                                            },
+                                            {
+                                                "t": "a new plan of {wi}attack{/wi}"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "6",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}the beginning of destructive action (as by a chemical agent)"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "7",
+                                "sls": [
+                                    "music"
+                                ],
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}the act or manner of beginning a musical tone or phrase"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "dros": [
+            {
+                "drp": "on the attack",
+                "def": [
+                    {
+                        "sseq": [
+                            [
+                                [
+                                    "sense",
+                                    {
+                                        "dt": [
+                                            [
+                                                "text",
+                                                "{bc}making an attack "
+                                            ],
+                                            [
+                                                "vis",
+                                                [
+                                                    {
+                                                        "t": "The soldiers were {wi}on the attack{/wi}."
+                                                    }
+                                                ]
+                                            ],
+                                            [
+                                                "uns",
+                                                [
+                                                    [
+                                                        [
+                                                            "text",
+                                                            "often used in the phrase {phrase}go on the attack{/phrase} with the meaning \"to begin attacking\" "
+                                                        ],
+                                                        [
+                                                            "vis",
+                                                            [
+                                                                {
+                                                                    "t": "Last week he challenged Bradley to debate him and {wi}went on the attack{/wi}, accusing his challenger of \"disloyalty\" to the party …",
+                                                                    "aq": {
+                                                                        "auth": "Matt Bai"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        ]
+                                                    ]
+                                                ]
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "drp": "under attack",
+                "def": [
+                    {
+                        "sseq": [
+                            [
+                                [
+                                    "sense",
+                                    {
+                                        "dt": [
+                                            [
+                                                "text",
+                                                "{bc}in the process of being {a_link|attacked} "
+                                            ],
+                                            [
+                                                "vis",
+                                                [
+                                                    {
+                                                        "t": "soldiers {wi}under attack{/wi}"
+                                                    },
+                                                    {
+                                                        "t": "a politician who is {wi}under attack{/wi} from his opponents"
+                                                    }
+                                                ]
+                                            ],
+                                            [
+                                                "uns",
+                                                [
+                                                    [
+                                                        [
+                                                            "text",
+                                                            "often used in the phrase {phrase}come under attack{/phrase} with the meaning \"to begin being attacked\" "
+                                                        ],
+                                                        [
+                                                            "vis",
+                                                            [
+                                                                {
+                                                                    "t": "a theory that has recent {wi}come under attack{/wi}"
+                                                                }
+                                                            ]
+                                                        ]
+                                                    ]
+                                                ]
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ],
+        "et": [
+            [
+                "text",
+                "{dx_ety}see {dxt|attack:1||}{/dx_ety}"
+            ]
+        ],
+        "date": "1655{ds||1||}",
+        "shortdef": [
+            "the act of attacking with physical force or unfriendly words : assault",
+            "a belligerent or antagonistic action",
+            "a fit of sickness; especially : an active episode of a chronic or recurrent disease"
+        ]
+    },
+    {
+        "meta": {
+            "id": "attack:3",
+            "uuid": "e07094bb-b346-422d-b673-cb5e3131ae01",
+            "sort": "014595000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "attack"
+            ],
+            "offensive": false
+        },
+        "hom": 3,
+        "hwi": {
+            "hw": "attack"
+        },
+        "fl": "adjective",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}designed, planned, or used for carrying out a military attack "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "an {wi}attack{/wi} helicopter"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}expressing or involving aggressively negative and harsh criticism of someone (such as a political opponent) "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "{wi}attack{/wi} ads"
+                                            },
+                                            {
+                                                "t": "Early in my magazine career, I at times participated in a form of {wi}attack{/wi} journalism that today fills me with remorse—picking a target and sending out a reporter to bring back the scalp.",
+                                                "aq": {
+                                                    "auth": "Daniel Okrent"
+                                                }
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "et": [
+            [
+                "text",
+                "{dx_ety}see {dxt|attack:1||}{/dx_ety}"
+            ]
+        ],
+        "date": "1686{ds||1||}",
+        "shortdef": [
+            "designed, planned, or used for carrying out a military attack",
+            "expressing or involving aggressively negative and harsh criticism of someone (such as a political opponent)"
+        ]
+    },
+    {
+        "meta": {
+            "id": "attack dog",
+            "uuid": "372a96a4-a8bd-4ed7-93ba-f5755c59bb96",
+            "sort": "014596000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "attack dog",
+                "attack dogs"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "attack dog"
+        },
+        "fl": "noun",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a dog trained to attack on command or on sight"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a person noted for harsh, personal, and usually public verbal attacks against others "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "a political {it}attack dog{/it}"
+                                            }
+                                        ]
+                                    ],
+                                    [
+                                        "uns",
+                                        [
+                                            [
+                                                [
+                                                    "text",
+                                                    "usually hyphenated when used before another noun "
+                                                ],
+                                                [
+                                                    "vis",
+                                                    [
+                                                        {
+                                                            "t": "{wi}attack-dog{/wi} tactics"
+                                                        }
+                                                    ]
+                                                ]
+                                            ]
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "date": "1939{ds||1||}",
+        "shortdef": [
+            "a dog trained to attack on command or on sight",
+            "a person noted for harsh, personal, and usually public verbal attacks against others —usually hyphenated when used before another noun"
+        ]
+    },
+    {
+        "meta": {
+            "id": "angle of attack",
+            "uuid": "8bcf82a9-cdc8-4fd0-91cd-908c7569e274",
+            "sort": "012766000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "angle of attack"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "angle of attack"
+        },
+        "fl": "noun phrase",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}the acute angle between the direction of the relative wind and the chord of an airfoil"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "date": "1901",
+        "shortdef": [
+            "the acute angle between the direction of the relative wind and the chord of an airfoil"
+        ]
+    },
+    {
+        "meta": {
+            "id": "anxiety attack",
+            "uuid": "fdb470ce-68da-44fc-9d32-1b8577aedd23",
+            "sort": "013252125",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "anxiety attack",
+                "anxiety attacks"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "anxiety attack"
+        },
+        "fl": "noun",
+        "ins": [
+            {
+                "il": "plural",
+                "if": "anxiety attacks"
+            }
+        ],
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a sudden feeling or episode of anxiety"
+                                    ]
+                                ],
+                                "sdsense": {
+                                    "sd": "specifically",
+                                    "dt": [
+                                        [
+                                            "text",
+                                            "{bc}an episode of mild to severe worry, distress, or fear that may last for hours or days, is typically preceded by a period of gradually increasing levels of fear and worry (such as that associated with a perceived stressor or threat), and that has symptoms (such as increased heart rate and shortness of breath) similar to but often less intense than those associated with a {d_link|panic attack|panic attack} "
+                                        ],
+                                        [
+                                            "vis",
+                                            [
+                                                {
+                                                    "t": "… the odds of coming across someone in college having an {wi}anxiety attack{/wi} are fairly high.",
+                                                    "aq": {
+                                                        "auth": "Alisa Patience"
+                                                    }
+                                                },
+                                                {
+                                                    "t": "The mention of any political figure in the vicinity of my dining room table is enough to induce an {wi}anxiety attack{/wi}.",
+                                                    "aq": {
+                                                        "auth": "Anna Little"
+                                                    }
+                                                },
+                                                {
+                                                    "t": "I remember getting ready to do the buffet scene on the lawn, and for some reason I got an {wi}anxiety attack{/wi}. I could hardly move. I was terrified.",
+                                                    "aq": {
+                                                        "auth": "Jack Nicholson"
+                                                    }
+                                                }
+                                            ]
+                                        ]
+                                    ]
+                                }
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "et": [
+            [
+                "text",
+                "probably after German {it}Angstanfall{/it} or {it}Angstattacke{/it}"
+            ]
+        ],
+        "date": "1911",
+        "shortdef": [
+            "a sudden feeling or episode of anxiety; specifically : an episode of mild to severe worry, distress, or fear that may last for hours or days, is typically preceded by a period of gradually increasing levels of fear and worry (such as that associated with a perceived stressor or threat), and that has symptoms (such as increased heart rate and shortness of breath) similar to but often less intense than those associated with a panic attack"
+        ]
+    },
+    {
+        "meta": {
+            "id": "banzai attack",
+            "uuid": "c2ff854f-15ba-478c-bef9-36aecf69f0b4",
+            "sort": "020057600",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "banzai attack",
+                "banzai attacks"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "banzai attack"
+        },
+        "fl": "noun",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a mass attack by Japanese soldiers in World War II"
+                                    ]
+                                ],
+                                "sdsense": {
+                                    "sd": "also",
+                                    "dt": [
+                                        [
+                                            "text",
+                                            "{bc}an all-out usually desperate attack"
+                                        ]
+                                    ]
+                                }
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "date": "1944",
+        "shortdef": [
+            "a mass attack by Japanese soldiers in World War II; also : an all-out usually desperate attack"
+        ]
+    },
+    {
+        "meta": {
+            "id": "brain attack",
+            "uuid": "3f64c23b-3a4e-4072-ae91-fcac19f1a837",
+            "sort": "020392600",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "brain attack"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "brain attack"
+        },
+        "fl": "noun",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}{sx|stroke||5}"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "date": "1990",
+        "shortdef": [
+            "stroke"
+        ]
+    },
+    {
+        "meta": {
+            "id": "heart attack",
+            "uuid": "73f780c0-3094-4b7e-bf73-8c97547629fc",
+            "sort": "080103000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "heart attack",
+                "heart attacks",
+                "myocardial infarction"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "heart attack"
+        },
+        "fl": "noun",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}an acute episode of {d_link|coronary heart disease|coronary heart disease} marked by the death or damage of heart muscle due to insufficient blood supply to the heart usually as a result of a coronary artery becoming blocked by a blood clot formed in response to a ruptured or torn fatty arterial deposit "
+                                    ],
+                                    [
+                                        "snote",
+                                        [
+                                            [
+                                                "t",
+                                                "Symptoms of heart attack include discomfort or pain in the chest, shoulder, arm, back, neck, or jaw, shortness of breath, dizziness or lightheadedness, heartburn, nausea, excessive sweating, and extreme fatigue."
+                                            ]
+                                        ]
+                                    ],
+                                    [
+                                        "ca",
+                                        {
+                                            "intro": "called also",
+                                            "cats": [
+                                                {
+                                                    "cat": "myocardial infarction"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "date": "1836",
+        "shortdef": [
+            "an acute episode of coronary heart disease marked by the death or damage of heart muscle due to insufficient blood supply to the heart usually as a result of a coronary artery becoming blocked by a blood clot formed in response to a ruptured or torn fatty arterial deposit —called also myocardial infarction"
+        ]
+    },
+    {
+        "meta": {
+            "id": "panic attack",
+            "uuid": "cc2d7576-8f33-4a95-be39-f344740cee7b",
+            "sort": "160038700",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "panic attack",
+                "panic attacks"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "panic attack"
+        },
+        "fl": "noun",
+        "ins": [
+            {
+                "il": "plural",
+                "if": "panic attacks"
+            }
+        ],
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a sudden feeling or episode of panic"
+                                    ]
+                                ],
+                                "sdsense": {
+                                    "sd": "specifically",
+                                    "dt": [
+                                        [
+                                            "text",
+                                            "{bc}a brief episode of intense fear or dread that is of sudden onset and typically subsides within 30 minutes, usually occurs for no apparent reason but may sometimes be associated with an identifiable triggering stimulus (such as an existing phobia), and is accompanied by a sense of unreality and impending loss of control and by various debilitating physical symptoms (such as increased heart rate, chest pain, dizziness, and shortness of breath) "
+                                        ],
+                                        [
+                                            "vis",
+                                            [
+                                                {
+                                                    "t": "Those undergoing a {wi}panic attack{/wi} often believe they are suffering a heart attack or some other illness.",
+                                                    "aq": {
+                                                        "auth": "Lillian Lee Kim"
+                                                    }
+                                                },
+                                                {
+                                                    "t": "Agoraphobia is a fear only of fear itself, that is, of any situation where help would be unavailable and escape difficult in case of a {wi}panic attack{/wi}.",
+                                                    "aq": {
+                                                        "source": "{it}The Harvard Mental Health Letter{/it}"
+                                                    }
+                                                }
+                                            ]
+                                        ],
+                                        [
+                                            "text",
+                                            "{dx}compare {dxt|anxiety attack||}{/dx}"
+                                        ]
+                                    ]
+                                }
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "date": "1958",
+        "shortdef": [
+            "a sudden feeling or episode of panic; specifically : a brief episode of intense fear or dread that is of sudden onset and typically subsides within 30 minutes, usually occurs for no apparent reason but may sometimes be associated with an identifiable triggering stimulus (such as an existing phobia), and is accompanied by a sense of unreality and impending loss of control and by various debilitating physical symptoms (such as increased heart rate, chest pain, dizziness, and shortness of breath)"
+        ]
+    }
+]

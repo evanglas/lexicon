@@ -1,0 +1,577 @@
+[
+    {
+        "meta": {
+            "id": "reality",
+            "uuid": "cd069452-32a6-4e3f-a57b-21f9a291647d",
+            "sort": "180760000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "in reality",
+                "realities",
+                "reality",
+                "reality TV",
+                "reality show",
+                "reality shows",
+                "reality television"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "re*al*i*ty",
+            "prs": [
+                {
+                    "mw": "r\u0113-\u02c8a-l\u0259-t\u0113",
+                    "sound": {
+                        "audio": "realit01",
+                        "ref": "c",
+                        "stat": "1"
+                    }
+                }
+            ]
+        },
+        "fl": "noun",
+        "ins": [
+            {
+                "il": "plural",
+                "ifc": "-ties",
+                "if": "re*al*i*ties"
+            }
+        ],
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}the quality or state of being real"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "pseq",
+                            [
+                                [
+                                    "sense",
+                                    {
+                                        "sn": "2 a (1)",
+                                        "dt": [
+                                            [
+                                                "text",
+                                                "{bc}a real event, entity, or state of affairs "
+                                            ],
+                                            [
+                                                "vis",
+                                                [
+                                                    {
+                                                        "t": "his dream became a {wi}reality{\/wi}"
+                                                    }
+                                                ]
+                                            ]
+                                        ]
+                                    }
+                                ],
+                                [
+                                    "sense",
+                                    {
+                                        "sn": "(2)",
+                                        "dt": [
+                                            [
+                                                "text",
+                                                "{bc}the totality of real things and events "
+                                            ],
+                                            [
+                                                "vis",
+                                                [
+                                                    {
+                                                        "t": "trying to escape from {wi}reality{\/wi}"
+                                                    }
+                                                ]
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            ]
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "b",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}something that is neither derivative nor dependent but exists necessarily"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "3",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}television programming that features people (especially people who are not professional actors) dealing with real-life situations or participating in contrived activities (such as competitions) "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "I for one am rooting for anything that stems the rising tide of {wi}reality{\/wi} on television.",
+                                                "aq": {
+                                                    "auth": "Ted Cox"
+                                                }
+                                            },
+                                            {
+                                                "t": "\u2026 it\u0027s a tough choice between {it}The Voice{\/it} and {it}Dancing With the Stars{\/it}. \u2026 If {wi}reality{\/wi} means nothing to you, then you\u0027re faced with a medical drama, a superhero drama and comedies.",
+                                                "aq": {
+                                                    "auth": "Chris Harnick"
+                                                }
+                                            }
+                                        ]
+                                    ],
+                                    [
+                                        "uns",
+                                        [
+                                            [
+                                                [
+                                                    "text",
+                                                    "usually used before another noun "
+                                                ],
+                                                [
+                                                    "vis",
+                                                    [
+                                                        {
+                                                            "t": "{wi}reality{\/wi} stars"
+                                                        },
+                                                        {
+                                                            "t": "a {wi}reality{\/wi} series"
+                                                        },
+                                                        {
+                                                            "t": "{phrase}reality shows{\/phrase}"
+                                                        },
+                                                        {
+                                                            "t": "fans of {phrase}reality TV\/television{\/phrase}"
+                                                        },
+                                                        {
+                                                            "t": "\u2026 critical judge Simon Cowell praised him as \u0022the best magician ever\u0022 on the {it}Britain\u0027s Got Talent{\/it} {wi}reality{\/wi} competition.",
+                                                            "aq": {
+                                                                "auth": "Markos Papadatos"
+                                                            }
+                                                        },
+                                                        {
+                                                            "t": "The Arkansas native competing on the popular {wi}reality{\/wi} dating show {it}The Bachelor{\/it} has advanced to become one of only three remaining contestants.",
+                                                            "aq": {
+                                                                "source": "{it}arkansasonline.com{\/it}"
+                                                            }
+                                                        },
+                                                        {
+                                                            "t": "\u2026 beat out 20,000 applicants to become one of 18 final contestants on {it}Hell\u0027s Kitchen{\/it}, the {wi}reality{\/wi} cooking show that banks on aspiring chefs\u0027 ambition (and vulnerabilities) and chef Gordon Ramsay\u0027s volatility.",
+                                                            "aq": {
+                                                                "auth": "Sarah Reiss"
+                                                            }
+                                                        }
+                                                    ]
+                                                ]
+                                            ]
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "dros": [
+            {
+                "drp": "in reality",
+                "def": [
+                    {
+                        "sseq": [
+                            [
+                                [
+                                    "sense",
+                                    {
+                                        "dt": [
+                                            [
+                                                "text",
+                                                "{bc}in actual fact"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ],
+        "date": "circa 1513{ds||1||}",
+        "shortdef": [
+            "the quality or state of being real",
+            "a real event, entity, or state of affairs",
+            "the totality of real things and events"
+        ]
+    },
+    {
+        "meta": {
+            "id": "reality check",
+            "uuid": "25deef1c-b81f-44a9-8a7f-a78024e68d1c",
+            "sort": "180761000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "reality check",
+                "reality checks"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "reality check"
+        },
+        "fl": "noun",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}something that clarifies or serves as a reminder of reality often by correcting a misconception"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "date": "1960",
+        "shortdef": [
+            "something that clarifies or serves as a reminder of reality often by correcting a misconception"
+        ]
+    },
+    {
+        "meta": {
+            "id": "augmented reality",
+            "uuid": "257f29f4-d5f7-4d84-b90a-229207f8817e",
+            "sort": "014732000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "augmented reality"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "augmented reality"
+        },
+        "fl": "noun",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}an enhanced version of reality created by the use of technology to overlay digital information on an image of something being viewed through a device (such as a smartphone camera)"
+                                    ]
+                                ],
+                                "sdsense": {
+                                    "sd": "also",
+                                    "dt": [
+                                        [
+                                            "text",
+                                            "{bc}the technology used to create augmented reality"
+                                        ]
+                                    ]
+                                }
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "date": "1992",
+        "shortdef": [
+            "an enhanced version of reality created by the use of technology to overlay digital information on an image of something being viewed through a device (such as a smartphone camera); also : the technology used to create augmented reality"
+        ]
+    },
+    {
+        "meta": {
+            "id": "virtual reality",
+            "uuid": "b981edef-1839-4b21-93b7-3a2de69ab5b9",
+            "sort": "220104200",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "virtual realities",
+                "virtual reality"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "virtual reality"
+        },
+        "fl": "noun",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}an artificial environment which is experienced through sensory stimuli (such as sights and sounds) provided by a computer and in which one\u0027s actions partially determine what happens in the environment"
+                                    ]
+                                ],
+                                "sdsense": {
+                                    "sd": "also",
+                                    "dt": [
+                                        [
+                                            "text",
+                                            "{bc}the technology used to create or access a virtual reality"
+                                        ]
+                                    ]
+                                }
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "date": "1987",
+        "shortdef": [
+            "an artificial environment which is experienced through sensory stimuli (such as sights and sounds) provided by a computer and in which one\u0027s actions partially determine what happens in the environment; also : the technology used to create or access a virtual reality"
+        ]
+    },
+    {
+        "meta": {
+            "id": "divorced from reality",
+            "uuid": "4c4c9616-e1b6-4a28-9e36-6c0368f78734",
+            "sort": "3004773000",
+            "src": "ld",
+            "section": "idioms",
+            "stems": [
+                "divorced from reality"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "divorced from reality"
+        },
+        "fl": "idiom",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}showing no connection to what is real or true "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "a theory that is completely {it}divorced from reality{\/it}"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "showing no connection to what is real or true"
+        ]
+    },
+    {
+        "meta": {
+            "id": "lose one\u0027s grip",
+            "uuid": "4aade575-76eb-4550-be64-966dd771cb92",
+            "sort": "3011490000",
+            "src": "ld",
+            "section": "idioms",
+            "stems": [
+                "lose her grip",
+                "lose his grip",
+                "lose one\u0027s grip",
+                "lose their grip",
+                "losing his grip on reality"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "lose one\u0027s grip"
+        },
+        "fl": "idiom",
+        "def": [
+            {
+                "sls": [
+                    "informal"
+                ],
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to lose control of one\u0027s thoughts and emotions {bc}to lose one\u0027s ability to think or behave in a normal way "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "I\u0027ve never seen him so confused and indecisive\u2014he really seems to be {it}losing his grip{\/it}."
+                                            },
+                                            {
+                                                "t": "The patient seems to be {phrase}losing his grip on reality{\/phrase}."
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "to lose control of one\u0027s thoughts and emotions : to lose one\u0027s ability to think or behave in a normal way"
+        ]
+    },
+    {
+        "meta": {
+            "id": "lose touch",
+            "uuid": "73103f78-3917-44ba-b1c4-7ff5fdfeefbb",
+            "sort": "3011519000",
+            "src": "ld",
+            "section": "idioms",
+            "stems": [
+                "lose touch",
+                "lost touch with reality"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "lose touch"
+        },
+        "fl": "idiom",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to stop communicating with each other {bc}to no longer know what is happening in each other\u0027s lives "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "They were friends in college, but then they moved to different cities and {it}lost touch{\/it}."
+                                            }
+                                        ]
+                                    ],
+                                    [
+                                        "uns",
+                                        [
+                                            [
+                                                [
+                                                    "text",
+                                                    "often + {it}with{\/it} "
+                                                ],
+                                                [
+                                                    "vis",
+                                                    [
+                                                        {
+                                                            "t": "She {it}lost touch with{\/it} her college roommate after graduation."
+                                                        }
+                                                    ]
+                                                ]
+                                            ]
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to stop knowing what is happening, how certain people feel, etc. "
+                                    ],
+                                    [
+                                        "uns",
+                                        [
+                                            [
+                                                [
+                                                    "text",
+                                                    "usually + {it}with{\/it} "
+                                                ],
+                                                [
+                                                    "vis",
+                                                    [
+                                                        {
+                                                            "t": "I read the newspaper every morning so that I don\u0027t completely {it}lose touch with{\/it} what\u0027s happening in the world."
+                                                        },
+                                                        {
+                                                            "t": "She seems to have {phrase}lost touch with reality{\/phrase} and thinks that she can have everything she wants."
+                                                        }
+                                                    ]
+                                                ]
+                                            ]
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "to stop communicating with each other : to no longer know what is happening in each other\u0027s lives \u2014often + with",
+            "to stop knowing what is happening, how certain people feel, etc. \u2014usually + with"
+        ]
+    }
+]

@@ -1,0 +1,571 @@
+[
+    {
+        "meta": {
+            "id": "hi",
+            "uuid": "0a99d1eb-9b90-4c43-b6ba-34ea1be36a59",
+            "sort": "080171100",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "hi"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "hi",
+            "prs": [
+                {
+                    "mw": "\u02c8h\u012b(-\u0113)",
+                    "sound": {
+                        "audio": "hi000001",
+                        "ref": "c",
+                        "stat": "1"
+                    }
+                }
+            ]
+        },
+        "fl": "interjection",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "uns",
+                                        [
+                                            [
+                                                [
+                                                    "text",
+                                                    "used especially as a greeting "
+                                                ],
+                                                [
+                                                    "vis",
+                                                    [
+                                                        {
+                                                            "t": "just called to say {wi}hi{\/wi}"
+                                                        }
+                                                    ]
+                                                ]
+                                            ]
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "et": [
+            [
+                "text",
+                "Middle English {it}hy{\/it}"
+            ]
+        ],
+        "date": "15th century",
+        "shortdef": [
+            "\u2014used especially as a greeting"
+        ]
+    },
+    {
+        "meta": {
+            "id": "HI",
+            "uuid": "3c419fdd-c030-48ea-a1ad-522ca2ff9d43",
+            "sort": "080171200",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "HI"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "HI"
+        },
+        "fl": "abbreviation",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "Hawaii"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "high intensity"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "3",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "humidity index"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "Hawaii",
+            "high intensity",
+            "humidity index"
+        ]
+    },
+    {
+        "meta": {
+            "id": "hi-fi",
+            "uuid": "2b5419d0-214c-4022-bd14-0d66bdf82b44",
+            "sort": "080176500",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "hi-fi",
+                "hi-fis"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "hi-fi",
+            "prs": [
+                {
+                    "mw": "\u02c8h\u012b-\u02c8f\u012b",
+                    "sound": {
+                        "audio": "hifi0001",
+                        "ref": "c",
+                        "stat": "1"
+                    }
+                }
+            ]
+        },
+        "fl": "noun",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}{sx|high fidelity||}"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}equipment for reproduction of sound with high fidelity"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "date": "1948{ds||1||}",
+        "shortdef": [
+            "high fidelity",
+            "equipment for reproduction of sound with high fidelity"
+        ]
+    },
+    {
+        "meta": {
+            "id": "hi-hat",
+            "uuid": "b4bbedb9-ec1d-415a-bd35-ccc4a052dbfd",
+            "sort": "080189700",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "hi-hat",
+                "hi-hats",
+                "high hat"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "hi-hat"
+        },
+        "cxs": [
+            {
+                "cxl": "variant spelling of",
+                "cxtis": [
+                    {
+                        "cxt": "high hat",
+                        "cxn": "2"
+                    }
+                ]
+            }
+        ],
+        "shortdef": []
+    },
+    {
+        "meta": {
+            "id": "hi-tech",
+            "uuid": "e41c2575-e1f7-4957-86ca-5254be1c583a",
+            "sort": "080206400",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "hi-tech",
+                "high-tech"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "hi-tech"
+        },
+        "cxs": [
+            {
+                "cxl": "less common spelling of",
+                "cxtis": [
+                    {
+                        "cxt": "high-tech"
+                    }
+                ]
+            }
+        ],
+        "shortdef": []
+    },
+    {
+        "meta": {
+            "id": "say hi to",
+            "uuid": "3a269551-688f-4156-8b2b-a76b805882a8",
+            "sort": "3016704000",
+            "src": "ld",
+            "section": "idioms",
+            "stems": [
+                "say hi to"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "say hi to"
+        },
+        "fl": "idiom",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to greet "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "Aren\u0027t you going to {it}say hi to{\/it} him?"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "to greet"
+        ]
+    },
+    {
+        "meta": {
+            "id": "high-def",
+            "uuid": "c2015edc-4581-41c8-bb5c-a20e4d52b0aa",
+            "sort": "080179950",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "hi-def",
+                "high-def"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "high-def",
+            "prs": [
+                {
+                    "mw": "\u02c8h\u012b-\u02c8def",
+                    "sound": {
+                        "audio": "high-def_1",
+                        "ref": "owl",
+                        "stat": "1"
+                    }
+                }
+            ]
+        },
+        "vrs": [
+            {
+                "vl": "or less commonly",
+                "va": "hi-def"
+            }
+        ],
+        "fl": "adjective",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}{sx|high-definition|high-definition|} "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "{wi}high-def{\/wi} TV"
+                                            },
+                                            {
+                                                "t": "{wi}high-def{\/wi} programming"
+                                            },
+                                            {
+                                                "t": "{wi}hi-def{\/wi} video"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "uros": [
+            {
+                "ure": "high-def",
+                "vrs": [
+                    {
+                        "vl": "or less commonly",
+                        "va": "hi-def"
+                    }
+                ],
+                "fl": "noun",
+                "utxt": [
+                    [
+                        "vis",
+                        [
+                            {
+                                "t": "watching the game in {wi}high-def{\/wi}"
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "date": "1983",
+        "shortdef": [
+            "high-definition"
+        ]
+    },
+    {
+        "meta": {
+            "id": "high hat",
+            "uuid": "31ac82a0-2d86-4db1-bb42-e772d7261f8c",
+            "sort": "080182600",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "hi-hat",
+                "hi-hats",
+                "high hat",
+                "high hats"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "high hat"
+        },
+        "fl": "noun",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}{sx|beaver:1||2}"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2",
+                                "vrs": [
+                                    {
+                                        "vl": "or",
+                                        "va": "hi-hat",
+                                        "prs": [
+                                            {
+                                                "mw": "\u02c8h\u012b-\u02c8hat",
+                                                "sound": {
+                                                    "audio": "highha02",
+                                                    "ref": "c",
+                                                    "stat": "1"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a pair of cymbals operated by a foot pedal"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "date": "1885{ds||1||}",
+        "shortdef": [
+            "beaver",
+            "a pair of cymbals operated by a foot pedal"
+        ]
+    },
+    {
+        "meta": {
+            "id": "high tech",
+            "uuid": "4fd02f83-0caa-458a-bb56-5a0f585fd730",
+            "sort": "080187800",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "hi-tech",
+                "hi-techs",
+                "high tech",
+                "high techs",
+                "high-tech"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "high tech",
+            "prs": [
+                {
+                    "mw": "\u02c8h\u012b-\u02c8tek",
+                    "sound": {
+                        "audio": "highte01",
+                        "ref": "c",
+                        "stat": "1"
+                    }
+                }
+            ]
+        },
+        "vrs": [
+            {
+                "vl": "or less commonly",
+                "va": "hi-tech"
+            }
+        ],
+        "fl": "noun",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}{sx|high technology||}"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a style of interior design featuring industrial products, materials, or designs"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "uros": [
+            {
+                "ure": "high-tech",
+                "vrs": [
+                    {
+                        "vl": "or less commonly",
+                        "va": "hi-tech"
+                    }
+                ],
+                "fl": "adjective"
+            }
+        ],
+        "date": "1969{ds||1||}",
+        "shortdef": [
+            "high technology",
+            "a style of interior design featuring industrial products, materials, or designs"
+        ]
+    }
+]

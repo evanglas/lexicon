@@ -1,0 +1,614 @@
+[
+    {
+        "meta": {
+            "id": "cracker",
+            "uuid": "e1189d47-bc5f-44c3-a99b-6a3355d3842e",
+            "sort": "035683600",
+            "user_comments": "no",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "cracker",
+                "crackers"
+            ],
+            "offensive": true
+        },
+        "hwi": {
+            "hw": "crack*er",
+            "prs": [
+                {
+                    "mw": "\u02c8kra-k\u0259r",
+                    "sound": {
+                        "audio": "cracke02",
+                        "ref": "c",
+                        "stat": "1"
+                    }
+                }
+            ]
+        },
+        "fl": "noun",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1",
+                                "sls": [
+                                    "chiefly dialectal"
+                                ],
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a bragging liar {bc}{sx|boaster||}"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "bs",
+                            {
+                                "sense": {
+                                    "sn": "2",
+                                    "dt": [
+                                        [
+                                            "text",
+                                            "{bc}something that makes a {a_link|cracking} or snapping noise: such as"
+                                        ]
+                                    ]
+                                }
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "a",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}{sx|firecracker||}"
+                                    ]
+                                ]
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "b",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}the snapping end of a whiplash {bc}{sx|snapper||}"
+                                    ]
+                                ]
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "c",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a paper holder for a party favor that pops when the ends are pulled sharply"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "3",
+                                "ins": [
+                                    {
+                                        "if": "crack*ers",
+                                        "spl": "plural"
+                                    }
+                                ],
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}{sx|nutcracker||}"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "4",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a dry thin crispy baked bread product that may be leavened or unleavened"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "5 a",
+                                "sls": [
+                                    "offensive"
+                                ],
+                                "dt": [
+                                    [
+                                        "uns",
+                                        [
+                                            [
+                                                [
+                                                    "text",
+                                                    "used as an insulting and contemptuous term for a poor, white, usually Southern person"
+                                                ]
+                                            ]
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "b",
+                                "sls": [
+                                    "sometimes offensive"
+                                ],
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a native or resident of Florida or Georgia "
+                                    ],
+                                    [
+                                        "uns",
+                                        [
+                                            [
+                                                [
+                                                    "text",
+                                                    "used as a nickname"
+                                                ]
+                                            ]
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "6",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}the equipment in which cracking (as of petroleum) is carried out"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "7",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}{sx|hacker||4}"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "date": "15th century{ds||1||}",
+        "shortdef": [
+            "a bragging liar : boaster",
+            "something that makes a cracking or snapping noise: such as",
+            "firecracker"
+        ]
+    },
+    {
+        "meta": {
+            "id": "cracker-barrel",
+            "uuid": "179ed6d6-83ff-43aa-bb86-a58c5e113140",
+            "sort": "035683700",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "cracker-barrel"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "crack*er-bar*rel",
+            "prs": [
+                {
+                    "mw": "\u02c8kra-k\u0259r-\u02ccber-\u0259l",
+                    "sound": {
+                        "audio": "cracke03",
+                        "ref": "c",
+                        "stat": "1"
+                    }
+                },
+                {
+                    "mw": "-\u02ccba-r\u0259l"
+                }
+            ]
+        },
+        "fl": "adjective",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}suggestive of the friendly homespun character of a country store "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "a {wi}cracker-barrel{\/wi} philosopher"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "et": [
+            [
+                "text",
+                "from the cracker barrel in country stores around which customers lounged for informal conversation"
+            ]
+        ],
+        "date": "1916",
+        "shortdef": [
+            "suggestive of the friendly homespun character of a country store"
+        ]
+    },
+    {
+        "meta": {
+            "id": "Cracker Jack",
+            "uuid": "1ed98620-4e13-43ee-b1fa-d9d8680c86a3",
+            "sort": "035683900",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "Cracker Jack",
+                "Cracker Jacks"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "Crack*er Jack",
+            "prs": [
+                {
+                    "mw": "\u02c8kra-k\u0259r-\u02ccjak",
+                    "sound": {
+                        "audio": "cracke04",
+                        "ref": "c",
+                        "stat": "1"
+                    }
+                }
+            ]
+        },
+        "fl": "trademark",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "uns",
+                                        [
+                                            [
+                                                [
+                                                    "text",
+                                                    "used for a candied popcorn confection"
+                                                ]
+                                            ]
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "\u2014used for a candied popcorn confection"
+        ]
+    },
+    {
+        "meta": {
+            "id": "animal cracker",
+            "uuid": "62f990d1-8e6e-4be2-b700-8166e8f0a313",
+            "sort": "012835000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "animal cracker",
+                "animal crackers"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "animal cracker"
+        },
+        "fl": "noun",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a small cookie in the shape of an animal"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "date": "1878",
+        "shortdef": [
+            "a small cookie in the shape of an animal"
+        ]
+    },
+    {
+        "meta": {
+            "id": "catalytic cracker",
+            "uuid": "1ae126fe-935d-4c27-a3ff-507a75a8f873",
+            "sort": "031335000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "catalytic cracker",
+                "catalytic crackers"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "catalytic cracker"
+        },
+        "fl": "noun",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}the unit in a petroleum refinery in which cracking is carried out in the presence of a catalyst"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "date": "1947",
+        "shortdef": [
+            "the unit in a petroleum refinery in which cracking is carried out in the presence of a catalyst"
+        ]
+    },
+    {
+        "meta": {
+            "id": "graham cracker",
+            "uuid": "18c0a76d-81cb-4588-ab00-cbbc9e1f2a08",
+            "sort": "072030000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "graham cracker",
+                "graham crackers"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "gra*ham cracker",
+            "prs": [
+                {
+                    "mw": "\u02c8gram-",
+                    "sound": {
+                        "audio": "graham01",
+                        "ref": "c",
+                        "stat": "1"
+                    }
+                },
+                {
+                    "mw": "\u02c8gr\u0101-\u0259m-"
+                }
+            ]
+        },
+        "fl": "noun",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a slightly sweet cracker made of whole wheat flour"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "et": [
+            [
+                "text",
+                "{it}graham flour{\/it}"
+            ]
+        ],
+        "date": "1833",
+        "shortdef": [
+            "a slightly sweet cracker made of whole wheat flour"
+        ]
+    },
+    {
+        "meta": {
+            "id": "oyster cracker",
+            "uuid": "2ab30cab-f02e-4f30-a3a8-c5f78f8a5d4b",
+            "sort": "152473000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "oyster cracker",
+                "oyster crackers"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "oyster cracker"
+        },
+        "fl": "noun",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a small salted usually round cracker"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "date": "1857",
+        "shortdef": [
+            "a small salted usually round cracker"
+        ]
+    },
+    {
+        "meta": {
+            "id": "soda cracker",
+            "uuid": "d653df38-1422-4ecb-b965-db6d8d04f8e0",
+            "sort": "194556500",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "soda cracker",
+                "soda crackers"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "soda cracker"
+        },
+        "fl": "noun",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a cracker leavened with bicarbonate of soda and cream of tartar"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "date": "1830",
+        "shortdef": [
+            "a cracker leavened with bicarbonate of soda and cream of tartar"
+        ]
+    },
+    {
+        "meta": {
+            "id": "Christmas cracker",
+            "uuid": "36feabe9-e9b3-40bb-ba33-0b9d396a34b3",
+            "sort": "3003257000",
+            "src": "ld",
+            "section": "idioms",
+            "stems": [
+                "Christmas cracker"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "Christmas cracker"
+        },
+        "fl": "noun",
+        "def": [
+            {
+                "sls": [
+                    "British"
+                ],
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a paper tube that has a toy or other small object inside it and makes a loud sound when its ends are pulled apart"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "a paper tube that has a toy or other small object inside it and makes a loud sound when its ends are pulled apart"
+        ]
+    }
+]

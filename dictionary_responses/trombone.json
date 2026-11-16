@@ -1,0 +1,60 @@
+[
+  {
+    "word": "trombone",
+    "phonetic": "/tɹəmˈbəʊn/",
+    "phonetics": [
+      { "text": "/tɹəmˈbəʊn/", "audio": "" },
+      {
+        "text": "/tɹəmˈboʊn/",
+        "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/trombone-us.mp3",
+        "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=50423079",
+        "license": {
+          "name": "BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "A musical instrument in the brass family, having a cylindrical bore, and usually a sliding tube (but sometimes piston valves, and rarely both). Most often refers to the tenor trombone, which is the most common type of trombone and has a fundamental tone of B♭ˌ (contra B♭).",
+            "synonyms": [],
+            "antonyms": [],
+            "example": "Jim plays the trombone very well."
+          },
+          {
+            "definition": "The common European bittern.",
+            "synonyms": [],
+            "antonyms": []
+          }
+        ],
+        "synonyms": [],
+        "antonyms": []
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          {
+            "definition": "To transmit a signal or data back to a central switching point before sending it out to its destination.",
+            "synonyms": [],
+            "antonyms": []
+          },
+          {
+            "definition": "To extend and retract (the zoom lens); to use it too enthusiastically.",
+            "synonyms": [],
+            "antonyms": []
+          }
+        ],
+        "synonyms": [],
+        "antonyms": []
+      }
+    ],
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "sourceUrls": ["https://en.wiktionary.org/wiki/trombone"]
+  }
+]

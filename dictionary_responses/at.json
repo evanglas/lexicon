@@ -1,0 +1,1108 @@
+[
+    {
+        "meta": {
+            "id": "at:1",
+            "uuid": "15fe7cd5-42d9-45e7-8963-6ef47f1da4a2",
+            "sort": "014453000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "at"
+            ],
+            "offensive": false
+        },
+        "hom": 1,
+        "hwi": {
+            "hw": "at",
+            "prs": [
+                {
+                    "mw": "\u0259t"
+                },
+                {
+                    "mw": "\u02c8at",
+                    "sound": {
+                        "audio": "at000001",
+                        "ref": "c",
+                        "stat": "1"
+                    }
+                }
+            ]
+        },
+        "fl": "preposition",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1",
+                                "dt": [
+                                    [
+                                        "uns",
+                                        [
+                                            [
+                                                [
+                                                    "text",
+                                                    "used as a function word to indicate presence or occurrence in, on, or near "
+                                                ],
+                                                [
+                                                    "vis",
+                                                    [
+                                                        {
+                                                            "t": "staying {wi}at{\/wi} a hotel"
+                                                        },
+                                                        {
+                                                            "t": "{wi}at{\/wi} a party"
+                                                        },
+                                                        {
+                                                            "t": "sick {wi}at{\/wi} heart"
+                                                        }
+                                                    ]
+                                                ]
+                                            ]
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2",
+                                "dt": [
+                                    [
+                                        "uns",
+                                        [
+                                            [
+                                                [
+                                                    "text",
+                                                    "used as a function word to indicate the goal of an indicated or implied action or motion "
+                                                ],
+                                                [
+                                                    "vis",
+                                                    [
+                                                        {
+                                                            "t": "aim {wi}at{\/wi} the target"
+                                                        },
+                                                        {
+                                                            "t": "creditors are {wi}at{\/wi} him again"
+                                                        }
+                                                    ]
+                                                ]
+                                            ]
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "3",
+                                "dt": [
+                                    [
+                                        "uns",
+                                        [
+                                            [
+                                                [
+                                                    "text",
+                                                    "used as a function word to indicate that with which one is occupied or employed "
+                                                ],
+                                                [
+                                                    "vis",
+                                                    [
+                                                        {
+                                                            "t": "{wi}at{\/wi} work"
+                                                        },
+                                                        {
+                                                            "t": "{wi}at{\/wi} the controls"
+                                                        },
+                                                        {
+                                                            "t": "good {wi}at{\/wi} chess"
+                                                        }
+                                                    ]
+                                                ]
+                                            ]
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "4",
+                                "dt": [
+                                    [
+                                        "uns",
+                                        [
+                                            [
+                                                [
+                                                    "text",
+                                                    "used as a function word to indicate situation in an active or passive state or condition "
+                                                ],
+                                                [
+                                                    "vis",
+                                                    [
+                                                        {
+                                                            "t": "{wi}at{\/wi} liberty"
+                                                        },
+                                                        {
+                                                            "t": "{wi}at{\/wi} rest"
+                                                        }
+                                                    ]
+                                                ]
+                                            ]
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "5",
+                                "dt": [
+                                    [
+                                        "uns",
+                                        [
+                                            [
+                                                [
+                                                    "text",
+                                                    "used as a function word to indicate the means, cause, or manner "
+                                                ],
+                                                [
+                                                    "vis",
+                                                    [
+                                                        {
+                                                            "t": "sold {wi}at{\/wi} auction"
+                                                        },
+                                                        {
+                                                            "t": "laughed {wi}at{\/wi} my joke"
+                                                        },
+                                                        {
+                                                            "t": "act {wi}at{\/wi} your own discretion"
+                                                        }
+                                                    ]
+                                                ]
+                                            ]
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "6 a",
+                                "dt": [
+                                    [
+                                        "uns",
+                                        [
+                                            [
+                                                [
+                                                    "text",
+                                                    "used as a function word to indicate the rate, degree, or position in a scale or series "
+                                                ],
+                                                [
+                                                    "vis",
+                                                    [
+                                                        {
+                                                            "t": "the temperature {wi}at{\/wi} 90"
+                                                        },
+                                                        {
+                                                            "t": "{wi}at{\/wi} first"
+                                                        }
+                                                    ]
+                                                ]
+                                            ]
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "b",
+                                "dt": [
+                                    [
+                                        "uns",
+                                        [
+                                            [
+                                                [
+                                                    "text",
+                                                    "used as a function word to indicate age or position in time "
+                                                ],
+                                                [
+                                                    "vis",
+                                                    [
+                                                        {
+                                                            "t": "will retire {wi}at{\/wi} 65"
+                                                        }
+                                                    ]
+                                                ]
+                                            ]
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "et": [
+            [
+                "text",
+                "Middle English, from Old English {it}\u00e6t{\/it}; akin to Old High German {it}az{\/it} at, Latin {it}ad{\/it}"
+            ]
+        ],
+        "date": "before 12th century{ds||1||}",
+        "shortdef": [
+            "\u2014used as a function word to indicate presence or occurrence in, on, or near",
+            "\u2014used as a function word to indicate the goal of an indicated or implied action or motion",
+            "\u2014used as a function word to indicate that with which one is occupied or employed"
+        ]
+    },
+    {
+        "meta": {
+            "id": "at:2",
+            "uuid": "bdb23312-6d93-4156-8123-2f07f588f08f",
+            "sort": "014454000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "at",
+                "ats",
+                "att",
+                "atts"
+            ],
+            "offensive": false
+        },
+        "hom": 2,
+        "hwi": {
+            "hw": "at",
+            "prs": [
+                {
+                    "mw": "\u02c8\u00e4t",
+                    "sound": {
+                        "audio": "at000002",
+                        "ref": "c",
+                        "stat": "1"
+                    }
+                }
+            ]
+        },
+        "vrs": [
+            {
+                "vl": "or less commonly",
+                "va": "att"
+            }
+        ],
+        "fl": "noun",
+        "ins": [
+            {
+                "il": "plural",
+                "if": "at"
+            },
+            {
+                "il": "also",
+                "if": "att"
+            }
+        ],
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a monetary subunit of the kip {dx}see {it}kip{\/it} at {dxt|Money Table|money|table}{\/dx}"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "et": [
+            [
+                "text",
+                "Lao"
+            ]
+        ],
+        "date": "1955",
+        "shortdef": [
+            "a monetary subunit of the kip"
+        ]
+    },
+    {
+        "meta": {
+            "id": "at:3",
+            "uuid": "299a4d4d-17c6-4107-ba35-b9cf23841090",
+            "sort": "014455000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "at"
+            ],
+            "offensive": false
+        },
+        "hom": 3,
+        "hwi": {
+            "hw": "at"
+        },
+        "fl": "abbreviation",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "airtight"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "atmosphere"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "3",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "atomic"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "airtight",
+            "atmosphere",
+            "atomic"
+        ]
+    },
+    {
+        "meta": {
+            "id": "at:4",
+            "uuid": "2992c320-1cdd-45ca-83ce-8ef3b4825d3f",
+            "sort": "014455500",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "at"
+            ],
+            "offensive": false
+        },
+        "hom": 4,
+        "hwi": {
+            "hw": "at"
+        },
+        "fl": "verb",
+        "cxs": [
+            {
+                "cxtis": [
+                    {
+                        "cxl": "less common spelling of",
+                        "cxt": "@:2"
+                    }
+                ]
+            }
+        ],
+        "def": [
+            {
+                "vd": "transitive verb",
+                "sls": [
+                    "informal"
+                ],
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to respond to, challenge, or disparage the claim or opinion of (someone) "
+                                    ],
+                                    [
+                                        "uns",
+                                        [
+                                            [
+                                                [
+                                                    "text",
+                                                    "usually used in the phrase {phrase}don\u0027t @ me{\/phrase} "
+                                                ],
+                                                [
+                                                    "vis",
+                                                    [
+                                                        {
+                                                            "t": "It goes without saying that Lucille Ball\u0027s comedic timing is unmatched\u2014{wi}don\u0027t @ me{\/wi}, you\u0027ll be wrong.",
+                                                            "aq": {
+                                                                "auth": "Matt Brennan"
+                                                            }
+                                                        },
+                                                        {
+                                                            "t": "I\u0027ll cut right to the chase: Men should be able to wear makeup, {wi}don\u0027t at me{\/wi}.",
+                                                            "aq": {
+                                                                "auth": "Carine Green"
+                                                            }
+                                                        }
+                                                    ]
+                                                ]
+                                            ]
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "to respond to, challenge, or disparage the claim or opinion of (someone) \u2014usually used in the phrase don\u0027t @ me"
+        ]
+    },
+    {
+        "meta": {
+            "id": "At",
+            "uuid": "0952ab85-d503-430f-94de-edf32ba7b1be",
+            "sort": "014456000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "At"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "At"
+        },
+        "fl": "symbol",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "astatine"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "astatine"
+        ]
+    },
+    {
+        "meta": {
+            "id": "AT",
+            "uuid": "4fe67eb4-09ab-43e3-acb7-0dae891e539d",
+            "sort": "014457000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "AT"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "AT"
+        },
+        "fl": "abbreviation",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "air temperature"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "ampere-turn"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "3",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{d_link|Appalachian Trail|Appalachian Trail:g}"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "4",
+                                "vrs": [
+                                    {
+                                        "vl": "usually",
+                                        "va": "A-T"
+                                    }
+                                ],
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{d_link|ataxia-telangiectasia|ataxia-telangiectasia} "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "\u2026 joined the fight to find a cure for ataxia-telangiectasia, also known as {wi}A-T{\/wi}, a rare but deadly genetic disease that currently afflicts about 600 U.S. children, causing neurological deterioration and usually proving fatal by their 20s.",
+                                                "aq": {
+                                                    "auth": "Thomas Fields-Meyer"
+                                                }
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "5",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{d_link|athletic trainer|athletic trainer}"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "6",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "automatic transmission"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "air temperature",
+            "ampere-turn",
+            "Appalachian Trail",
+            "ataxia-telangiectasia",
+            "athletic trainer"
+        ]
+    },
+    {
+        "meta": {
+            "id": "at-",
+            "uuid": "ed9cfe82-f774-4642-bd52-0cd31affde2e",
+            "sort": "014458000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "at-"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "at-"
+        },
+        "fl": "prefix",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{dx}see {dxt|ad-||}{\/dx}"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": []
+    },
+    {
+        "meta": {
+            "id": "ad-",
+            "uuid": "7ce4f63e-e172-48dd-9349-2f984e47b70d",
+            "sort": "010745000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "ac-",
+                "ad-",
+                "af-",
+                "ag-",
+                "al-",
+                "ap-",
+                "apo-",
+                "as-",
+                "at-"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "ad-"
+        },
+        "vrs": [
+            {
+                "vl": "or",
+                "va": "ac-"
+            },
+            {
+                "vl": "or",
+                "va": "af-"
+            },
+            {
+                "vl": "or",
+                "va": "ag-"
+            },
+            {
+                "vl": "or",
+                "va": "al-"
+            },
+            {
+                "vl": "or",
+                "va": "ap-"
+            },
+            {
+                "vl": "or",
+                "va": "as-"
+            },
+            {
+                "vl": "or",
+                "va": "at-"
+            }
+        ],
+        "fl": "prefix",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to {bc}toward "
+                                    ],
+                                    [
+                                        "uns",
+                                        [
+                                            [
+                                                [
+                                                    "text",
+                                                    "usually {it}ac-{\/it} before {it}c, k{\/it}, or {it}q{\/it} "
+                                                ],
+                                                [
+                                                    "vis",
+                                                    [
+                                                        {
+                                                            "t": "{it}ac{\/it}culturation"
+                                                        }
+                                                    ]
+                                                ],
+                                                [
+                                                    "text",
+                                                    " and {it}af-{\/it} before {it}f{\/it} "
+                                                ],
+                                                [
+                                                    "vis",
+                                                    [
+                                                        {
+                                                            "t": "{it}af{\/it}fluent"
+                                                        }
+                                                    ]
+                                                ],
+                                                [
+                                                    "text",
+                                                    " and {it}ag-{\/it} before {it}g{\/it} "
+                                                ],
+                                                [
+                                                    "vis",
+                                                    [
+                                                        {
+                                                            "t": "{it}ag{\/it}gradation"
+                                                        }
+                                                    ]
+                                                ],
+                                                [
+                                                    "text",
+                                                    " and {it}al-{\/it} before {it}l{\/it} "
+                                                ],
+                                                [
+                                                    "vis",
+                                                    [
+                                                        {
+                                                            "t": "{it}al{\/it}literation"
+                                                        }
+                                                    ]
+                                                ],
+                                                [
+                                                    "text",
+                                                    " and {it}ap-{\/it} before {it}p{\/it} "
+                                                ],
+                                                [
+                                                    "vis",
+                                                    [
+                                                        {
+                                                            "t": "{it}ap{\/it}portion"
+                                                        }
+                                                    ]
+                                                ],
+                                                [
+                                                    "text",
+                                                    " and {it}as-{\/it} before {it}s{\/it} "
+                                                ],
+                                                [
+                                                    "vis",
+                                                    [
+                                                        {
+                                                            "t": "{it}as{\/it}suasive"
+                                                        }
+                                                    ]
+                                                ],
+                                                [
+                                                    "text",
+                                                    " and {it}at-{\/it} before {it}t{\/it} "
+                                                ],
+                                                [
+                                                    "vis",
+                                                    [
+                                                        {
+                                                            "t": "{it}at{\/it}tune"
+                                                        }
+                                                    ]
+                                                ],
+                                                [
+                                                    "text",
+                                                    " and {it}ad-{\/it} before other sounds but sometimes {it}ad-{\/it} even before one of the listed consonants "
+                                                ],
+                                                [
+                                                    "vis",
+                                                    [
+                                                        {
+                                                            "t": "{it}ad{\/it}sorb"
+                                                        }
+                                                    ]
+                                                ]
+                                            ]
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}near {bc}adjacent to "
+                                    ],
+                                    [
+                                        "uns",
+                                        [
+                                            [
+                                                [
+                                                    "text",
+                                                    "in this sense always in the form {it}ad-{\/it} "
+                                                ],
+                                                [
+                                                    "vis",
+                                                    [
+                                                        {
+                                                            "t": "{it}ad{\/it}renal"
+                                                        }
+                                                    ]
+                                                ]
+                                            ]
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "et": [
+            [
+                "text",
+                "borrowed from Latin, prefix forming verbs and verbal derivatives, marking movement toward, tendency, addition, from {it}ad,{\/it} preposition, \u0022to, as far as, at, near, in accordance with\u0022 {ma}{mat|at:1|}{\/ma}"
+            ]
+        ],
+        "shortdef": [
+            "to : toward \u2014usually ac- before c, k, or q and af- before f and ag- before g and al- before l and ap- before p and as- before s and at- before t and ad- before other sounds but sometimes ad- even before one of the listed consonants",
+            "near : adjacent to \u2014in this sense always in the form ad-"
+        ]
+    },
+    {
+        "meta": {
+            "id": "@:2",
+            "uuid": "46fede0e-eaee-42b0-8562-639d62acb9ed",
+            "sort": "014457600",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "@",
+                "@ed",
+                "@ing",
+                "@s",
+                "at",
+                "ats",
+                "atted",
+                "atting",
+                "don\u0027t @ me",
+                "don\u0027t at me"
+            ],
+            "offensive": false
+        },
+        "hom": 2,
+        "hwi": {
+            "hw": "@",
+            "prs": [
+                {
+                    "mw": "\u02c8at",
+                    "sound": {
+                        "audio": "at000001",
+                        "ref": "c",
+                        "stat": "1"
+                    }
+                }
+            ]
+        },
+        "vrs": [
+            {
+                "vl": "or less commonly",
+                "va": "at"
+            }
+        ],
+        "fl": "verb",
+        "ins": [
+            {
+                "if": "@ed"
+            },
+            {
+                "il": "also",
+                "if": "at*ted"
+            },
+            {
+                "if": "@ing"
+            },
+            {
+                "il": "also",
+                "if": "at*ting"
+            },
+            {
+                "if": "@s"
+            },
+            {
+                "il": "also",
+                "if": "ats"
+            }
+        ],
+        "def": [
+            {
+                "vd": "transitive verb",
+                "sls": [
+                    "informal"
+                ],
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to respond to, challenge, or disparage the claim or opinion of (someone) "
+                                    ],
+                                    [
+                                        "uns",
+                                        [
+                                            [
+                                                [
+                                                    "text",
+                                                    "usually used in the phrase {phrase}don\u0027t @ me{\/phrase} "
+                                                ],
+                                                [
+                                                    "vis",
+                                                    [
+                                                        {
+                                                            "t": "It goes without saying that Lucille Ball\u0027s comedic timing is unmatched\u2014{wi}don\u0027t @ me{\/wi}, you\u0027ll be wrong.",
+                                                            "aq": {
+                                                                "auth": "Matt Brennan"
+                                                            }
+                                                        },
+                                                        {
+                                                            "t": "I\u0027ll cut right to the chase: Men should be able to wear makeup, {wi}don\u0027t at me{\/wi}.",
+                                                            "aq": {
+                                                                "auth": "Carine Green"
+                                                            }
+                                                        }
+                                                    ]
+                                                ]
+                                            ]
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "date": "2008",
+        "shortdef": [
+            "to respond to, challenge, or disparage the claim or opinion of (someone) \u2014usually used in the phrase don\u0027t @ me"
+        ]
+    },
+    {
+        "meta": {
+            "id": "att:1",
+            "uuid": "c418f179-bef1-4d65-9809-db16c5f1412c",
+            "sort": "014585000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "at",
+                "att"
+            ],
+            "offensive": false
+        },
+        "hom": 1,
+        "hwi": {
+            "hw": "att"
+        },
+        "fl": "noun",
+        "cxs": [
+            {
+                "cxl": "less common spelling of",
+                "cxtis": [
+                    {
+                        "cxt": "at:2"
+                    }
+                ]
+            }
+        ],
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a monetary subunit of the kip {dx}see {it}kip{\/it} at {dxt|Money Table|money|table}{\/dx}"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "a monetary subunit of the kip"
+        ]
+    }
+]

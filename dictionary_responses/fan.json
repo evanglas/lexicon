@@ -1,0 +1,1025 @@
+[
+    {
+        "meta": {
+            "id": "fan:1",
+            "uuid": "bfcd6933-7c1c-498a-8706-5be71e2c0b6a",
+            "sort": "060310000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "fan",
+                "fang",
+                "fanlike",
+                "fans",
+                "fen"
+            ],
+            "offensive": false
+        },
+        "hom": 1,
+        "hwi": {
+            "hw": "fan",
+            "prs": [
+                {
+                    "mw": "\u02c8fan",
+                    "sound": {
+                        "audio": "fan00001",
+                        "ref": "c",
+                        "stat": "1"
+                    }
+                }
+            ]
+        },
+        "fl": "noun",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}any of various devices for winnowing grain"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "bs",
+                            {
+                                "sense": {
+                                    "sn": "2",
+                                    "dt": [
+                                        [
+                                            "text",
+                                            "{bc}an instrument for producing a current of air: such as"
+                                        ]
+                                    ]
+                                }
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "a",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a device that is held in the hand and moved back and forth to cool a person and that is usually shaped like a segment of a circle and composed of material (such as feathers or paper) mounted on thin rods or slats moving about a pivot so that the device may be closed compactly when not in use"
+                                    ]
+                                ]
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "b",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a device that consists of a series of vanes radiating from a hub rotated on its axle by a motor "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "a ceiling {wi}fan{\/wi} to stir the air"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "c",
+                                "sls": [
+                                    "slang"
+                                ],
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}an airplane propeller"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "3 a",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}something resembling an open fan (such as the leaf of certain palms)"
+                                    ]
+                                ]
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "b",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a gently sloping fan-shaped body of detritus"
+                                    ]
+                                ],
+                                "sdsense": {
+                                    "sd": "especially",
+                                    "dt": [
+                                        [
+                                            "text",
+                                            "{bc}{sx|alluvial fan||}"
+                                        ]
+                                    ]
+                                }
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "uros": [
+            {
+                "ure": "fan*like",
+                "prs": [
+                    {
+                        "mw": "\u02c8fan-\u02ccl\u012bk",
+                        "sound": {
+                            "audio": "fan00002",
+                            "ref": "c",
+                            "stat": "1"
+                        }
+                    }
+                ],
+                "fl": "adjective"
+            }
+        ],
+        "et": [
+            [
+                "text",
+                "Middle English, from Old English {it}fann{\/it}, from Latin {it}vannus{\/it} {ma}{mat|winnow|}{\/ma}"
+            ]
+        ],
+        "date": "before 12th century{ds||1||}",
+        "shortdef": [
+            "any of various devices for winnowing grain",
+            "an instrument for producing a current of air: such as",
+            "a device that is held in the hand and moved back and forth to cool a person and that is usually shaped like a segment of a circle and composed of material (such as feathers or paper) mounted on thin rods or slats moving about a pivot so that the device may be closed compactly when not in use"
+        ]
+    },
+    {
+        "meta": {
+            "id": "fan:2",
+            "uuid": "c8594a4e-6ddd-41ff-8359-1c4d8f304923",
+            "sort": "060311000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "fan",
+                "fanned",
+                "fanner",
+                "fanners",
+                "fanning",
+                "fans"
+            ],
+            "offensive": false
+        },
+        "hom": 2,
+        "hwi": {
+            "hw": "fan"
+        },
+        "fl": "verb",
+        "ins": [
+            {
+                "if": "fanned"
+            },
+            {
+                "if": "fan*ning"
+            }
+        ],
+        "def": [
+            {
+                "vd": "transitive verb",
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1 a",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to drive away the chaff of (grain) by means of a current of air"
+                                    ]
+                                ]
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "b",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to eliminate (chaff) by winnowing"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to move or impel (air) with a fan"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "3",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to blow or breathe upon "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "the breeze {it}fanning{\/it} her hair"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "4 a",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to direct a current of air upon with a fan"
+                                    ]
+                                ]
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "b",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to stir up to activity as if by fanning {bc}{sx|stimulate||} "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "{it}fanning{\/it} the fires of nationalism"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "5",
+                                "sls": [
+                                    "archaic"
+                                ],
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}{sx|wave||}"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "6",
+                                "sls": [
+                                    "slang"
+                                ],
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}{sx|spank||}"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "7",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to spread like a fan "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "the peacock {it}fanned{\/it} his tail"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "8",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to strike (a batter) out in baseball"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "9",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to fire a series of shots from (a single-action revolver) by holding the trigger back and successively striking the hammer to the rear with the free hand"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            },
+            {
+                "vd": "intransitive verb",
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to move like a fan {bc}{sx|flutter||}"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to spread like a fan "
+                                    ],
+                                    [
+                                        "uns",
+                                        [
+                                            [
+                                                [
+                                                    "text",
+                                                    "often used with {it}out{\/it} "
+                                                ],
+                                                [
+                                                    "vis",
+                                                    [
+                                                        {
+                                                            "t": "the searchers {it}fanned{\/it} out"
+                                                        }
+                                                    ]
+                                                ]
+                                            ]
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "3",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}{sx|strike out||3}"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "uros": [
+            {
+                "ure": "fan*ner",
+                "prs": [
+                    {
+                        "mw": "\u02c8fa-n\u0259r",
+                        "sound": {
+                            "audio": "fan00003",
+                            "ref": "c",
+                            "stat": "1"
+                        }
+                    }
+                ],
+                "fl": "noun"
+            }
+        ],
+        "et": [
+            [
+                "text",
+                "{dx_ety}see {dxt|fan:1||}{\/dx_ety}"
+            ]
+        ],
+        "date": "before 12th century{ds|t|1|a|}",
+        "shortdef": [
+            "to drive away the chaff of (grain) by means of a current of air",
+            "to eliminate (chaff) by winnowing",
+            "to move or impel (air) with a fan"
+        ]
+    },
+    {
+        "meta": {
+            "id": "fan:3",
+            "uuid": "93cd92c4-775a-4b22-8f7d-2901a6225a9d",
+            "sort": "060312000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "fan",
+                "fang",
+                "fanlike",
+                "fans",
+                "fen"
+            ],
+            "offensive": false
+        },
+        "hom": 3,
+        "hwi": {
+            "hw": "fan"
+        },
+        "fl": "noun",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}an enthusiastic devotee (as of a sport or a performing art) usually as a spectator"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}an ardent admirer or enthusiast (as of a celebrity or a pursuit) "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "science-fiction {wi}fans{\/wi}"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "et": [
+            [
+                "text",
+                "probably short for {it}fanatic{\/it}"
+            ]
+        ],
+        "date": "1682{ds||1||}",
+        "shortdef": [
+            "an enthusiastic devotee (as of a sport or a performing art) usually as a spectator",
+            "an ardent admirer or enthusiast (as of a celebrity or a pursuit)"
+        ]
+    },
+    {
+        "meta": {
+            "id": "Fang",
+            "uuid": "41ad7e96-1633-4d37-87df-5c6aefbccba8",
+            "sort": "060341000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "Fan",
+                "Fang",
+                "Fangs",
+                "Fans"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "Fang",
+            "prs": [
+                {
+                    "mw": "\u02c8fa\u014b",
+                    "sound": {
+                        "audio": "fang0004",
+                        "ref": "c",
+                        "stat": "1"
+                    }
+                },
+                {
+                    "mw": "\u02c8f\u00e4\u014b",
+                    "sound": {
+                        "audio": "fang0003",
+                        "ref": "c",
+                        "stat": "1"
+                    }
+                }
+            ]
+        },
+        "vrs": [
+            {
+                "vl": "or less commonly",
+                "va": "Fan",
+                "prs": [
+                    {
+                        "mw": "\u02c8fan",
+                        "sound": {
+                            "audio": "fang0006",
+                            "ref": "c",
+                            "stat": "1"
+                        }
+                    },
+                    {
+                        "mw": "\u02c8f\u00e4n"
+                    }
+                ]
+            }
+        ],
+        "fl": "noun",
+        "ins": [
+            {
+                "il": "plural",
+                "if": "Fang"
+            },
+            {
+                "il": "or",
+                "if": "Fangs"
+            },
+            {
+                "il": "also",
+                "if": "Fan"
+            },
+            {
+                "il": "or",
+                "if": "Fans"
+            }
+        ],
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a member of a Bantu-speaking people of northern Gabon, mainland Equatorial Guinea, and southern Cameroon"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}the language of the Fang people"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "date": "1861{ds||1||}",
+        "shortdef": [
+            "a member of a Bantu-speaking people of northern Gabon, mainland Equatorial Guinea, and southern Cameroon",
+            "the language of the Fang people"
+        ]
+    },
+    {
+        "meta": {
+            "id": "fan art",
+            "uuid": "9fa39013-7f65-497c-9d27-1db83f8394ba",
+            "sort": "060312250",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "fan art",
+                "fanart"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "fan art"
+        },
+        "vrs": [
+            {
+                "vl": "or less commonly",
+                "va": "fan*art",
+                "prs": [
+                    {
+                        "mw": "\u02c8fan-\u02cc\u00e4rt",
+                        "sound": {
+                            "audio": "fanart",
+                            "ref": "owl",
+                            "stat": "1"
+                        }
+                    }
+                ]
+            }
+        ],
+        "fl": "noun",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}artwork based on popular works of fiction (such as books, movies, etc.) that is created by fans "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "{wi}Fan art{\/wi} is unofficial drawings and other renderings of famous characters. \u0022Push the boundaries,\u0022 said Brian Kesinger, an artist at Walt Disney Animation Studios who sells his own prints on the side. \u0022{wi}Fan art{\/wi} isn\u0027t about rules. It\u0027s about expressing yourself.\u0022",
+                                                "aq": {
+                                                    "auth": "Jonathan Horn"
+                                                }
+                                            },
+                                            {
+                                                "t": "And the Slender Man story itself inspired everything from video games to {wi}fanart{\/wi} to a \u2026 horror film.",
+                                                "aq": {
+                                                    "auth": "Aja Romano"
+                                                }
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "date": "1969",
+        "shortdef": [
+            "artwork based on popular works of fiction (such as books, movies, etc.) that is created by fans"
+        ]
+    },
+    {
+        "meta": {
+            "id": "fan base",
+            "uuid": "f8526a81-f1de-42fa-91c0-76a09901ece2",
+            "sort": "060315500",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "fan base",
+                "fan bases"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "fan base"
+        },
+        "fl": "noun",
+        "ins": [
+            {
+                "il": "plural",
+                "if": "fan bases"
+            }
+        ],
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a group of fans for a particular sport, musical group, celebrity, book or film franchise, etc. "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "\u2026 the Los Angeles Lakers and the Milwaukee Bucks\u2014the last two NBA champions\u2014had {wi}fan bases{\/wi} spending the most money on team merchandise and gear.",
+                                                "aq": {
+                                                    "auth": "Corey Davis"
+                                                }
+                                            },
+                                            {
+                                                "t": "Yet her three albums with the Epic label failed to earn her a popular audience, beyond country\u0027s traditional {wi}fan base{\/wi} \u2026",
+                                                "aq": {
+                                                    "auth": "Martha A. Hostetter"
+                                                }
+                                            },
+                                            {
+                                                "t": "But sales figures don\u0027t fully capture the {wi}fan base{\/wi} among {d_link|shojo|shojo} readers, who can whip through a volume in half an hour in a bookstore and often pass along copies to friends.",
+                                                "aq": {
+                                                    "auth": "Sarah Glazer"
+                                                }
+                                            },
+                                            {
+                                                "t": "The fervent passion of [Justin] Bieber\u0027s {wi}fan base{\/wi} almost obscured the rampant self-indulgence of his hour-and-a-half set.",
+                                                "aq": {
+                                                    "auth": "Ben Fisher"
+                                                }
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "date": "1974",
+        "shortdef": [
+            "a group of fans for a particular sport, musical group, celebrity, book or film franchise, etc."
+        ]
+    },
+    {
+        "meta": {
+            "id": "fan fiction",
+            "uuid": "c9a8a850-8cf5-4700-b7f6-9c4f41953984",
+            "sort": "060338000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "fan fiction",
+                "fanfic"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "fan fiction"
+        },
+        "fl": "noun",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}stories involving popular fictional characters that are written by fans and often posted on the Internet "
+                                    ],
+                                    [
+                                        "ca",
+                                        {
+                                            "intro": "called also",
+                                            "cats": [
+                                                {
+                                                    "cat": "fanfic"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "date": "1939",
+        "shortdef": [
+            "stories involving popular fictional characters that are written by fans and often posted on the Internet \u2014called also fanfic"
+        ]
+    },
+    {
+        "meta": {
+            "id": "fan-jet",
+            "uuid": "7f0324b7-549a-4c30-99f0-392a6dabc315",
+            "sort": "060342000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "fan-jet",
+                "fan-jets"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "fan-jet",
+            "prs": [
+                {
+                    "mw": "\u02c8fan-\u02ccjet",
+                    "sound": {
+                        "audio": "fan_je01",
+                        "ref": "c",
+                        "stat": "1"
+                    }
+                }
+            ]
+        },
+        "fl": "noun",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a jet engine having a fan that operates in a duct and draws in extra air whose compression and expulsion provide extra thrust"
+                                    ]
+                                ],
+                                "sdsense": {
+                                    "sd": "also",
+                                    "dt": [
+                                        [
+                                            "text",
+                                            "{bc}an airplane powered by a fan-jet engine"
+                                        ]
+                                    ]
+                                }
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "date": "1962",
+        "shortdef": [
+            "a jet engine having a fan that operates in a duct and draws in extra air whose compression and expulsion provide extra thrust; also : an airplane powered by a fan-jet engine"
+        ]
+    },
+    {
+        "meta": {
+            "id": "fan letter",
+            "uuid": "0ac72ff5-f9e1-4547-8b2d-0a6b1c12eae1",
+            "sort": "060343000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "fan letter",
+                "fan letters"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "fan letter"
+        },
+        "fl": "noun",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a letter sent to a public figure by an admirer"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "date": "1932",
+        "shortdef": [
+            "a letter sent to a public figure by an admirer"
+        ]
+    },
+    {
+        "meta": {
+            "id": "fan mail",
+            "uuid": "10411ae9-d3c0-409d-b00c-fec036a6b7e1",
+            "sort": "060345000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "fan mail",
+                "fan mails"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "fan mail"
+        },
+        "fl": "noun",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}{sx|fan letters||}"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "date": "1924",
+        "shortdef": [
+            "fan letters"
+        ]
+    }
+]

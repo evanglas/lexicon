@@ -1,0 +1,128 @@
+[
+    {
+        "meta": {
+            "id": "chlamydia",
+            "uuid": "56e44a0d-607a-4d5f-b666-2a0a5025ed76",
+            "sort": "032722000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "chlamydia",
+                "chlamydiae",
+                "chlamydial",
+                "chlamydias"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "chla*myd*ia",
+            "prs": [
+                {
+                    "mw": "kl\u0259-\u02c8mi-d\u0113-\u0259",
+                    "sound": {
+                        "audio": "chlamy01",
+                        "ref": "c",
+                        "stat": "1"
+                    }
+                }
+            ]
+        },
+        "fl": "noun",
+        "ins": [
+            {
+                "il": "plural",
+                "ifc": "-i*ae",
+                "if": "chla*myd*i*ae",
+                "prs": [
+                    {
+                        "mw": "kl\u0259-\u02c8mi-d\u0113-\u02cc\u0113",
+                        "sound": {
+                            "audio": "chlamy02",
+                            "ref": "c",
+                            "stat": "1"
+                        }
+                    }
+                ]
+            }
+        ],
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}any of a genus ({it}Chlamydia{\/it}, family Chlamydiaceae) of spherical gram-negative intracellular bacteria"
+                                    ]
+                                ],
+                                "sdsense": {
+                                    "sd": "especially",
+                                    "dt": [
+                                        [
+                                            "text",
+                                            "{bc}one ({it}C. trachomatis{\/it}) that causes or is associated with various diseases of the eye and urogenital tract including trachoma, lymphogranuloma venereum, cervicitis, and some forms of urethritis"
+                                        ]
+                                    ]
+                                }
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a disease or infection caused by {a_link|chlamydiae}"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "uros": [
+            {
+                "ure": "chla*myd*i*al",
+                "prs": [
+                    {
+                        "mw": "kl\u0259-\u02c8mi-d\u0113-\u0259l",
+                        "sound": {
+                            "audio": "chlamy03",
+                            "ref": "c",
+                            "stat": "1"
+                        }
+                    }
+                ],
+                "fl": "adjective"
+            }
+        ],
+        "et": [
+            [
+                "text",
+                "borrowed from New Latin, originally the name of a group, from Greek {it}chlamyd-, chlam\u00fds{\/it} \u0022mantle, {et_link|chlamys|chlamys}\u0022 + New Latin {it}-ia{\/it} {et_link|-ia:1|-ia:1}"
+            ],
+            [
+                "et_snote",
+                [
+                    [
+                        "t",
+                        "The taxon {it}Chlamydia{\/it} was originally assigned to a group of microorganisms neither bacterial nor viral by Helen Jones, Geoffrey Rake, and Barbara Stearns in \u0022Studies on lymphogranuloma venereum III. The action of the sulfonamides on the agent of lymphogranuloma venereum,\u0022 {it}Journal of Infectious Diseases,{\/it} vol. 76, issue 1 (January, 1945), pp. 55-69. The choice of the element {it}chlamyd-{\/it} was presumably based on the earlier taxon {it}Chlamydozoa{\/it} (with {it}-zoa{\/it} {et_link|-zoa|-zoa}) originated by Ludwig Halberst\u00e4dter and Stanislaus von Prowazek, \u0022\u00dcber Zelleinschl\u00fcsse parasit\u00e4rer Natur beim Trachom,\u0022 {it}Arbeiten aus dem Kaiserlichen Gesundheitsamte,{\/it} vol. 26, Heft 1 (1907), pp. 44-47."
+                    ]
+                ]
+            ]
+        ],
+        "date": "1966{ds||1||}",
+        "shortdef": [
+            "any of a genus (Chlamydia, family Chlamydiaceae) of spherical gram-negative intracellular bacteria; especially : one (C. trachomatis) that causes or is associated with various diseases of the eye and urogenital tract including trachoma, lymphogranuloma venereum, cervicitis, and some forms of urethritis",
+            "a disease or infection caused by chlamydiae"
+        ]
+    }
+]
